@@ -56,7 +56,7 @@ def process_loss(df, start_year, end_year):
 
     # generate loss as share of land area
     loss = pd.merge(loss, df[['iso', 'land']], on='iso')
-    loss['loss_perc'] = loss['loss'] / loss['land']
+    loss['loss_perc'] = 100 * (loss['loss'] / loss['land'])
     loss = loss.drop('land', 1)
 
     return loss
@@ -71,7 +71,7 @@ def process_gain(df):
     gain.columns = ['iso', 'gain']
 
     # generate gain as share of land area
-    gain['gain_perc'] = df['gain'] / df['land']
+    gain['gain_perc'] = 100 * (df['gain'] / df['land'])
 
     return gain
 
@@ -90,7 +90,7 @@ def process_treecover(df):
 
     # generate treecover as share of land area
     cover = pd.merge(cover, df[['iso', 'land']], on='iso')
-    cover['treecover_2000_perc'] = cover['treecover_2000'] / cover['land']
+    cover['treecover_2000_perc'] = 100 * (cover['treecover_2000'] / cover['land'])
     cover = cover.drop('land', 1)
 
     return cover
