@@ -6,6 +6,8 @@ import numpy as np
 START_YEAR = 2001
 END_YEAR = 2012
 
+CONVERSION_FACTOR = 0.01 # hectares to square km.
+
 ###########################    
 # loss annual - long form #
 ###########################    
@@ -64,6 +66,10 @@ def process_loss(df, start_year, end_year):
     loss = pd.merge(loss, df[['iso', 'land']], on='iso')
     loss['loss_perc'] = 100 * (loss['loss'] / loss['land'])
     loss = loss.drop('land', 1)
+    # convert hectares to square km.
+    
+    # convert hectares to square km.
+    loss['loss'] = loss[['loss']] * CONVERSION_FACTOR
 
     return loss
 
@@ -78,6 +84,9 @@ def process_gain(df):
 
     # generate gain as share of land area
     gain['gain_perc'] = 100 * (df['gain'] / df['land'])
+
+    # convert hectares to square km.
+    gain['gain'] = gain[['gain']] * CONVERSION_FACTOR
 
     return gain
 
@@ -98,6 +107,9 @@ def process_treecover(df):
     cover = pd.merge(cover, df[['iso', 'land']], on='iso')
     cover['treecover_2000_perc'] = 100 * (cover['treecover_2000'] / cover['land'])
     cover = cover.drop('land', 1)
+
+    # convert hectares to square km.
+    cover['treecover_2000'] = cover[['treecover_2000']] * CONVERSION_FACTOR
 
     return cover
 
