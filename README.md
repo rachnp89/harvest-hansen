@@ -52,25 +52,25 @@ Upload the output file to CartoDB. It's not very big, so there's no
 need to compress it. All fields will start out as string type, so we need to recast numeric fields appropriately:
 
 ```sql
-ALTER TABLE hansen ADD COLUMN gain_int integer;
-UPDATE hansen SET gain_int = gain::int;
+ALTER TABLE hansen ADD COLUMN gain_float float;
+UPDATE hansen SET gain_float = gain::float;
 ALTER TABLE hansen DROP COLUMN gain;
-ALTER TABLE hansen RENAME COLUMN gain_int TO gain;
+ALTER TABLE hansen RENAME COLUMN gain_float TO gain;
 
-ALTER TABLE hansen ADD COLUMN loss_int integer;
-UPDATE hansen SET loss_int = loss::int;
+ALTER TABLE hansen ADD COLUMN loss_float float;
+UPDATE hansen SET loss_float = loss::float;
 ALTER TABLE hansen DROP COLUMN loss;
-ALTER TABLE hansen RENAME COLUMN loss_int TO loss;
+ALTER TABLE hansen RENAME COLUMN loss_float TO loss;
 
-ALTER TABLE hansen ADD COLUMN treecover_2000_int integer;
-UPDATE hansen SET treecover_2000_int = treecover_2000::int;
+ALTER TABLE hansen ADD COLUMN treecover_2000_float float;
+UPDATE hansen SET treecover_2000_float = treecover_2000::float;
 ALTER TABLE hansen DROP COLUMN treecover_2000;
-ALTER TABLE hansen RENAME COLUMN treecover_2000_int TO treecover_2000;
+ALTER TABLE hansen RENAME COLUMN treecover_2000_float TO treecover_2000;
 
-ALTER TABLE hansen ADD COLUMN year_int integer;
-UPDATE hansen SET year_int = year::int;
+ALTER TABLE hansen ADD COLUMN year_float float;
+UPDATE hansen SET year_float = year::float;
 ALTER TABLE hansen DROP COLUMN year;
-ALTER TABLE hansen RENAME COLUMN year_int TO year;
+ALTER TABLE hansen RENAME COLUMN year_float TO year;
 
 ALTER TABLE hansen ADD COLUMN treecover_2000_perc_float float;
 UPDATE hansen SET treecover_2000_perc_float = treecover_2000_perc::float;
