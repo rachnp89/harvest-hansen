@@ -6,6 +6,8 @@ import numpy as np
 START_YEAR = 2001
 END_YEAR = 2012
 
+CONVERSION_FACTOR = 0.01 # hectares to square km.
+
 ###########################    
 # loss annual - long form #
 ###########################    
@@ -37,22 +39,25 @@ def process_loss_perc(df, thresh, start_year, end_year):
     return data
 
 def process_loss(df, start_year, end_year):
-    '''Combine long-form dataframes for 50, 75 and 100% loss columns (i.e. >
-    25% tree cover).'''
+    '''Combine long-form dataframes for 0-100% tree cover.'''
 
     # create dataframes for each threshold, organized into long form
+    loss_25 = process_loss_perc(df, 25, start_year, end_year + 1)
     loss_50 = process_loss_perc(df, 50, start_year, end_year + 1)
     loss_75 = process_loss_perc(df, 75, start_year, end_year + 1)
     loss_100 = process_loss_perc(df, 100, start_year, end_year + 1)
 
     # merge the threshold dataframes
-    loss = pd.merge(loss_50, loss_75, on=['iso', 'year'])
+    loss = pd.merge(loss_25, loss_50, on=['iso', 'year'])
+    loss = pd.merge(loss, loss_75, on=['iso', 'year'])
     loss = pd.merge(loss, loss_100, on=['iso', 'year'])
 
     #  sum loss across thresholds
-    loss['loss'] = pd.DataFrame(loss[['loss_50', 'loss_75', 'loss_100']].sum(axis=1))
+    loss['loss'] = pd.DataFrame(loss[['loss_25', 'loss_50', 'loss_75',
+                                      'loss_100']].sum(axis=1))
 
     # drop now-extraneous columns
+    loss = loss.drop('loss_25', 1)
     loss = loss.drop('loss_50', 1)
     loss = loss.drop('loss_75', 1)
     loss = loss.drop('loss_100', 1)
@@ -61,6 +66,10 @@ def process_loss(df, start_year, end_year):
     loss = pd.merge(loss, df[['iso', 'land']], on='iso')
     loss['loss_perc'] = 100 * (loss['loss'] / loss['land'])
     loss = loss.drop('land', 1)
+    # convert hectares to square km.
+    
+    # convert hectares to square km.
+    loss['loss'] = loss[['loss']] * CONVERSION_FACTOR
 
     return loss
 
@@ -76,16 +85,19 @@ def process_gain(df):
     # generate gain as share of land area
     gain['gain_perc'] = 100 * (df['gain'] / df['land'])
 
+    # convert hectares to square km.
+    gain['gain'] = gain[['gain']] * CONVERSION_FACTOR
+
     return gain
 
 ###############################
-# tree cover > 25% as of 2000 #
+# tree cover as of 2000 #
 ###############################
 
 def process_treecover(df):
-    '''Select treecover data where > 25%.'''
-    # add up total tree cover > 25%
-    cover = pd.DataFrame(df[['cover50','cover75','cover100']].sum(axis=1))
+    '''Select treecover data.'''
+    # add up total tree cover
+    cover = pd.DataFrame(df[['cover75','cover100']].sum(axis=1))
     cover.columns = ['treecover_2000']
 
     # add iso column back in
@@ -95,6 +107,9 @@ def process_treecover(df):
     cover = pd.merge(cover, df[['iso', 'land']], on='iso')
     cover['treecover_2000_perc'] = 100 * (cover['treecover_2000'] / cover['land'])
     cover = cover.drop('land', 1)
+
+    # convert hectares to square km.
+    cover['treecover_2000'] = cover[['treecover_2000']] * CONVERSION_FACTOR
 
     return cover
 
