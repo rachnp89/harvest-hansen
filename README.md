@@ -52,7 +52,7 @@ Upload the output file to CartoDB. It's not very big, so there's no
 need to compress it. All fields will start out as string type, so we need to recast numeric fields appropriately:
 
 ```sql
-ALTER TABLE hansen ADD COLUMN year_int float;
+ALTER TABLE hansen ADD COLUMN year_int int;
 UPDATE hansen SET year_int = year::int;
 ALTER TABLE hansen DROP COLUMN year;
 ALTER TABLE hansen RENAME COLUMN year_int TO year;
