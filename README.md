@@ -52,40 +52,50 @@ Upload the output file to CartoDB. It's not very big, so there's no
 need to compress it. All fields will start out as string type, so we need to recast numeric fields appropriately:
 
 ```sql
+ALTER TABLE hansen ADD COLUMN year_int float;
+UPDATE hansen SET year_int = year::int;
+ALTER TABLE hansen DROP COLUMN year;
+ALTER TABLE hansen RENAME COLUMN year_int TO year;
+
+ALTER TABLE hansen ADD COLUMN extent_gt_25_float float;
+UPDATE hansen SET extent_gt_25_float = extent_gt_25::float;
+ALTER TABLE hansen DROP COLUMN extent_gt_25;
+ALTER TABLE hansen RENAME COLUMN extent_gt_25_float TO extent_gt_25;
+
 ALTER TABLE hansen ADD COLUMN gain_float float;
 UPDATE hansen SET gain_float = gain::float;
 ALTER TABLE hansen DROP COLUMN gain;
 ALTER TABLE hansen RENAME COLUMN gain_float TO gain;
 
-ALTER TABLE hansen ADD COLUMN loss_float float;
-UPDATE hansen SET loss_float = loss::float;
-ALTER TABLE hansen DROP COLUMN loss;
-ALTER TABLE hansen RENAME COLUMN loss_float TO loss;
-
-ALTER TABLE hansen ADD COLUMN treecover_2000_float float;
-UPDATE hansen SET treecover_2000_float = treecover_2000::float;
-ALTER TABLE hansen DROP COLUMN treecover_2000;
-ALTER TABLE hansen RENAME COLUMN treecover_2000_float TO treecover_2000;
-
-ALTER TABLE hansen ADD COLUMN year_float float;
-UPDATE hansen SET year_float = year::float;
-ALTER TABLE hansen DROP COLUMN year;
-ALTER TABLE hansen RENAME COLUMN year_float TO year;
-
-ALTER TABLE hansen ADD COLUMN treecover_2000_perc_float float;
-UPDATE hansen SET treecover_2000_perc_float = treecover_2000_perc::float;
-ALTER TABLE hansen DROP COLUMN treecover_2000_perc;
-ALTER TABLE hansen RENAME COLUMN treecover_2000_perc_float TO treecover_2000_perc;
-
-ALTER TABLE hansen ADD COLUMN loss_perc_float float;
-UPDATE hansen SET loss_perc_float = loss_perc::float;
-ALTER TABLE hansen DROP COLUMN loss_perc;
-ALTER TABLE hansen RENAME COLUMN loss_perc_float TO loss_perc;
+ALTER TABLE hansen ADD COLUMN gain_annual_float float;
+UPDATE hansen SET gain_annual_float = gain_annual::float;
+ALTER TABLE hansen DROP COLUMN gain_annual;
+ALTER TABLE hansen RENAME COLUMN gain_annual_float TO gain_annual;
 
 ALTER TABLE hansen ADD COLUMN gain_perc_float float;
 UPDATE hansen SET gain_perc_float = gain_perc::float;
 ALTER TABLE hansen DROP COLUMN gain_perc;
 ALTER TABLE hansen RENAME COLUMN gain_perc_float TO gain_perc;
+
+ALTER TABLE hansen ADD COLUMN loss_gt_0_float float;
+UPDATE hansen SET loss_gt_0_float = loss_gt_0::float;
+ALTER TABLE hansen DROP COLUMN loss_gt_0;
+ALTER TABLE hansen RENAME COLUMN loss_gt_0_float TO loss_gt_0;
+
+ALTER TABLE hansen ADD COLUMN loss_gt_25_float float;
+UPDATE hansen SET loss_gt_25_float = loss_gt_25::float;
+ALTER TABLE hansen DROP COLUMN loss_gt_25;
+ALTER TABLE hansen RENAME COLUMN loss_gt_25_float TO loss_gt_25;
+
+ALTER TABLE hansen ADD COLUMN loss_gt_50_float float;
+UPDATE hansen SET loss_gt_50_float = loss_gt_50::float;
+ALTER TABLE hansen DROP COLUMN loss_gt_50;
+ALTER TABLE hansen RENAME COLUMN loss_gt_50_float TO loss_gt_50;
+
+ALTER TABLE hansen ADD COLUMN loss_perc_gt_25_float float;
+UPDATE hansen SET loss_perc_gt_25_float = loss_perc_gt_25::float;
+ALTER TABLE hansen DROP COLUMN loss_perc_gt_25;
+ALTER TABLE hansen RENAME COLUMN loss_perc_gt_25_float TO loss_perc_gt_25;
 ```
 
 Then you're all set. Go have a beer.
