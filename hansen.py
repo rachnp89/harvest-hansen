@@ -200,18 +200,18 @@ def convert_ha_km2(df, fields):
 
     return df
     
-def load_data(in_path):
+def load_xlsx(in_path):
     '''Load data and groupby iso code.'''
 
     # load data
-    df = pd.DataFrame.from_csv(in_path).rename(columns={'Country_ISO': 'iso'}).reset_index()
+    df = pd.read_excel(in_path, 0).rename(columns={'Country_ISO': 'iso'}).reset_index()
 
     # return dataframe aggregated by iso code
     return df.groupby('iso').sum().reset_index()
 
 def main(in_path):
 
-    df = load_data(in_path)
+    df = load_xlsx(in_path)
 
     # process columns
     extent = process_extent(df, END_YEAR)
@@ -221,9 +221,6 @@ def main(in_path):
     # merge dataframes
     tmp = pd.merge(extent, loss, on=['iso', 'year'], how='left')
     final = pd.merge(tmp, gain, on=['iso', 'year'], how='left')
-
-    final = convert_ha_km2(final, ['gain', 'gain_annual', 'extent_gt_25',
-                                   'loss_gt_0', 'loss_gt_25', 'loss_gt_50'])
 
     # remove inf (divide by zero) and NaN (loss in 2000)
     final = final.replace([np.inf, np.nan], 0)
