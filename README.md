@@ -1,14 +1,15 @@
 ## Introduction
 
-Aggregate tree cover loss data from Hansen et al. (2013) has been
-handed over to the GFW project for inclusion in the API. The original
-Excel spreadsheet was a bit unwieldy, so that was cleaned up and
-exported as a CSV file.
+Aggregate tree cover loss data from Hansen et al. (2013) has been handed over
+to the GFW project for inclusion in the API.
 
-That's where this project comes in. This CSV file contains aggregated
-data for each province in the [GADM 2.0](http://gadm.org/version2)
-data set. We need to aggregate these to countries and do a bit more
-massaging, then upload the clean CSV file to CartoDB.
+## Preprocessing
+
+The original Excel spreadsheet is a bit unwieldy and doesn't handle non-ASCII
+characters very well. And we need to convert the
+file to CSV to take advantage of the rich Pandas `read_csv` function. Excel doesn't handle these characters very well by saving to CSV, but if you upload it to Google Docs then download as CSV, all is well.
+
+# Old stuff
 
 The CartoDB table needs to return results by year ([sample](http://wip.gfw-apis.appspot.com/datasets/hansen?layer=loss&geom=%7B%22type%22:%22Polygon%22,%22coordinates%22:%5B%5B%5B102.65350,-0.73499%5D,%5B103.75488,-0.89153%5D,%5B104.14764,-1.57527%5D,%5B102.77161,-1.47368%5D%5D%5D%7D&bust=1)) and cumulatively ([sample](http://wip.gfw-apis.appspot.com/datasets/hansen?layer=sum&geom=%7B%22type%22:%22Polygon%22,%22coordinates%22:%5B%5B%5B102.65350,-0.73499%5D,%5B103.75488,-0.89153%5D,%5B104.14764,-1.57527%5D,%5B102.77161,-1.47368%5D%5D%5D%7D&bust=1)).
 
