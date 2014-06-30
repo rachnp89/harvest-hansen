@@ -7,7 +7,8 @@ import common
 
 # header details
 OUTPUTFIELDS = ['region', 'country', 'iso', 'id', 'year', 'thresh',
-                'extent', 'gain', 'loss', 'gain_perc', 'loss_perc']
+                'extent', 'extent_perc', 'gain', 'loss', 'gain_perc',
+                'loss_perc']
 
 
 def calc_extents(df, thresh):
@@ -65,7 +66,8 @@ def calc_perc(df, field, thresh, denominator='extent'):
     The dataframe should already be in long form, so this is
     effectively a percentage for a particular year.'''
 
-    df['%s_perc' % field] = (df[field] / df[denominator]) * 100
+    new_field = '%s_perc' % field
+    df[new_field] = (df[field] / df[denominator]) * 100
 
     return df
 
@@ -78,15 +80,22 @@ def save_csv(df, thresh, out_dir):
     out_path = os.path.join(out_dir, fname)
 
     # output to threshold-specific CSV
-    df.to_csv(out_path, index=False)
+    df.to_csv(out_path, index=False, na_rep='NULL')
 
     return df
 
 
-def main(path, thresh):
+def main(path, thresh, national):
     '''Generate long-form datasets with year, thresh, gain, loss,
     treecover (and associated percentages).'''
     df = common.load(path)
+
+    if national:
+        df.drop('region', axis=1)
+        df = df.groupby(['country', 'iso']).sum().reset_index()
+    else:
+        pass
+
     df = calc_extents(df, thresh)
     df = wide_to_long(df, thresh)
     df = calc_annual_gain(df)
