@@ -43,7 +43,20 @@ GROUP BY iso
 From the repo:
 
 ```shell
-python hansen.py input.csv output.csv
+mkdir /data/hansen
+python main.py ~/Downloads/hansen/GFW_admin_stat.csv /data/hansen False
+python main.py ~/Downloads/hansen/GFW_admin_stat.csv /data/hansen True
+
+# upload a zipped copy of umd_nat.csv to cartodb
+
+# postprocess subnational data
+sh postprocess.sh
+python postprocess.py /data/hansen/umd_subnat.csv /data/hansen/umd_subnat_final.csv /data/gadm2_final.csv /data/gadm3_final.csv
+
+# upload a zipped copy of umd_subnat_final.csv to cartodb
+
+# change column data types, set permissions, and rename tables
+# in that order
 ```
 
 ## Postprocessing
