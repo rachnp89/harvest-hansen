@@ -1,3 +1,4 @@
+import sys
 import os
 
 import pandas as pd
@@ -33,3 +34,13 @@ def main(in_path, out_dir, national=False):
     out_df.to_csv(path, index=False, na_rep='NULL')
 
     return out_df
+
+if __name__ == '__main__':
+    in_path = sys.argv[1]
+    out_dir = sys.argv[2]
+    national = sys.argv[3]
+    if national == 'True':
+        national = True
+    else:
+        national = False
+    main(in_path, out_dir, national)
