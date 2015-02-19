@@ -9,107 +9,57 @@ The original Excel spreadsheet is a bit unwieldy and doesn't handle non-ASCII
 characters very well. And we need to convert the
 file to CSV to take advantage of the rich Pandas `read_csv` function. Excel doesn't handle these characters very well by saving to CSV, but if you upload it to Google Docs then download as CSV, all is well.
 
-# Old stuff
+## Processing
 
-The CartoDB table needs to return results by year ([sample](http://wip.gfw-apis.appspot.com/datasets/hansen?layer=loss&geom=%7B%22type%22:%22Polygon%22,%22coordinates%22:%5B%5B%5B102.65350,-0.73499%5D,%5B103.75488,-0.89153%5D,%5B104.14764,-1.57527%5D,%5B102.77161,-1.47368%5D%5D%5D%7D&bust=1)) and cumulatively ([sample](http://wip.gfw-apis.appspot.com/datasets/hansen?layer=sum&geom=%7B%22type%22:%22Polygon%22,%22coordinates%22:%5B%5B%5B102.65350,-0.73499%5D,%5B103.75488,-0.89153%5D,%5B104.14764,-1.57527%5D,%5B102.77161,-1.47368%5D%5D%5D%7D&bust=1)).
-
-## Data spec
-
-1) Use columns where pixels > 50% forest cover are aggregated (they
-have `_75` and `_100` in the name).  
-2) The annual query should return loss area by year, and percent loss
-by year as a share of total land area.
-
-```sql
-SELECT iso, year, sum(loss) loss, sum(loss_perc) loss_perc 
-FROM hansen
-WHERE iso = 'BRA'
-GROUP BY iso, year
-ORDER BY iso ASC, year ASC
-```
-3) The cumulative query should return cumulative loss as well as
-loss and treecover in 2000, both as area and percent of land area.
-
-```sql
-SELECT iso, avg(treecover_2000) treecover_2000,
-       avg(treecover_2000_perc) treecover_2000_perc, avg(gain) gain,
-       avg(gain_perc) gain_perc, sum(loss) loss, sum(loss_perc) loss_perc
-FROM hansen
-WHERE iso = 'BRA'
-GROUP BY iso
-```
-
-## Usage
-
-From the repo:
-
-```shell
-mkdir /data/hansen
-python main.py ~/Downloads/hansen/GFW_admin_stat.csv /data/hansen False
-python main.py ~/Downloads/hansen/GFW_admin_stat.csv /data/hansen True
-
-# upload a zipped copy of umd_nat.csv to cartodb
-
-# postprocess subnational data
-sh postprocess.sh
-python postprocess.py /data/hansen/umd_subnat.csv /data/hansen/umd_subnat_final.csv /data/gadm2_final.csv /data/gadm3_final.csv
-
-# upload a zipped copy of umd_subnat_final.csv to cartodb
-
-# change column data types, set permissions, and rename tables
-# in that order
+```python
+>>> import main
+>>> main('input.csv', '/tmp/hansen', national=True)
+>>> main('input.csv', '/tmp/hansen', national=False)  # calculate subnational stats
 ```
 
 ## Postprocessing
 
-Upload the output file to CartoDB. It's not very big, so there's no
-need to compress it. All fields will start out as string type, so we need to recast numeric fields appropriately:
+We now have to deal with inconsistent naming conventions and ID fields,
+accents, etc. between the UMD and GADM data. `subnat_names.py` helps by
+removing accents from the province names, allowing for more straightforward
+joins. We'll use these province names - along with ISO codes - to get the
+proper ids. These province ids are not global, so the key in the API becomes
+ISO code and province ID.
+
+Check out postprocess.sh for details.
+
+After running that, we can use the ID field in the raw UMD spreadsheet to extract
+the correct province name for each record. We'll do the joins in CartoDB.
+
+## CartoDB postprocessing
+
+Process UMD data:
 
 ```sql
-ALTER TABLE hansen ADD COLUMN year_int int;
-UPDATE hansen SET year_int = year::int;
-ALTER TABLE hansen DROP COLUMN year;
-ALTER TABLE hansen RENAME COLUMN year_int TO year;
-
-ALTER TABLE hansen ADD COLUMN extent_gt_25_float float;
-UPDATE hansen SET extent_gt_25_float = extent_gt_25::float;
-ALTER TABLE hansen DROP COLUMN extent_gt_25;
-ALTER TABLE hansen RENAME COLUMN extent_gt_25_float TO extent_gt_25;
-
-ALTER TABLE hansen ADD COLUMN gain_float float;
-UPDATE hansen SET gain_float = gain::float;
-ALTER TABLE hansen DROP COLUMN gain;
-ALTER TABLE hansen RENAME COLUMN gain_float TO gain;
-
-ALTER TABLE hansen ADD COLUMN gain_annual_float float;
-UPDATE hansen SET gain_annual_float = gain_annual::float;
-ALTER TABLE hansen DROP COLUMN gain_annual;
-ALTER TABLE hansen RENAME COLUMN gain_annual_float TO gain_annual;
-
-ALTER TABLE hansen ADD COLUMN gain_perc_float float;
-UPDATE hansen SET gain_perc_float = gain_perc::float;
-ALTER TABLE hansen DROP COLUMN gain_perc;
-ALTER TABLE hansen RENAME COLUMN gain_perc_float TO gain_perc;
-
-ALTER TABLE hansen ADD COLUMN loss_gt_0_float float;
-UPDATE hansen SET loss_gt_0_float = loss_gt_0::float;
-ALTER TABLE hansen DROP COLUMN loss_gt_0;
-ALTER TABLE hansen RENAME COLUMN loss_gt_0_float TO loss_gt_0;
-
-ALTER TABLE hansen ADD COLUMN loss_gt_25_float float;
-UPDATE hansen SET loss_gt_25_float = loss_gt_25::float;
-ALTER TABLE hansen DROP COLUMN loss_gt_25;
-ALTER TABLE hansen RENAME COLUMN loss_gt_25_float TO loss_gt_25;
-
-ALTER TABLE hansen ADD COLUMN loss_gt_50_float float;
-UPDATE hansen SET loss_gt_50_float = loss_gt_50::float;
-ALTER TABLE hansen DROP COLUMN loss_gt_50;
-ALTER TABLE hansen RENAME COLUMN loss_gt_50_float TO loss_gt_50;
-
-ALTER TABLE hansen ADD COLUMN loss_perc_gt_25_float float;
-UPDATE hansen SET loss_perc_gt_25_float = loss_perc_gt_25::float;
-ALTER TABLE hansen DROP COLUMN loss_perc_gt_25;
-ALTER TABLE hansen RENAME COLUMN loss_perc_gt_25_float TO loss_perc_gt_25;
+UPDATE umd_subnat SET gain_perc = Null WHERE gain_perc = 'NULL';
+UPDATE umd_subnat SET loss_perc = Null WHERE loss_perc = 'NULL';
+UPDATE umd_subnat SET extent_perc = Null WHERE extent_perc = 'NULL';
+UPDATE umd_subnat SET gain = Null WHERE gain = 'NULL';
+UPDATE umd_subnat SET loss = Null WHERE loss = 'NULL';
+UPDATE umd_subnat SET extent = Null WHERE extent = 'NULL';
 ```
 
-Then you're all set. Go have a beer.
+Process GADM data:
+
+```sql
+WITH ids AS (
+SELECT DISTINCT gadm3.iso iso, reg, gadm3.attribute id, gadm2.id_1 gadmid FROM gadm_regions_v3_clean gadm3
+LEFT JOIN 
+    (SELECT DISTINCT iso, country, id1 FROM gadm2_clean) gadm2 ON (gadm2.name_1 = gadm3.first_na_1 AND gadm2.iso = gadm3.first_iso)
+ORDER BY gadm3.first_iso, gadm2.id_1
+)
+```
+
+ 
+SELECT umd.*, ids.gadmid, ids.reg FROM umd_subnat umd
+LEFT JOIN (SELECT DISTINCT gadm3.iso iso, gadm3.name1 name1, gadm3.name1_ascii name1_ascii,
+           gadm3.id umd_id, gadm2.id1 gadmid
+           FROM gadm_regions_v3_clean gadm3
+           LEFT JOIN gadm2_clean ON (gadm2.name1_ascii = gadm3.name1_ascii AND gadm2.iso = gadm3.iso)
+           ORDER BY gadm3.iso, gadm2.id1) ids
+           ON (umd.id = ids.umd_id)
