@@ -111,14 +111,14 @@ def main(path, thresh, national):
     '''Generate long-form datasets with year, thresh, gain, loss,
     treecover (and associated percentages).'''
     df = common.load(path)
+    df = cleanup_name(df)
 
-    # if national:
-    #     print "Processing national-level data"
-    #     df.drop('region', axis=1)
-    #     df = df.groupby(['country', 'iso']).sum().reset_index()
-    # else:
-    #     print "Processing subnational-level data"
-    #     pass
+    if national:
+        print "Processing national-level data"
+        df = df.groupby(['country']).sum().reset_index()
+    else:
+        print "Processing subnational-level data"
+        pass
 
     df = running_sum(df, thresh, 'loss')
     df = running_extent_sum(df, thresh)
@@ -133,8 +133,6 @@ def main(path, thresh, national):
     df = calc_perc(df, 'extent_%d_2000' % thresh, thresh, denominator='land')
     df = df.rename(columns={'extent_%d_2000_perc' % thresh: 'extent_perc'})
     df['thresh'] = thresh
-
-    df = cleanup_name(df)
 
     df = df.rename(columns={'extent_%d_2000' % thresh: 'extent_2000'})
 

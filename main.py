@@ -19,7 +19,7 @@ def main(in_path, out_dir, national=False):
         os.mkdir(out_dir)
     out_df = pd.DataFrame()
 
-    for thresh in common.THRESHOLDS:
+    for thresh in common.THRESHOLDS[:-1]:  # ignore 100% threshold
         print 'Processing threshold %d' % thresh
         df = umd.main(in_path, thresh, national)
         out_df = out_df.append(df)
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     in_path = sys.argv[1]
     out_dir = sys.argv[2]
     national = sys.argv[3]
-    if national == 'True':
+    if national.lower() == 'true':
         national = True
     else:
         national = False
