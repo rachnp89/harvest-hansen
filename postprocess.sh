@@ -1,5 +1,5 @@
-HEADER="country,region,iso,id,region_ascii"
 rootdir="/data"
+HEADER="country,region,iso,id,region_ascii"
 
 # clean up province names
 python subnat_names.py $rootdir/gadm_regions_v3.shp  # UMD's modified GADM file
@@ -15,7 +15,3 @@ cat $rootdir/gadm2_clean_deduped.csv >> $rootdir/gadm2_final.csv
 
 echo $HEADER > $rootdir/gadm3_final.csv
 cat $rootdir/gadm3_clean_deduped.csv >> $rootdir/gadm3_final.csv
-
-echo "Upload files to cartodb:"
-echo $(ls /data/gadm*_final.csv)
-echo "Then run postprocess.py."
