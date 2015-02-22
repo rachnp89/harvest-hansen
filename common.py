@@ -43,6 +43,4 @@ def load(path):
     header = gen_header()
     df = pd.read_csv(path, skiprows=1, header=0, names=header)
     df = df.rename(columns=dict(code='id'))
-    print len(list(df.columns))
-    print list(df.columns)
     return df

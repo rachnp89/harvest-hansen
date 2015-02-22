@@ -16,7 +16,6 @@ def wide_to_long(df, thresh):
     fields = ['loss']
     stubs = ['%s_%d_' % (prefix, thresh) for prefix in fields]
     new_names = dict(zip(stubs, fields))
-    print new_names
 
     df = pd.wide_to_long(df, stubs, i='id', j='year')
     df = df.reset_index()
@@ -27,7 +26,8 @@ def wide_to_long(df, thresh):
 
 def calc_annual_gain(df):
     """Calculate annual gain field."""
-    df['gain'] = df['gain0012'] / float(common.NUMYEARS)
+    df['gain'] = df['gain0012'] / float(common.NUMYEARS - 1)
+    df[df['year'] == 2013]['gain'] = None
     # df = set_2000_0(df, 'gain')
 
     return df
@@ -95,8 +95,15 @@ def running_extent_sum(df, thresh):
     prefix = 'extent'
     year = 2000
     fields = gen_sum_fields(year, thresh, prefix)
-    print fields
     df['%s_%d_%d' % (prefix, thresh, year)] = df.loc[:, fields].sum(axis=1)
+    return df
+
+
+def cleanup_name(df):
+    df.loc[0, ['name']] = 'Outside any_'
+    df['country'] = df.name.str.split('_').apply(lambda x: x[0])
+    df['region'] = df.name.str.split('_').apply(lambda x: x[-1])
+
     return df
 
 
@@ -119,9 +126,6 @@ def main(path, thresh, national):
     df = wide_to_long(df, thresh)
     df = calc_annual_gain(df)
 
-
-    # df = set_2000_0(df, 'loss')
-
     # percents default to offset extent as denominator
     df = calc_perc(df, 'loss', thresh, 'extent_%d_2000' % thresh)
     df = calc_perc(df, 'gain', thresh, 'extent_%d_2000' % thresh)
@@ -129,21 +133,20 @@ def main(path, thresh, national):
     df = calc_perc(df, 'extent_%d_2000' % thresh, thresh, denominator='land')
     df = df.rename(columns={'extent_%d_2000_perc' % thresh: 'extent_perc'})
     df['thresh'] = thresh
-    df.loc[0, ['name']] = 'Outside any_'
 
-    df['country'] = df.name.str.split('_').apply(lambda x: x[0])
-    df['region'] = df.name.str.split('_').apply(lambda x: x[-1])
+    df = cleanup_name(df)
+
     df = df.rename(columns={'extent_%d_2000' % thresh: 'extent_2000'})
-    df = df.loc[:, OUTPUTFIELDS]
 
     df['year'] = df['year'].astype(int)
     df['id'] = df['id'].astype(int)
 
+    df = df.loc[:, OUTPUTFIELDS]
+
     return df
 
 if __name__ == '__main__':
-
-     # parse CL args
+    # parse CL args
     in_path = sys.argv[1]
     thresh = sys.argv[2]
     out_dir = sys.argv[3]
