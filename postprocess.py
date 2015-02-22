@@ -1,7 +1,10 @@
+# encoding: UTF-8
+
 import sys
 import copy
 import csv
 from unicodedict import UnicodeDictReader, UnicodeDictWriter
+
 
 def gen_key(row):
     try:
@@ -13,7 +16,6 @@ def gen_key(row):
 
 def gen_dict(path):
     d = dict()
-    print path
     fp = UnicodeDictReader(open(path, 'r'))
 
     for row in fp:
@@ -23,22 +25,66 @@ def gen_dict(path):
     return d
 
 
+def cleanup_names(new_row):
+    '''Cleanup names - easier postprocessing without commas.'''
+    if new_row['country'] == 'Virgin Islands, U.S.':
+        new_row['country'] = 'U.S. Virgin Islands'
+
+    if new_row['country'] == 'Bonaire, Saint Eustatius and Saba':
+        new_row['country'] = 'Bonaire Saint Eustatius and Saba'
+
+    if new_row['country'] == 'Spratly Islands' or new_row['country'] == 'Clipperton Islands':
+        new_row['iso'] = 'Null'
+
+    if new_row['country'] == u'Curaчao':
+        new_row['country'] = u'Curaçao'
+
+    if new_row['country'] == u'Saint-Barthщlemy':
+        new_row['country'] = u'Saint-Barthélemy'
+
+    if new_row['country'] == u"CЇte d'Ivoire":
+        new_row['country'] = u"Côte d'Ivoire"
+
+    try:
+        if new_row['region'] == 'Southern Nations, Nationalities and Peoples':
+            new_row['region'] = 'Southern Nations Nationalities and Peoples'
+    except KeyError:
+        # processing national data - no region
+        pass
+
+    return new_row
+
+
 def update_row(row, merge_dict):
     try:
         new_row = copy.deepcopy(row)
         k = int(new_row['id'])
         gadm_data = merge_dict[k]
+        new_row['country'] = gadm_data['country']
         new_row['region'] = gadm_data['region']
         new_row['id1'] = gadm_data['id']
+        new_row['iso'] = gadm_data['iso']
+
+        new_row = cleanup_names(new_row)
+
         return new_row
     except KeyError:
-        new_row['id1'] = ''
+        # for "Outside any", "Eland, Finland", and "Mayaguez, Puerto Rico"
+        if new_row['country'] == 'Puerto Rico':
+            new_row['id1'] = 'Null'
+            new_row['iso'] = 'PRI'
+        elif new_row['country'] == 'Finland':
+            new_row['id1'] = 'Null'
+            new_row['iso'] = 'FIN'
+        else:
+            new_row['id1'] = 'Null'
+            new_row['iso'] = 'Null'
         return new_row
-
 
 
 def process_csv(fp, fp_out, gadm_dict):
     n = 0
+    skip = 0
     for row in fp:
         new_row = update_row(row, gadm_dict)
         fp_out.writerow(new_row)
@@ -47,14 +93,15 @@ def process_csv(fp, fp_out, gadm_dict):
             print "Processed %d rows" % n
 
     print "Processed %d rows total" % n
+    print "Skipped %d rows" % skip
     return fp_out
 
 
 def get_fieldnames(path):
     c = csv.DictReader(open(path, 'r'))
-    print path
     fields = c.fieldnames
     fields.append('id1')
+    fields.append('iso')
     return fields
 
 
@@ -63,7 +110,6 @@ def merge_dicts(gadm_path, hansen_path):
     d = dict()
     gadm = gen_dict(gadm_path)
     hansen = gen_dict(hansen_path)
-    print len(hansen)
     for k in hansen:
         try:
             new_k = int(hansen[k]['id'])
@@ -78,7 +124,7 @@ def merge_dicts(gadm_path, hansen_path):
 def main(inpath, outpath, gadmpath, hansen_path):
     d = merge_dicts(gadmpath, hansenpath)
 
-    subnat = csv.DictReader(open(inpath, 'r'))
+    subnat = UnicodeDictReader(open(inpath, 'r'))
 
     fields = get_fieldnames(inpath)
 
