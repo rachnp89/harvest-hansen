@@ -5,9 +5,11 @@ to the GFW project for inclusion in the API.
 
 ## Preprocessing
 
+Upload the spreadsheet to Google Drive, open it as a Google Docs spreadsheet, then download the admin sheet as CSV.
+
 The original Excel spreadsheet is a bit unwieldy and doesn't handle non-ASCII
 characters very well. And we need to convert the
-file to CSV to take advantage of the rich Pandas `read_csv` function. Excel doesn't handle these characters very well by saving to CSV, but if you upload it to Google Docs then download as CSV, all is well.
+file to CSV to take advantage of the rich Pandas `read_csv` function. Excel doesn't handle these characters very well by saving to CSV. But Google does.
 
 ## Processing
 
