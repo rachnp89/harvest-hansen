@@ -10,6 +10,9 @@ class Test(unittest.TestCase):
     ts = umd.main(path, thresh, national=False)
     raw = common.load(path)
 
+    ts_nat = umd.main(path, thresh, national=True)
+    raw_nat = common.load(path)
+
     def test_loss(self):
         """Check that loss is calculated properly for a given threshold."""
         acre = self.ts.query("region == 'Acre'")
