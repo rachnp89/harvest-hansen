@@ -37,31 +37,46 @@ the correct province name for each record. We'll do the joins in CartoDB.
 
 Process UMD data:
 
+###### subnational table
 ```sql
-UPDATE umd_subnat SET gain_perc = Null WHERE gain_perc = 'NULL';
-UPDATE umd_subnat SET loss_perc = Null WHERE loss_perc = 'NULL';
-UPDATE umd_subnat SET extent_perc = Null WHERE extent_perc = 'NULL';
-UPDATE umd_subnat SET gain = Null WHERE gain = 'NULL';
-UPDATE umd_subnat SET loss = Null WHERE loss = 'NULL';
-UPDATE umd_subnat SET extent = Null WHERE extent = 'NULL';
+UPDATE umd_subnat_final SET gain_perc = Null WHERE gain_perc = 'NULL';
+ALTER TABLE umd_subnat_final RENAME COLUMN gain_perc TO gain_perc_str;
+ALTER TABLE umd_subnat_final ADD COLUMN gain_perc float;
+UPDATE umd_subnat_final SET gain_perc = gain_perc_str::float;
+ALTER TABLE umd_subnat_final DROP COLUMN gain_perc_str;
+
+UPDATE umd_subnat_final SET loss_perc = Null WHERE loss_perc = 'NULL';
+ALTER TABLE umd_subnat_final RENAME COLUMN loss_perc TO loss_perc_str;
+ALTER TABLE umd_subnat_final ADD COLUMN loss_perc float;
+UPDATE umd_subnat_final SET loss_perc = loss_perc_str::float;
+ALTER TABLE umd_subnat_final DROP COLUMN loss_perc_str;
+
+UPDATE umd_subnat_final SET extent_perc = Null WHERE extent_perc = 'NULL';
+ALTER TABLE umd_subnat_final RENAME COLUMN extent_perc TO extent_perc_str;
+ALTER TABLE umd_subnat_final ADD COLUMN extent_perc float;
+UPDATE umd_subnat_final SET extent_perc = extent_perc_str::float;
+ALTER TABLE umd_subnat_final DROP COLUMN extent_perc_str;
 ```
 
-Process GADM data:
-
+###### national table
 ```sql
-WITH ids AS (
-SELECT DISTINCT gadm3.iso iso, reg, gadm3.attribute id, gadm2.id_1 gadmid FROM gadm_regions_v3_clean gadm3
-LEFT JOIN 
-    (SELECT DISTINCT iso, country, id1 FROM gadm2_clean) gadm2 ON (gadm2.name_1 = gadm3.first_na_1 AND gadm2.iso = gadm3.first_iso)
-ORDER BY gadm3.first_iso, gadm2.id_1
-)
+UPDATE umd_nat_final SET gain_perc = Null WHERE gain_perc = 'NULL';
+ALTER TABLE umd_nat_final RENAME COLUMN gain_perc TO gain_perc_str;
+ALTER TABLE umd_nat_final ADD COLUMN gain_perc float;
+UPDATE umd_nat_final SET gain_perc = gain_perc_str::float;
+ALTER TABLE umd_nat_final DROP COLUMN gain_perc_str;
+
+UPDATE umd_nat_final SET loss_perc = Null WHERE loss_perc = 'NULL';
+ALTER TABLE umd_nat_final RENAME COLUMN loss_perc TO loss_perc_str;
+ALTER TABLE umd_nat_final ADD COLUMN loss_perc float;
+UPDATE umd_nat_final SET loss_perc = loss_perc_str::float;
+ALTER TABLE umd_nat_final DROP COLUMN loss_perc_str;
+
+UPDATE umd_nat_final SET extent_perc = Null WHERE extent_perc = 'NULL';
+ALTER TABLE umd_nat_final RENAME COLUMN extent_perc TO extent_perc_str;
+ALTER TABLE umd_nat_final ADD COLUMN extent_perc float;
+UPDATE umd_nat_final SET extent_perc = extent_perc_str::float;
+ALTER TABLE umd_nat_final DROP COLUMN extent_perc_str;
 ```
 
- 
-SELECT umd.*, ids.gadmid, ids.reg FROM umd_subnat umd
-LEFT JOIN (SELECT DISTINCT gadm3.iso iso, gadm3.name1 name1, gadm3.name1_ascii name1_ascii,
-           gadm3.id umd_id, gadm2.id1 gadmid
-           FROM gadm_regions_v3_clean gadm3
-           LEFT JOIN gadm2_clean ON (gadm2.name1_ascii = gadm3.name1_ascii AND gadm2.iso = gadm3.iso)
-           ORDER BY gadm3.iso, gadm2.id1) ids
-           ON (umd.id = ids.umd_id)
+Rename tables by removing the `_final` suffix, then make the permissions public.
