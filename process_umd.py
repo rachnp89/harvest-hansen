@@ -5,9 +5,38 @@ import pandas as pd
 
 import common
 
-# header details
-OUTPUTFIELDS = ['region', 'country', 'id', 'year', 'thresh', 'extent_2000',
-                'extent_perc', 'gain', 'loss', 'gain_perc', 'loss_perc']
+
+def gen_extent_2000_fields(thresholds):
+    return ['extent_%d_2000' % thresh for thresh in thresholds]
+
+
+def gen_annual_loss_fields(start, end):
+    return ['annual_loss_%d' % year for year in xrange(start, end + 1)]
+
+
+def gen_loss_thresh_year_fields(prefix, thresholds, years):
+    field_str = '%s_%d_%d'  # e.g. extent_25_2005
+    return [field_str % (prefix, t, y) for t in thresholds for y in years]
+
+
+def gen_header(starting_header, thresholds, start, end, years):
+    extent_2000_fields = gen_extent_2000_fields(thresholds)
+    annual_loss_fields = gen_annual_loss_fields(start, end)
+    loss_thresh_year_fields = gen_loss_thresh_year_fields('loss',
+                                                          thresholds,
+                                                          years)
+
+    h = starting_header + annual_loss_fields + extent_2000_fields
+    h += loss_thresh_year_fields
+
+    return h
+
+
+def load(path, starting_header, thresholds, start, end, years):
+    header = gen_header(starting_header, thresholds, start, end, years)
+    df = pd.read_csv(path, skiprows=1, header=0, names=header)
+    df = df.rename(columns=dict(code='id'))
+    return df
 
 
 def wide_to_long(df, thresh):
@@ -107,18 +136,13 @@ def cleanup_name(df):
     return df
 
 
-def main(path, thresh, national):
+def main(df, thresh, output_type, output_fields):
     '''Generate long-form datasets with year, thresh, gain, loss,
     treecover (and associated percentages).'''
-    df = common.load(path)
-    df = cleanup_name(df)
 
-    if national:
-        print "Processing national-level data"
+    if output_type == 'national':
+        df = cleanup_name(df)
         df = df.groupby(['country']).sum().reset_index()
-    else:
-        print "Processing subnational-level data"
-        pass
 
     df = running_sum(df, thresh, 'loss')
     df = running_extent_sum(df, thresh)
@@ -126,10 +150,10 @@ def main(path, thresh, national):
     df = wide_to_long(df, thresh)
     df = calc_annual_gain(df)
 
-    # percents default to offset extent as denominator
     df = calc_perc(df, 'loss', thresh, 'extent_%d_2000' % thresh)
     df = calc_perc(df, 'gain', thresh, 'extent_%d_2000' % thresh)
-    # tree cover as share of country's land area
+
+    # tree cover as share of land area
     df = calc_perc(df, 'extent_%d_2000' % thresh, thresh, denominator='land')
     df = df.rename(columns={'extent_%d_2000_perc' % thresh: 'extent_perc'})
     df['thresh'] = thresh
@@ -139,7 +163,7 @@ def main(path, thresh, national):
     df['year'] = df['year'].astype(int)
     df['id'] = df['id'].astype(int)
 
-    df = df.loc[:, OUTPUTFIELDS]
+    df = df.loc[:, output_fields]
 
     return df
 

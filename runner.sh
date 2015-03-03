@@ -9,12 +9,12 @@ gadm2final="gadm2_final.csv"
 gadm3final="gadm3_final.csv"
 
 echo "Generate subnational data"
-python main.py $rawdata $rootdir False
+python main.py $rawdata $rootdir subnational
 echo "Assign proper ids"
 python postprocess.py $rootdir/$subnat $rootdir/$subnatfinal $rootdir/$gadm2final $rootdir/$gadm3final
 
 echo "Generate national data"
-python main.py $rawdata $rootdir True
+python main.py $rawdata $rootdir national
 echo "Assign proper iso codes"
 isos="$rootdir/isos.txt"
 cut -f 1,13 -d, $rootdir/$subnatfinal | awk '!seen[$0]++' > $isos

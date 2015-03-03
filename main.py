@@ -1,4 +1,4 @@
-import sys
+import argparse
 import os
 
 import pandas as pd
@@ -8,23 +8,36 @@ import process_umd as umd
 import common
 
 
-def main(in_path, out_dir, national=False):
-    if national:
+def main(in_path, out_dir, output_type):
+    if output_type == 'national':
+        print 'Processing national-level data'
         fname = 'umd_nat.csv'
-        umd.OUTPUTFIELDS.remove('region')
-
-    else:
+        header = common.HEADERSTART
+        common.OUTPUTFIELDS.remove('region')
+        output_header = common.OUTPUTFIELDS
+    elif output_type == 'subnational':
+        print 'Processing subnational-level data'
+        header = common.HEADERSTART
+        output_header = common.OUTPUTFIELDS
         fname = 'umd_subnat.csv'
+    else:
+        print 'Processing ecozone data'
+        header = ['ecozone', 'realm'] + common.HEADERSTART[2:]
+        output_header = ['ecozone', 'realm'] + common.OUTPUTFIELDS[2:]
+        fname = 'umd_eco.csv'
+
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
+
     out_df = pd.DataFrame()
+
+    df = umd.load(in_path, header, common.THRESHOLDS, common.STARTYEAR,
+                  common.ENDYEAR, common.YEARS)
 
     for thresh in common.THRESHOLDS[:-1]:  # ignore 100% threshold
         print 'Processing threshold %d' % thresh
-        df = umd.main(in_path, thresh, national)
+        df = umd.main(df, thresh, output_type, output_header)
         out_df = out_df.append(df)
-
-        # subnat.save_csv(df, thresh, out_dir)
 
     out_df.reset_index()
     out_df = out_df.replace('', np.nan)
@@ -36,11 +49,15 @@ def main(in_path, out_dir, national=False):
     return out_df
 
 if __name__ == '__main__':
-    in_path = sys.argv[1]
-    out_dir = sys.argv[2]
-    national = sys.argv[3]
-    if national.lower() == 'true':
-        national = True
-    else:
-        national = False
-    main(in_path, out_dir, national)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('input', type=str)
+    parser.add_argument('output', type=str)
+    parser.add_argument('type', choices=['eco', 'subnational', 'national'])
+
+    args = parser.parse_args()
+
+    input_path = args.input
+    output_dir = args.output
+    output_type = args.type
+
+    main(input_path, output_dir, output_type)
