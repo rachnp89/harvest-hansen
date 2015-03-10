@@ -13,10 +13,8 @@ file to CSV to take advantage of the rich Pandas `read_csv` function. Excel does
 
 ## Processing
 
-```python
->>> import main
->>> main('input.csv', '/tmp/hansen', national=True)
->>> main('input.csv', '/tmp/hansen', national=False)  # calculate subnational stats
+```shell
+sh runner.sh
 ```
 
 ## Postprocessing
