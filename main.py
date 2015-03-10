@@ -22,7 +22,7 @@ def main(in_path, out_dir, output_type):
         fname = 'umd_subnat.csv'
     else:
         print 'Processing ecozone data'
-        header = ['ecozone', 'realm'] + common.HEADERSTART[2:]
+        header = ['ecozone', 'realm'] + common.HEADERSTART[1:]
         output_header = ['ecozone', 'realm'] + common.OUTPUTFIELDS[2:]
         fname = 'umd_eco.csv'
 
@@ -31,10 +31,9 @@ def main(in_path, out_dir, output_type):
 
     out_df = pd.DataFrame()
 
-    df = umd.load(in_path, header, common.THRESHOLDS, common.STARTYEAR,
-                  common.ENDYEAR, common.YEARS)
-
     for thresh in common.THRESHOLDS[:-1]:  # ignore 100% threshold
+        df = umd.load(in_path, header, common.THRESHOLDS, common.STARTYEAR,
+                      common.ENDYEAR, common.YEARS)
         print 'Processing threshold %d' % thresh
         df = umd.main(df, thresh, output_type, output_header)
         out_df = out_df.append(df)

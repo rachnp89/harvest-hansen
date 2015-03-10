@@ -34,8 +34,9 @@ def gen_header(starting_header, thresholds, start, end, years):
 
 def load(path, starting_header, thresholds, start, end, years):
     header = gen_header(starting_header, thresholds, start, end, years)
-    df = pd.read_csv(path, skiprows=1, header=0, names=header)
+    df = pd.read_csv(path, skiprows=2, header=0, names=header)
     df = df.rename(columns=dict(code='id'))
+
     return df
 
 
@@ -140,13 +141,14 @@ def main(df, thresh, output_type, output_fields):
     '''Generate long-form datasets with year, thresh, gain, loss,
     treecover (and associated percentages).'''
 
-    if output_type == 'national':
+    if output_type == 'national' or output_type == 'subnational':
         df = cleanup_name(df)
+
+    if output_type == 'national':
         df = df.groupby(['country']).sum().reset_index()
 
     df = running_sum(df, thresh, 'loss')
     df = running_extent_sum(df, thresh)
-
     df = wide_to_long(df, thresh)
     df = calc_annual_gain(df)
 
@@ -175,4 +177,4 @@ if __name__ == '__main__':
 
     df = main(in_path, thresh)
 
-    save_csv(df, thresh, out_dir)
+    # save_csv(df, thresh, out_dir)

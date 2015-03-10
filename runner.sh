@@ -1,5 +1,6 @@
 rootdir="/data"
 rawdata='data/country_admin_export_clean_Admin_2013_google_drive.csv'
+ecodata='data/Ecozones_v1.1_floats_google_drive.csv'
 
 subnat="umd_subnat.csv"
 subnatfinal="umd_subnat_final.csv"
@@ -19,11 +20,16 @@ echo "Assign proper iso codes"
 isos="$rootdir/isos.txt"
 cut -f 1,13 -d, $rootdir/$subnatfinal | awk '!seen[$0]++' > $isos
 python postprocess_nat.py $rootdir/$nat $isos $rootdir/$natfinal
-echo
-echo
+
+echo "Generate ecozone data"
+python main.py $ecodata $rootdir eco
+
+# echo
+# echo
 
 
 
-echo "Upload to CartoDB:"
-echo "$rootdir/umd_subnat_final.csv"
-echo "$rootdir/umd_nat_final.csv"
+# echo "Upload to CartoDB:"
+# echo "$rootdir/umd_subnat_final.csv"
+# echo "$rootdir/umd_nat_final.csv"
+# echo "$rootdir/umd_eco.csv"
