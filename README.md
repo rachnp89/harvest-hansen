@@ -39,44 +39,26 @@ Process UMD data:
 
 ###### subnational table
 ```sql
-UPDATE umd_subnat_final SET gain_perc = Null WHERE gain_perc = 'NULL';
-ALTER TABLE umd_subnat_final RENAME COLUMN gain_perc TO gain_perc_str;
-ALTER TABLE umd_subnat_final ADD COLUMN gain_perc float;
-UPDATE umd_subnat_final SET gain_perc = gain_perc_str::float;
-ALTER TABLE umd_subnat_final DROP COLUMN gain_perc_str;
-
+UPDATE umd_subnat_final SET region = Null WHERE region = 'NULL';
+UPDATE umd_subnat_final SET iso = Null WHERE iso = 'Null';
+UPDATE umd_subnat_final SET id1 = Null WHERE id1 = 'Null';
+ALTER TABLE umd_subnat_final ALTER COLUMN id1 SET DATA TYPE float USING to_number(id1, '999')
 UPDATE umd_subnat_final SET loss_perc = Null WHERE loss_perc = 'NULL';
-ALTER TABLE umd_subnat_final RENAME COLUMN loss_perc TO loss_perc_str;
-ALTER TABLE umd_subnat_final ADD COLUMN loss_perc float;
-UPDATE umd_subnat_final SET loss_perc = loss_perc_str::float;
-ALTER TABLE umd_subnat_final DROP COLUMN loss_perc_str;
-
+UPDATE umd_subnat_final SET gain_perc = Null WHERE gain_perc = 'NULL';
 UPDATE umd_subnat_final SET extent_perc = Null WHERE extent_perc = 'NULL';
-ALTER TABLE umd_subnat_final RENAME COLUMN extent_perc TO extent_perc_str;
-ALTER TABLE umd_subnat_final ADD COLUMN extent_perc float;
-UPDATE umd_subnat_final SET extent_perc = extent_perc_str::float;
-ALTER TABLE umd_subnat_final DROP COLUMN extent_perc_str;
+ALTER TABLE umd_subnat_final ALTER COLUMN loss_perc SET DATA TYPE float USING to_number(loss_perc, '99999999999999.99999999999');
+ALTER TABLE umd_subnat_final ALTER COLUMN gain_perc SET DATA TYPE float USING to_number(gain_perc, '99999999999999.99999999999');
+ALTER TABLE umd_subnat_final ALTER COLUMN extent_perc SET DATA TYPE float USING to_number(extent_perc, '99999999999999.99999999999');
 ```
 
 ###### national table
 ```sql
-UPDATE umd_nat_final SET gain_perc = Null WHERE gain_perc = 'NULL';
-ALTER TABLE umd_nat_final RENAME COLUMN gain_perc TO gain_perc_str;
-ALTER TABLE umd_nat_final ADD COLUMN gain_perc float;
-UPDATE umd_nat_final SET gain_perc = gain_perc_str::float;
-ALTER TABLE umd_nat_final DROP COLUMN gain_perc_str;
-
-UPDATE umd_nat_final SET loss_perc = Null WHERE loss_perc = 'NULL';
-ALTER TABLE umd_nat_final RENAME COLUMN loss_perc TO loss_perc_str;
-ALTER TABLE umd_nat_final ADD COLUMN loss_perc float;
-UPDATE umd_nat_final SET loss_perc = loss_perc_str::float;
-ALTER TABLE umd_nat_final DROP COLUMN loss_perc_str;
-
-UPDATE umd_nat_final SET extent_perc = Null WHERE extent_perc = 'NULL';
-ALTER TABLE umd_nat_final RENAME COLUMN extent_perc TO extent_perc_str;
-ALTER TABLE umd_nat_final ADD COLUMN extent_perc float;
-UPDATE umd_nat_final SET extent_perc = extent_perc_str::float;
-ALTER TABLE umd_nat_final DROP COLUMN extent_perc_str;
+UPDATE umd_nat_final SET loss_perc = Null WHERE loss_perc = 'NULL'
+ALTER TABLE umd_nat_final ALTER COLUMN loss_perc SET DATA TYPE float USING to_number(loss_perc, '99999999999999.99999999999')
+UPDATE umd_nat_final SET gain_perc = Null WHERE gain_perc = 'NULL'
+ALTER TABLE umd_nat_final ALTER COLUMN gain_perc SET DATA TYPE float USING to_number(gain_perc, '99999999999999.99999999999')
+UPDATE umd_nat_final SET extent_perc = Null WHERE extent_perc = 'NULL'
+ALTER TABLE umd_nat_final ALTER COLUMN extent_perc SET DATA TYPE float USING to_number(extent_perc, '99999999999999.99999999999')
 ```
 
 Rename tables by removing the `_final` suffix, then make the permissions public.
