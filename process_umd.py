@@ -129,11 +129,13 @@ def running_extent_sum(df, thresh):
     return df
 
 
-def cleanup_name(df):
-    df.loc[0, ['name']] = 'Outside any_'
-    df['country'] = df.name.str.split('_').apply(lambda x: x[0])
-    df['region'] = df.name.str.split('_').apply(lambda x: x[-1])
-
+def cleanup_name(df, data_type):
+    if data_type == 'eco':
+        df['ecozone'] = df.ecozone.str.split(' ').apply(lambda x: x[0])
+    else:
+        df.loc[0, ['name']] = 'Outside any_'
+        df['country'] = df.name.str.split('_').apply(lambda x: x[0])
+        df['region'] = df.name.str.split('_').apply(lambda x: x[-1])
     return df
 
 
@@ -141,12 +143,17 @@ def main(df, thresh, output_type, output_fields):
     '''Generate long-form datasets with year, thresh, gain, loss,
     treecover (and associated percentages).'''
 
-    if output_type == 'national' or output_type == 'subnational':
-        df = cleanup_name(df)
+    df = cleanup_name(df, output_type)
 
     if output_type == 'national':
         df = df.groupby(['country']).sum().reset_index()
-
+    if output_type == 'eco':
+        df = df.groupby(['ecozone']).sum().reset_index()
+        # remove non-forest zones
+        df = df[df.ecozone != 'Water']
+        df = df[df.ecozone != 'Polar']
+        df = df[df.ecozone != 'No']
+        df = df.reset_index()
     df = running_sum(df, thresh, 'loss')
     df = running_extent_sum(df, thresh)
     df = wide_to_long(df, thresh)

@@ -23,7 +23,7 @@ def main(in_path, out_dir, output_type):
     else:
         print 'Processing ecozone data'
         header = ['ecozone', 'realm'] + common.HEADERSTART[1:]
-        output_header = ['ecozone', 'realm'] + common.OUTPUTFIELDS[2:]
+        output_header = ['ecozone'] + common.OUTPUTFIELDS[2:]
         fname = 'umd_eco.csv'
 
     if not os.path.exists(out_dir):
