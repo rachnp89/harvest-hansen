@@ -17,25 +17,20 @@ It's simple! Make sure the /data directory exists on your machine, and you're al
 sh runner.sh
 ```
 
-## Postprocessing
-
-We now have to deal with inconsistent naming conventions and ID fields,
+This script does all transformations from wide to long format, cleans up names, etc. It also deals with inconsistent naming conventions and ID fields,
 accents, etc. between the UMD and GADM data. `subnat_names.py` helps by
 removing accents from the province names, allowing for more straightforward
 joins. We'll use these province names - along with ISO codes - to get the
 proper ids. These province ids are not global, so the key in the API becomes
 ISO code and province ID.
 
-Check out postprocess.sh for details.
-
-After running that, we can use the ID field in the raw UMD spreadsheet to extract
-the correct province name for each record. We'll do the joins in CartoDB.
+But all this is taken care of if you just run `sh runner.sh`.
 
 ## CartoDB postprocessing
 
-Process UMD data:
+Some field data types aren't parsed properly due to the nodata values mixed in with numbers and strings. We need to run a few SQL queries in CartoDB to clean things up and recast the offending columns as numbers.
 
-###### subnational table
+###### Subnational table
 ```sql
 UPDATE umd_subnat_final SET region = Null WHERE region = 'NULL';
 UPDATE umd_subnat_final SET iso = Null WHERE iso = 'Null';
@@ -49,7 +44,7 @@ ALTER TABLE umd_subnat_final ALTER COLUMN gain_perc SET DATA TYPE float USING to
 ALTER TABLE umd_subnat_final ALTER COLUMN extent_perc SET DATA TYPE float USING to_number(extent_perc, '99999999999999.99999999999');
 ```
 
-###### national table
+###### National table
 ```sql
 UPDATE umd_nat_final SET loss_perc = Null WHERE loss_perc = 'NULL'
 ALTER TABLE umd_nat_final ALTER COLUMN loss_perc SET DATA TYPE float USING to_number(loss_perc, '99999999999999.99999999999')
@@ -59,4 +54,6 @@ UPDATE umd_nat_final SET extent_perc = Null WHERE extent_perc = 'NULL'
 ALTER TABLE umd_nat_final ALTER COLUMN extent_perc SET DATA TYPE float USING to_number(extent_perc, '99999999999999.99999999999')
 ```
 
-Rename tables by removing the `_final` suffix, then make the permissions public.
+## Final Step
+
+Rename the tables by removing the `_final` suffix, then make the permissions public.
