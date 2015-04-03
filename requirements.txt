@@ -1,2 +1,4 @@
 fiona==1.1.6
 unidecode==0.4.16
+pandas==0.13.1
+numexpr==2.4
