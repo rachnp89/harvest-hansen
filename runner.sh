@@ -1,6 +1,6 @@
 rootdir="/data"
-rawdata='data/country_admin_export_clean_Admin_2013_google_drive.csv'
-ecodata='data/Ecozones_v1.1_floats_google_drive.csv'
+rawdata='data/Admin_2014.csv'
+ecodata='data/Ecozone_2014.csv'
 
 subnat="umd_subnat.csv"
 subnatfinal="umd_subnat_final.csv"

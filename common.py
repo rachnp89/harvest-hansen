@@ -1,12 +1,12 @@
 THRESHOLDS = [10, 15, 20, 25, 30, 50, 75, 100]
 STARTYEAR = 2001
-ENDYEAR = 2013
+ENDYEAR = 2014
 NUMYEARS = ENDYEAR - STARTYEAR + 1
 YEARS = xrange(STARTYEAR, ENDYEAR + 1)
 
 # standard fields at beginning of input header. modified within main() to
 # account for the dataset being processed
-HEADERSTART = ['name', 'code', 'area', 'nodata',  'land', 'water', 'loss0013',
+HEADERSTART = ['name', 'code', 'area', 'nodata',  'land', 'water', 'loss0014',
                'gain0012']
 
 # output header. modified within main() to account for the dataset being
