@@ -56,7 +56,7 @@ def wide_to_long(df, thresh):
 
 def calc_annual_gain(df):
     """Calculate annual gain field."""
-    df['gain'] = df['gain0012'] / float(common.NUMYEARS - 1)
+    df['gain'] = df['gain0012'] / float(common.NUMYEARS - 2)
     df[df['year'] == 2013]['gain'] = None
     # df = set_2000_0(df, 'gain')
 

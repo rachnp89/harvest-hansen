@@ -1,0 +1,3405 @@
+country,region,iso,id,region_ascii
+Afghanistan,Badakhshan,AFG,1,Badakhshan
+Afghanistan,Badghis,AFG,2,Badghis
+Afghanistan,Baghlan,AFG,3,Baghlan
+Afghanistan,Balkh,AFG,4,Balkh
+Afghanistan,Bamyan,AFG,5,Bamyan
+Afghanistan,Farah,AFG,6,Farah
+Afghanistan,Faryab,AFG,7,Faryab
+Afghanistan,Ghazni,AFG,8,Ghazni
+Afghanistan,Ghor,AFG,9,Ghor
+Afghanistan,Hilmand,AFG,10,Hilmand
+Afghanistan,Hirat,AFG,11,Hirat
+Afghanistan,Jawzjan,AFG,12,Jawzjan
+Afghanistan,Kabul,AFG,13,Kabul
+Afghanistan,Kandahar,AFG,14,Kandahar
+Afghanistan,Kapisa,AFG,15,Kapisa
+Afghanistan,Khost,AFG,16,Khost
+Afghanistan,Kunar,AFG,17,Kunar
+Afghanistan,Kunduz,AFG,18,Kunduz
+Afghanistan,Laghman,AFG,19,Laghman
+Afghanistan,Logar,AFG,20,Logar
+Afghanistan,Nangarhar,AFG,21,Nangarhar
+Afghanistan,Nimroz,AFG,22,Nimroz
+Afghanistan,Nuristan,AFG,23,Nuristan
+Afghanistan,Paktika,AFG,24,Paktika
+Afghanistan,Paktya,AFG,25,Paktya
+Afghanistan,Parwan,AFG,26,Parwan
+Afghanistan,Samangan,AFG,27,Samangan
+Afghanistan,Sari Pul,AFG,28,Sari Pul
+Afghanistan,Takhar,AFG,29,Takhar
+Afghanistan,Uruzgan,AFG,30,Uruzgan
+Afghanistan,Wardak,AFG,31,Wardak
+Afghanistan,Zabul,AFG,32,Zabul
+Albania,Berat,ALB,33,Berat
+Albania,Dibër,ALB,34,Diber
+Albania,Durrës,ALB,35,Durres
+Albania,Elbasan,ALB,36,Elbasan
+Albania,Fier,ALB,37,Fier
+Albania,Gjirokastër,ALB,38,Gjirokaster
+Albania,Korçë,ALB,39,Korce
+Albania,Kukës,ALB,40,Kukes
+Albania,Lezhë,ALB,41,Lezhe
+Albania,Shkodër,ALB,42,Shkoder
+Albania,Tiranë,ALB,43,Tirane
+Albania,Vlorë,ALB,44,Vlore
+Algeria,Adrar,DZA,45,Adrar
+Algeria,Aïn Defla,DZA,46,Ain Defla
+Algeria,Aïn Témouchent,DZA,47,Ain Temouchent
+Algeria,Alger,DZA,48,Alger
+Algeria,Annaba,DZA,49,Annaba
+Algeria,Batna,DZA,50,Batna
+Algeria,Béchar,DZA,51,Bechar
+Algeria,Béjaïa,DZA,52,Bejaia
+Algeria,Biskra,DZA,53,Biskra
+Algeria,Blida,DZA,54,Blida
+Algeria,Bordj Bou Arréridj,DZA,55,Bordj Bou Arreridj
+Algeria,Bouira,DZA,56,Bouira
+Algeria,Boumerdès,DZA,57,Boumerdes
+Algeria,Chlef,DZA,58,Chlef
+Algeria,Constantine,DZA,59,Constantine
+Algeria,Djelfa,DZA,60,Djelfa
+Algeria,El Bayadh,DZA,61,El Bayadh
+Algeria,El Oued,DZA,62,El Oued
+Algeria,El Tarf,DZA,63,El Tarf
+Algeria,Ghardaïa,DZA,64,Ghardaia
+Algeria,Guelma,DZA,65,Guelma
+Algeria,Illizi,DZA,66,Illizi
+Algeria,Jijel,DZA,67,Jijel
+Algeria,Khenchela,DZA,68,Khenchela
+Algeria,Laghouat,DZA,69,Laghouat
+Algeria,Mascara,DZA,71,Mascara
+Algeria,Médéa,DZA,72,Medea
+Algeria,Mila,DZA,73,Mila
+Algeria,Mostaganem,DZA,74,Mostaganem
+Algeria,M'Sila,DZA,70,M'Sila
+Algeria,Naâma,DZA,75,Naama
+Algeria,Oran,DZA,76,Oran
+Algeria,Ouargla,DZA,77,Ouargla
+Algeria,Oum el Bouaghi,DZA,78,Oum el Bouaghi
+Algeria,Relizane,DZA,79,Relizane
+Algeria,Saïda,DZA,80,Saida
+Algeria,Sétif,DZA,81,Setif
+Algeria,Sidi Bel Abbès,DZA,82,Sidi Bel Abbes
+Algeria,Skikda,DZA,83,Skikda
+Algeria,Souk Ahras,DZA,84,Souk Ahras
+Algeria,Tamanghasset,DZA,85,Tamanghasset
+Algeria,Tébessa,DZA,86,Tebessa
+Algeria,Tiaret,DZA,87,Tiaret
+Algeria,Tindouf,DZA,88,Tindouf
+Algeria,Tipaza,DZA,89,Tipaza
+Algeria,Tissemsilt,DZA,90,Tissemsilt
+Algeria,Tizi Ouzou,DZA,91,Tizi Ouzou
+Algeria,Tlemcen,DZA,92,Tlemcen
+American Samoa,Eastern,ASM,93,Eastern
+American Samoa,Manu'a,ASM,94,Manu'a
+American Samoa,Unorganized,ASM,95,Unorganized
+American Samoa,Western,ASM,96,Western
+Andorra,Andorra la Vella,AND,97,Andorra la Vella
+Andorra,Canillo,AND,98,Canillo
+Andorra,Encamp,AND,99,Encamp
+Andorra,Escaldes-Engordany,AND,100,Escaldes-Engordany
+Andorra,La Massana,AND,101,La Massana
+Andorra,Ordino,AND,102,Ordino
+Andorra,Sant Julià de Lòria,AND,103,Sant Julia de Loria
+Angola,Bengo,AGO,104,Bengo
+Angola,Benguela,AGO,105,Benguela
+Angola,Bié,AGO,106,Bie
+Angola,Cabinda,AGO,107,Cabinda
+Angola,Cuando Cubango,AGO,108,Cuando Cubango
+Angola,Cuanza Norte,AGO,109,Cuanza Norte
+Angola,Cuanza Sul,AGO,110,Cuanza Sul
+Angola,Cunene,AGO,111,Cunene
+Angola,Huambo,AGO,112,Huambo
+Angola,Huíla,AGO,113,Huila
+Angola,Luanda,AGO,114,Luanda
+Angola,Lunda Norte,AGO,115,Lunda Norte
+Angola,Lunda Sul,AGO,116,Lunda Sul
+Angola,Malanje,AGO,117,Malanje
+Angola,Moxico,AGO,118,Moxico
+Angola,Namibe,AGO,119,Namibe
+Angola,Uíge,AGO,120,Uige
+Angola,Zaire,AGO,121,Zaire
+Anguilla,,AIA,122,
+Antarctica,,ATA,123,
+Antigua and Barbuda,Barbuda,ATG,124,Barbuda
+Antigua and Barbuda,Redonda,ATG,125,Redonda
+Antigua and Barbuda,Saint George,ATG,126,Saint George
+Antigua and Barbuda,Saint John,ATG,127,Saint John
+Antigua and Barbuda,Saint Mary,ATG,128,Saint Mary
+Antigua and Barbuda,Saint Paul,ATG,129,Saint Paul
+Antigua and Barbuda,Saint Peter,ATG,130,Saint Peter
+Antigua and Barbuda,Saint Philip,ATG,131,Saint Philip
+Argentina,Buenos Aires,ARG,132,Buenos Aires
+Argentina,Catamarca,ARG,133,Catamarca
+Argentina,Chaco,ARG,134,Chaco
+Argentina,Chubut,ARG,135,Chubut
+Argentina,Ciudad de Buenos Aires,ARG,136,Ciudad de Buenos Aires
+Argentina,Córdoba,ARG,137,Cordoba
+Argentina,Corrientes,ARG,138,Corrientes
+Argentina,Entre Ríos,ARG,139,Entre Rios
+Argentina,Formosa,ARG,140,Formosa
+Argentina,Jujuy,ARG,141,Jujuy
+Argentina,La Pampa,ARG,142,La Pampa
+Argentina,La Rioja,ARG,143,La Rioja
+Argentina,Mendoza,ARG,144,Mendoza
+Argentina,Misiones,ARG,145,Misiones
+Argentina,Neuquén,ARG,146,Neuquen
+Argentina,Río Negro,ARG,147,Rio Negro
+Argentina,Salta,ARG,148,Salta
+Argentina,San Juan,ARG,149,San Juan
+Argentina,San Luis,ARG,150,San Luis
+Argentina,Santa Cruz,ARG,151,Santa Cruz
+Argentina,Santa Fe,ARG,152,Santa Fe
+Argentina,Santiago del Estero,ARG,153,Santiago del Estero
+Argentina,Tierra del Fuego,ARG,154,Tierra del Fuego
+Argentina,Tucumán,ARG,155,Tucuman
+Armenia,Aragatsotn,ARM,156,Aragatsotn
+Armenia,Ararat,ARM,157,Ararat
+Armenia,Armavir,ARM,158,Armavir
+Armenia,Erevan,ARM,159,Erevan
+Armenia,Gegharkunik,ARM,160,Gegharkunik
+Armenia,Kotayk,ARM,161,Kotayk
+Armenia,Lake Sevan,ARM,162,Lake Sevan
+Armenia,Lori,ARM,163,Lori
+Armenia,Shirak,ARM,164,Shirak
+Armenia,Syunik,ARM,165,Syunik
+Armenia,Tavush,ARM,166,Tavush
+Armenia,Vayots Dzor,ARM,167,Vayots Dzor
+Aruba,,ABW,168,
+Australia,Ashmore and Cartier Islands,AUS,169,Ashmore and Cartier Islands
+Australia,Australian Capital Territory,AUS,170,Australian Capital Territory
+Australia,Coral Sea Islands,AUS,171,Coral Sea Islands
+Australia,New South Wales,AUS,172,New South Wales
+Australia,Northern Territory,AUS,173,Northern Territory
+Australia,Queensland,AUS,174,Queensland
+Australia,South Australia,AUS,175,South Australia
+Australia,Tasmania,AUS,176,Tasmania
+Australia,Unknown1,AUS,177,Unknown1
+Australia,Victoria,AUS,178,Victoria
+Australia,Western Australia,AUS,179,Western Australia
+Austria,Burgenland,AUT,180,Burgenland
+Austria,Kärnten,AUT,181,Karnten
+Austria,Niederösterreich,AUT,182,Niederosterreich
+Austria,Oberösterreich,AUT,183,Oberosterreich
+Austria,Salzburg,AUT,184,Salzburg
+Austria,Steiermark,AUT,185,Steiermark
+Austria,Tirol,AUT,186,Tirol
+Austria,Vorarlberg,AUT,187,Vorarlberg
+Austria,Wien,AUT,188,Wien
+Azerbaijan,Abseron,AZE,190,Abseron
+Azerbaijan,Agcab?di,AZE,191,Agcab?di
+Azerbaijan,Agdam,AZE,192,Agdam
+Azerbaijan,Agdas,AZE,193,Agdas
+Azerbaijan,Agstafa,AZE,194,Agstafa
+Azerbaijan,Agsu,AZE,195,Agsu
+Azerbaijan,Astara,AZE,196,Astara
+Azerbaijan,Bab?k,AZE,198,Bab?k
+Azerbaijan,Baki,AZE,199,Baki
+Azerbaijan,Balak?n,AZE,200,Balak?n
+Azerbaijan,Beyl?qan,AZE,201,Beyl?qan
+Azerbaijan,Bil?suvar,AZE,202,Bil?suvar
+Azerbaijan,B?rd?,AZE,197,B?rd?
+Azerbaijan,C?brayil,AZE,203,C?brayil
+Azerbaijan,C?lilabad,AZE,204,C?lilabad
+Azerbaijan,Culfa,AZE,205,Culfa
+Azerbaijan,Dask?s?n,AZE,207,Dask?s?n
+Azerbaijan,D?v?çi,AZE,206,D?v?ci
+Azerbaijan,Füzuli,AZE,208,Fuzuli
+Azerbaijan,G?d?b?y,AZE,209,G?d?b?y
+Azerbaijan,G?nc?,AZE,210,G?nc?
+Azerbaijan,Goranboy,AZE,211,Goranboy
+Azerbaijan,Göyçay,AZE,212,Goycay
+Azerbaijan,Haciqabul,AZE,213,Haciqabul
+Azerbaijan,Imisli,AZE,214,Imisli
+Azerbaijan,Ismayilli,AZE,215,Ismayilli
+Azerbaijan,K?lb?c?r,AZE,216,K?lb?c?r
+Azerbaijan,Kürd?mir,AZE,217,Kurd?mir
+Azerbaijan,Lerik,AZE,219,Lerik
+Azerbaijan,?li Bayramli,AZE,189,?li Bayramli
+Azerbaijan,L?nk?ran,AZE,218,L?nk?ran
+Azerbaijan,Masalli,AZE,220,Masalli
+Azerbaijan,Ming?çevir,AZE,221,Ming?cevir
+Azerbaijan,Naxçivan,AZE,222,Naxcivan
+Azerbaijan,Neftçala,AZE,223,Neftcala
+Azerbaijan,Oguz,AZE,224,Oguz
+Azerbaijan,Ordubad,AZE,225,Ordubad
+Azerbaijan,Qax,AZE,227,Qax
+Azerbaijan,Qazax,AZE,228,Qazax
+Azerbaijan,Q?b?l?,AZE,226,Q?b?l?
+Azerbaijan,Qobustan,AZE,229,Qobustan
+Azerbaijan,Quba,AZE,230,Quba
+Azerbaijan,Qubadli,AZE,231,Qubadli
+Azerbaijan,Qusar,AZE,232,Qusar
+Azerbaijan,Saatli,AZE,237,Saatli
+Azerbaijan,Sabirabad,AZE,238,Sabirabad
+Azerbaijan,Sahbuz,AZE,239,Sahbuz
+Azerbaijan,Salyan,AZE,240,Salyan
+Azerbaijan,Samaxi,AZE,241,Samaxi
+Azerbaijan,Samux,AZE,242,Samux
+Azerbaijan,S?d?r?k,AZE,233,S?d?r?k
+Azerbaijan,Siy?z?n,AZE,243,Siy?z?n
+Azerbaijan,S?ki,AZE,234,S?ki
+Azerbaijan,S?mkir,AZE,235,S?mkir
+Azerbaijan,S?rur,AZE,236,S?rur
+Azerbaijan,Sumqayit,AZE,244,Sumqayit
+Azerbaijan,Susa,AZE,245,Susa
+Azerbaijan,Tovuz,AZE,247,Tovuz
+Azerbaijan,T?rt?r,AZE,246,T?rt?r
+Azerbaijan,Ucar,AZE,248,Ucar
+Azerbaijan,Xaçmaz,AZE,249,Xacmaz
+Azerbaijan,Xanlar,AZE,250,Xanlar
+Azerbaijan,Xizi,AZE,251,Xizi
+Azerbaijan,Xocali,AZE,252,Xocali
+Azerbaijan,Xocav?nd,AZE,253,Xocav?nd
+Azerbaijan,Yardimli,AZE,254,Yardimli
+Azerbaijan,Yevlax,AZE,255,Yevlax
+Azerbaijan,Zaqatala,AZE,258,Zaqatala
+Azerbaijan,Z?ngilan,AZE,256,Z?ngilan
+Azerbaijan,Z?rdab,AZE,257,Z?rdab
+Bahamas,Acklins,BHS,259,Acklins
+Bahamas,Berry Islands,BHS,260,Berry Islands
+Bahamas,Biminis,BHS,261,Biminis
+Bahamas,Black Point,BHS,262,Black Point
+Bahamas,Cat Island,BHS,263,Cat Island
+Bahamas,Central Abaco,BHS,264,Central Abaco
+Bahamas,Central Andros,BHS,265,Central Andros
+Bahamas,Central Eleuthera,BHS,266,Central Eleuthera
+Bahamas,City of Freeport,BHS,267,City of Freeport
+Bahamas,Crooked Island,BHS,268,Crooked Island
+Bahamas,East Grand Bahama,BHS,269,East Grand Bahama
+Bahamas,Exuma,BHS,270,Exuma
+Bahamas,Grand Cay,BHS,271,Grand Cay
+Bahamas,Harbour Island,BHS,272,Harbour Island
+Bahamas,Hope Town,BHS,273,Hope Town
+Bahamas,Inagua,BHS,274,Inagua
+Bahamas,Long Island,BHS,275,Long Island
+Bahamas,Mangrove Cay,BHS,276,Mangrove Cay
+Bahamas,Mayaguana,BHS,277,Mayaguana
+Bahamas,Moore's Island,BHS,278,Moore's Island
+Bahamas,New Providence,BHS,279,New Providence
+Bahamas,North Abaco,BHS,280,North Abaco
+Bahamas,North Andros,BHS,281,North Andros
+Bahamas,North Eleuthera,BHS,282,North Eleuthera
+Bahamas,Ragged Island,BHS,283,Ragged Island
+Bahamas,Rum Cay,BHS,284,Rum Cay
+Bahamas,San Salvador,BHS,285,San Salvador
+Bahamas,South Abaco,BHS,286,South Abaco
+Bahamas,South Andros,BHS,287,South Andros
+Bahamas,South Eleuthera,BHS,288,South Eleuthera
+Bahamas,Spanish Wells,BHS,289,Spanish Wells
+Bahamas,West Grand Bahama,BHS,290,West Grand Bahama
+Bahrain,Capital,BHR,291,Capital
+Bahrain,Central,BHR,292,Central
+Bahrain,Muharraq,BHR,293,Muharraq
+Bahrain,Northern,BHR,294,Northern
+Bahrain,Southern,BHR,295,Southern
+Bangladesh,Barisal,BGD,296,Barisal
+Bangladesh,Chittagong,BGD,297,Chittagong
+Bangladesh,Dhaka,BGD,298,Dhaka
+Bangladesh,Khulna,BGD,299,Khulna
+Bangladesh,Rajshahi,BGD,300,Rajshahi
+Bangladesh,Sylhet,BGD,301,Sylhet
+Barbados,Christ Church,BRB,302,Christ Church
+Barbados,Saint Andrew,BRB,303,Saint Andrew
+Barbados,Saint George,BRB,304,Saint George
+Barbados,Saint James,BRB,305,Saint James
+Barbados,Saint John,BRB,306,Saint John
+Barbados,Saint Joseph,BRB,307,Saint Joseph
+Barbados,Saint Lucy,BRB,308,Saint Lucy
+Barbados,Saint Michael,BRB,309,Saint Michael
+Barbados,Saint Peter,BRB,310,Saint Peter
+Barbados,Saint Philip,BRB,311,Saint Philip
+Barbados,Saint Thomas,BRB,312,Saint Thomas
+Belarus,Brest,BLR,313,Brest
+Belarus,Homyel',BLR,314,Homyel'
+Belarus,Hrodna,BLR,315,Hrodna
+Belarus,Mahilyow,BLR,316,Mahilyow
+Belarus,Minsk,BLR,317,Minsk
+Belarus,Vitsyebsk,BLR,318,Vitsyebsk
+Belgium,Bruxelles,BEL,319,Bruxelles
+Belgium,Vlaanderen,BEL,320,Vlaanderen
+Belgium,Wallonie,BEL,321,Wallonie
+Belize,Belize,BLZ,322,Belize
+Belize,Cayo,BLZ,323,Cayo
+Belize,Corozal,BLZ,324,Corozal
+Belize,Orange Walk,BLZ,325,Orange Walk
+Belize,Stann Creek,BLZ,326,Stann Creek
+Belize,Toledo,BLZ,327,Toledo
+Benin,Alibori,BEN,328,Alibori
+Benin,Atakora,BEN,329,Atakora
+Benin,Atlantique,BEN,330,Atlantique
+Benin,Borgou,BEN,331,Borgou
+Benin,Collines,BEN,332,Collines
+Benin,Donga,BEN,333,Donga
+Benin,Kouffo,BEN,334,Kouffo
+Benin,Littoral,BEN,335,Littoral
+Benin,Mono,BEN,336,Mono
+Benin,Ouémé,BEN,337,Oueme
+Benin,Plateau,BEN,338,Plateau
+Benin,Zou,BEN,339,Zou
+Bermuda,Devonshire,BMU,340,Devonshire
+Bermuda,Hamilton,BMU,341,Hamilton
+Bermuda,Hamilton Municipality,BMU,342,Hamilton Municipality
+Bermuda,Paget,BMU,343,Paget
+Bermuda,Pembroke,BMU,344,Pembroke
+Bermuda,Saint George municipality,BMU,346,Saint George municipality
+Bermuda,Saint George's,BMU,345,Saint George's
+Bermuda,Sandys,BMU,347,Sandys
+Bermuda,Smiths,BMU,348,Smiths
+Bermuda,Southampton,BMU,349,Southampton
+Bermuda,Warwick,BMU,350,Warwick
+Bhutan,Bumthang,BTN,351,Bumthang
+Bhutan,Chhukha,BTN,352,Chhukha
+Bhutan,Chirang,BTN,353,Chirang
+Bhutan,Daga,BTN,354,Daga
+Bhutan,Gasa,BTN,355,Gasa
+Bhutan,Geylegphug,BTN,356,Geylegphug
+Bhutan,Ha,BTN,357,Ha
+Bhutan,Lhuntshi,BTN,358,Lhuntshi
+Bhutan,Mongar,BTN,359,Mongar
+Bhutan,Paro,BTN,360,Paro
+Bhutan,Pemagatsel,BTN,361,Pemagatsel
+Bhutan,Punakha,BTN,362,Punakha
+Bhutan,Samchi,BTN,363,Samchi
+Bhutan,Samdrup Jongkhar,BTN,364,Samdrup Jongkhar
+Bhutan,Shemgang,BTN,365,Shemgang
+Bhutan,Tashigang,BTN,367,Tashigang
+Bhutan,Tashi Yangtse,BTN,366,Tashi Yangtse
+Bhutan,Thimphu,BTN,368,Thimphu
+Bhutan,Tongsa,BTN,369,Tongsa
+Bhutan,Wangdi Phodrang,BTN,370,Wangdi Phodrang
+Bolivia,Chuquisaca,BOL,371,Chuquisaca
+Bolivia,Cochabamba,BOL,372,Cochabamba
+Bolivia,El Beni,BOL,373,El Beni
+Bolivia,La Paz,BOL,374,La Paz
+Bolivia,Oruro,BOL,375,Oruro
+Bolivia,Pando,BOL,376,Pando
+Bolivia,Potosí,BOL,377,Potosi
+Bolivia,Santa Cruz,BOL,378,Santa Cruz
+Bolivia,Tarija,BOL,379,Tarija
+"Bonaire, Saint Eustatius and Saba",,BES,380,
+Bosnia and Herzegovina,Brcko,BIH,381,Brcko
+Bosnia and Herzegovina,Federacija Bosna i Hercegovina,BIH,382,Federacija Bosna i Hercegovina
+Bosnia and Herzegovina,Repuplika Srpska,BIH,383,Repuplika Srpska
+Botswana,Central,BWA,384,Central
+Botswana,Ghanzi,BWA,385,Ghanzi
+Botswana,Kgalagadi,BWA,386,Kgalagadi
+Botswana,Kgatleng,BWA,387,Kgatleng
+Botswana,Kweneng,BWA,388,Kweneng
+Botswana,North-East,BWA,389,North-East
+Botswana,North-West,BWA,390,North-West
+Botswana,South-East,BWA,391,South-East
+Botswana,Southern,BWA,392,Southern
+Bouvet Island,,BVT,393,
+Brazil,Acre,BRA,394,Acre
+Brazil,Alagoas,BRA,395,Alagoas
+Brazil,Amapá,BRA,396,Amapa
+Brazil,Amazonas,BRA,397,Amazonas
+Brazil,Bahia,BRA,398,Bahia
+Brazil,Ceará,BRA,399,Ceara
+Brazil,Distrito Federal,BRA,400,Distrito Federal
+Brazil,Espírito Santo,BRA,401,Espirito Santo
+Brazil,Goiás,BRA,402,Goias
+Brazil,Maranhão,BRA,403,Maranhao
+Brazil,Mato Grosso,BRA,404,Mato Grosso
+Brazil,Mato Grosso do Sul,BRA,405,Mato Grosso do Sul
+Brazil,Minas Gerais,BRA,406,Minas Gerais
+Brazil,Pará,BRA,407,Para
+Brazil,Paraíba,BRA,408,Paraiba
+Brazil,Paraná,BRA,409,Parana
+Brazil,Pernambuco,BRA,410,Pernambuco
+Brazil,Piauí,BRA,411,Piaui
+Brazil,Rio de Janeiro,BRA,412,Rio de Janeiro
+Brazil,Rio Grande do Norte,BRA,413,Rio Grande do Norte
+Brazil,Rio Grande do Sul,BRA,414,Rio Grande do Sul
+Brazil,Rondônia,BRA,415,Rondonia
+Brazil,Roraima,BRA,416,Roraima
+Brazil,Santa Catarina,BRA,417,Santa Catarina
+Brazil,São Paulo,BRA,418,Sao Paulo
+Brazil,Sergipe,BRA,419,Sergipe
+Brazil,Tocantins,BRA,420,Tocantins
+British Indian Ocean Territory,,IOT,421,
+British Virgin Islands,,VGB,422,
+Brunei,Belait,BRN,423,Belait
+Brunei,Brunei and Muara,BRN,424,Brunei and Muara
+Brunei,Temburong,BRN,425,Temburong
+Brunei,Tutong,BRN,426,Tutong
+Bulgaria,Blagoevgrad,BGR,427,Blagoevgrad
+Bulgaria,Burgas,BGR,428,Burgas
+Bulgaria,Dobrich,BGR,429,Dobrich
+Bulgaria,Gabrovo,BGR,430,Gabrovo
+Bulgaria,Grad Sofiya,BGR,431,Grad Sofiya
+Bulgaria,Haskovo,BGR,432,Haskovo
+Bulgaria,Kardzhali,BGR,433,Kardzhali
+Bulgaria,Kyustendil,BGR,434,Kyustendil
+Bulgaria,Lovech,BGR,435,Lovech
+Bulgaria,Montana,BGR,436,Montana
+Bulgaria,Pazardzhik,BGR,437,Pazardzhik
+Bulgaria,Pernik,BGR,438,Pernik
+Bulgaria,Pleven,BGR,439,Pleven
+Bulgaria,Plovdiv,BGR,440,Plovdiv
+Bulgaria,Razgrad,BGR,441,Razgrad
+Bulgaria,Ruse,BGR,442,Ruse
+Bulgaria,Shumen,BGR,443,Shumen
+Bulgaria,Silistra,BGR,444,Silistra
+Bulgaria,Sliven,BGR,445,Sliven
+Bulgaria,Smolyan,BGR,446,Smolyan
+Bulgaria,Sofia,BGR,447,Sofia
+Bulgaria,Stara Zagora,BGR,448,Stara Zagora
+Bulgaria,Targovishte,BGR,449,Targovishte
+Bulgaria,Varna,BGR,450,Varna
+Bulgaria,Veliko Tarnovo,BGR,451,Veliko Tarnovo
+Bulgaria,Vidin,BGR,452,Vidin
+Bulgaria,Vratsa,BGR,453,Vratsa
+Bulgaria,Yambol,BGR,454,Yambol
+Burkina Faso,Balé,BFA,455,Bale
+Burkina Faso,Bam,BFA,456,Bam
+Burkina Faso,Banwa,BFA,457,Banwa
+Burkina Faso,Bazéga,BFA,458,Bazega
+Burkina Faso,Bougouriba,BFA,459,Bougouriba
+Burkina Faso,Boulgou,BFA,460,Boulgou
+Burkina Faso,Boulkiemdé,BFA,461,Boulkiemde
+Burkina Faso,Ganzourgou,BFA,462,Ganzourgou
+Burkina Faso,Gnagna,BFA,463,Gnagna
+Burkina Faso,Gourma,BFA,464,Gourma
+Burkina Faso,Houet,BFA,465,Houet
+Burkina Faso,Ioba,BFA,466,Ioba
+Burkina Faso,Kadiogo,BFA,467,Kadiogo
+Burkina Faso,Kénédougou,BFA,468,Kenedougou
+Burkina Faso,Komoé,BFA,469,Komoe
+Burkina Faso,Komondjari,BFA,470,Komondjari
+Burkina Faso,Kompienga,BFA,471,Kompienga
+Burkina Faso,Kossi,BFA,472,Kossi
+Burkina Faso,Koulpélogo,BFA,473,Koulpelogo
+Burkina Faso,Kouritenga,BFA,474,Kouritenga
+Burkina Faso,Kourwéogo,BFA,475,Kourweogo
+Burkina Faso,Léraba,BFA,476,Leraba
+Burkina Faso,Loroum,BFA,477,Loroum
+Burkina Faso,Mou Houn,BFA,478,Mou Houn
+Burkina Faso,Nahouri,BFA,479,Nahouri
+Burkina Faso,Namentenga,BFA,480,Namentenga
+Burkina Faso,Nayala,BFA,481,Nayala
+Burkina Faso,Oubritenga,BFA,482,Oubritenga
+Burkina Faso,Oudalan,BFA,483,Oudalan
+Burkina Faso,Passoré,BFA,484,Passore
+Burkina Faso,Poni,BFA,485,Poni
+Burkina Faso,Sanguié,BFA,486,Sanguie
+Burkina Faso,Sanmatenga,BFA,487,Sanmatenga
+Burkina Faso,Séno,BFA,488,Seno
+Burkina Faso,Sissili,BFA,489,Sissili
+Burkina Faso,Soum,BFA,490,Soum
+Burkina Faso,Sourou,BFA,491,Sourou
+Burkina Faso,Tapoa,BFA,492,Tapoa
+Burkina Faso,Tuy,BFA,493,Tuy
+Burkina Faso,Yagha,BFA,494,Yagha
+Burkina Faso,Yatenga,BFA,495,Yatenga
+Burkina Faso,Ziro,BFA,496,Ziro
+Burkina Faso,Zondoma,BFA,497,Zondoma
+Burkina Faso,Zoundwéogo,BFA,498,Zoundweogo
+Burundi,Bubanza,BDI,499,Bubanza
+Burundi,Bujumbura Mairie,BDI,500,Bujumbura Mairie
+Burundi,Bujumbura Rural,BDI,501,Bujumbura Rural
+Burundi,Bururi,BDI,502,Bururi
+Burundi,Cankuzo,BDI,503,Cankuzo
+Burundi,Cibitoke,BDI,504,Cibitoke
+Burundi,Gitega,BDI,505,Gitega
+Burundi,Karuzi,BDI,506,Karuzi
+Burundi,Kayanza,BDI,507,Kayanza
+Burundi,Kirundo,BDI,508,Kirundo
+Burundi,Makamba,BDI,509,Makamba
+Burundi,Muramvya,BDI,510,Muramvya
+Burundi,Muyinga,BDI,511,Muyinga
+Burundi,Mwaro,BDI,512,Mwaro
+Burundi,Ngozi,BDI,513,Ngozi
+Burundi,Rutana,BDI,514,Rutana
+Burundi,Ruyigi,BDI,515,Ruyigi
+Cambodia,Bântéay Méanchey,KHM,516,Banteay Meanchey
+Cambodia,Batdâmbâng,KHM,517,Batdambang
+Cambodia,Kâmpóng Cham,KHM,518,Kampong Cham
+Cambodia,Kâmpóng Chhnang,KHM,519,Kampong Chhnang
+Cambodia,Kâmpóng Sp,KHM,520,Kampong Sp
+Cambodia,Kâmpóng Thum,KHM,521,Kampong Thum
+Cambodia,Kâmpôt,KHM,522,Kampot
+Cambodia,Kândal,KHM,523,Kandal
+Cambodia,Kaôh Kong,KHM,524,Kaoh Kong
+Cambodia,Kep,KHM,525,Kep
+Cambodia,Krâchéh,KHM,526,Kracheh
+Cambodia,Krong Pailin,KHM,527,Krong Pailin
+Cambodia,Krong Preah Sihanouk,KHM,528,Krong Preah Sihanouk
+Cambodia,Môndól Kiri,KHM,529,Mondol Kiri
+Cambodia,Otdar Mean Chey,KHM,530,Otdar Mean Chey
+Cambodia,Phnom Penh,KHM,531,Phnom Penh
+Cambodia,Pouthisat,KHM,532,Pouthisat
+Cambodia,Preah Vihéar,KHM,533,Preah Vihear
+Cambodia,Prey Vêng,KHM,534,Prey Veng
+Cambodia,Rôtânôkiri,KHM,535,Rotanokiri
+Cambodia,Siemréab,KHM,536,Siemreab
+Cambodia,Stng Trêng,KHM,537,Stng Treng
+Cambodia,Svay Rieng,KHM,538,Svay Rieng
+Cambodia,Takêv,KHM,539,Takev
+Cameroon,Adamaoua,CMR,540,Adamaoua
+Cameroon,Centre,CMR,541,Centre
+Cameroon,Est,CMR,542,Est
+Cameroon,Extrême-Nord,CMR,543,Extreme-Nord
+Cameroon,Littoral,CMR,544,Littoral
+Cameroon,Nord,CMR,545,Nord
+Cameroon,Nord-Ouest,CMR,546,Nord-Ouest
+Cameroon,Ouest,CMR,547,Ouest
+Cameroon,Sud,CMR,548,Sud
+Cameroon,Sud-Ouest,CMR,549,Sud-Ouest
+Canada,Alberta,CAN,550,Alberta
+Canada,British Columbia,CAN,551,British Columbia
+Canada,Manitoba,CAN,552,Manitoba
+Canada,New Brunswick,CAN,553,New Brunswick
+Canada,Newfoundland and Labrador,CAN,554,Newfoundland and Labrador
+Canada,Northwest Territories,CAN,555,Northwest Territories
+Canada,Nova Scotia,CAN,556,Nova Scotia
+Canada,Nunavut,CAN,557,Nunavut
+Canada,Ontario,CAN,558,Ontario
+Canada,Prince Edward Island,CAN,559,Prince Edward Island
+Canada,Québec,CAN,560,Quebec
+Canada,Saskatchewan,CAN,561,Saskatchewan
+Canada,Yukon,CAN,562,Yukon
+Cape Verde,Boa Vista,CPV,563,Boa Vista
+Cape Verde,Brava,CPV,564,Brava
+Cape Verde,Maio,CPV,565,Maio
+Cape Verde,Mosteiros,CPV,566,Mosteiros
+Cape Verde,Paúl,CPV,567,Paul
+Cape Verde,Porto Novo,CPV,568,Porto Novo
+Cape Verde,Praia,CPV,569,Praia
+Cape Verde,Ribeira Grande,CPV,570,Ribeira Grande
+Cape Verde,Sal,CPV,571,Sal
+Cape Verde,Santa Catarina,CPV,572,Santa Catarina
+Cape Verde,Santa Cruz,CPV,573,Santa Cruz
+Cape Verde,São Domingos,CPV,574,Sao Domingos
+Cape Verde,São Filipe,CPV,575,Sao Filipe
+Cape Verde,São Miguel,CPV,576,Sao Miguel
+Cape Verde,São Nicolau,CPV,577,Sao Nicolau
+Cape Verde,São Vicente,CPV,578,Sao Vicente
+Cape Verde,Tarrafal,CPV,579,Tarrafal
+Cayman Islands,Bodden Town,CYM,580,Bodden Town
+Cayman Islands,Cayman Brac,CYM,581,Cayman Brac
+Cayman Islands,East End,CYM,582,East End
+Cayman Islands,George Town,CYM,583,George Town
+Cayman Islands,Little Cayman,CYM,584,Little Cayman
+Cayman Islands,North Side,CYM,585,North Side
+Cayman Islands,West Bay,CYM,586,West Bay
+Central African Republic,Bamingui-Bangoran,CAF,587,Bamingui-Bangoran
+Central African Republic,Bangui,CAF,588,Bangui
+Central African Republic,Basse-Kotto,CAF,589,Basse-Kotto
+Central African Republic,Haute-Kotto,CAF,591,Haute-Kotto
+Central African Republic,Haut-Mbomou,CAF,590,Haut-Mbomou
+Central African Republic,Kémo,CAF,592,Kemo
+Central African Republic,Lobaye,CAF,593,Lobaye
+Central African Republic,Mambéré-Kadéï,CAF,594,Mambere-Kadei
+Central African Republic,Mbomou,CAF,595,Mbomou
+Central African Republic,Nana-Grébizi,CAF,596,Nana-Grebizi
+Central African Republic,Nana-Mambéré,CAF,597,Nana-Mambere
+Central African Republic,Ombella-M'Poko,CAF,598,Ombella-M'Poko
+Central African Republic,Ouaka,CAF,599,Ouaka
+Central African Republic,Ouham,CAF,600,Ouham
+Central African Republic,Ouham-Pendé,CAF,601,Ouham-Pende
+Central African Republic,Sangha-Mbaéré,CAF,602,Sangha-Mbaere
+Central African Republic,Vakaga,CAF,603,Vakaga
+Chad,Batha,TCD,604,Batha
+Chad,Bet,TCD,605,Bet
+Chad,Chari-Baguirmi,TCD,606,Chari-Baguirmi
+Chad,Guéra,TCD,607,Guera
+Chad,Hadjer-Lamis,TCD,608,Hadjer-Lamis
+Chad,Kanem,TCD,609,Kanem
+Chad,Lac,TCD,610,Lac
+Chad,Logone Occidental,TCD,611,Logone Occidental
+Chad,Logone Oriental,TCD,612,Logone Oriental
+Chad,Mandoul,TCD,613,Mandoul
+Chad,Mayo-Kebbi Est,TCD,614,Mayo-Kebbi Est
+Chad,Mayo-Kebbi Ouest,TCD,615,Mayo-Kebbi Ouest
+Chad,Moyen-Chari,TCD,616,Moyen-Chari
+Chad,Ouaddaï,TCD,617,Ouaddai
+Chad,Salamat,TCD,618,Salamat
+Chad,Tandjilé,TCD,619,Tandjile
+Chad,Ville de N'Djamena,TCD,620,Ville de N'Djamena
+Chad,Wadi Fira,TCD,621,Wadi Fira
+Chile,Aisén del General Carlos Ibáñez del Campo,CHL,622,Aisen del General Carlos Ibanez del Campo
+Chile,Antofagasta,CHL,623,Antofagasta
+Chile,Araucanía,CHL,624,Araucania
+Chile,Atacama,CHL,625,Atacama
+Chile,Bío-Bío,CHL,626,Bio-Bio
+Chile,Coquimbo,CHL,627,Coquimbo
+Chile,Libertador General Bernardo O'Higgins,CHL,628,Libertador General Bernardo O'Higgins
+Chile,Los Lagos,CHL,629,Los Lagos
+Chile,Magallanes y Antártica Chilena,CHL,630,Magallanes y Antartica Chilena
+Chile,Maule,CHL,631,Maule
+Chile,Región Metropolitana de Santiago,CHL,632,Region Metropolitana de Santiago
+Chile,Tarapacá,CHL,633,Tarapaca
+Chile,Valparaíso,CHL,634,Valparaiso
+China,Anhui,CHN,635,Anhui
+China,Beijing,CHN,636,Beijing
+China,Chongqing,CHN,637,Chongqing
+China,Fujian,CHN,638,Fujian
+China,Gansu,CHN,639,Gansu
+China,Guangdong,CHN,640,Guangdong
+China,Guangxi,CHN,641,Guangxi
+China,Guizhou,CHN,642,Guizhou
+China,Hainan,CHN,643,Hainan
+China,Hebei,CHN,644,Hebei
+China,Heilongjiang,CHN,645,Heilongjiang
+China,Henan,CHN,646,Henan
+China,Hubei,CHN,647,Hubei
+China,Hunan,CHN,648,Hunan
+China,Jiangsu,CHN,649,Jiangsu
+China,Jiangxi,CHN,650,Jiangxi
+China,Jilin,CHN,651,Jilin
+China,Liaoning,CHN,652,Liaoning
+China,Nei Mongol,CHN,653,Nei Mongol
+China,Ningxia Hui,CHN,654,Ningxia Hui
+China,Paracel Islands,CHN,655,Paracel Islands
+China,Qinghai,CHN,656,Qinghai
+China,Shaanxi,CHN,657,Shaanxi
+China,Shandong,CHN,658,Shandong
+China,Shanghai,CHN,659,Shanghai
+China,Shanxi,CHN,660,Shanxi
+China,Sichuan,CHN,661,Sichuan
+China,Tianjin,CHN,662,Tianjin
+China,Xinjiang Uygur,CHN,663,Xinjiang Uygur
+China,Xizang,CHN,664,Xizang
+China,Yunnan,CHN,665,Yunnan
+China,Zhejiang,CHN,666,Zhejiang
+Christmas Island,,CXR,667,
+Clipperton Island,Clipperton island,CL-,668,Clipperton island
+Cocos Islands,,CCK,669,
+Colombia,Amazonas,COL,670,Amazonas
+Colombia,Antioquia,COL,671,Antioquia
+Colombia,Arauca,COL,672,Arauca
+Colombia,Atlántico,COL,673,Atlantico
+Colombia,Bolívar,COL,674,Bolivar
+Colombia,Boyacá,COL,675,Boyaca
+Colombia,Caldas,COL,676,Caldas
+Colombia,Caquetá,COL,677,Caqueta
+Colombia,Casanare,COL,678,Casanare
+Colombia,Cauca,COL,679,Cauca
+Colombia,Cesar,COL,680,Cesar
+Colombia,Chocó,COL,681,Choco
+Colombia,Córdoba,COL,682,Cordoba
+Colombia,Cundinamarca,COL,683,Cundinamarca
+Colombia,Guainía,COL,684,Guainia
+Colombia,Guaviare,COL,685,Guaviare
+Colombia,Huila,COL,686,Huila
+Colombia,La Guajira,COL,687,La Guajira
+Colombia,Magdalena,COL,688,Magdalena
+Colombia,Meta,COL,689,Meta
+Colombia,Nariño,COL,690,Narino
+Colombia,Norte de Santander,COL,691,Norte de Santander
+Colombia,Putumayo,COL,692,Putumayo
+Colombia,Quindío,COL,693,Quindio
+Colombia,Risaralda,COL,694,Risaralda
+Colombia,San Andrés y Providencia,COL,695,San Andres y Providencia
+Colombia,Santander,COL,696,Santander
+Colombia,Sucre,COL,697,Sucre
+Colombia,Tolima,COL,698,Tolima
+Colombia,Valle del Cauca,COL,699,Valle del Cauca
+Colombia,Vaupés,COL,700,Vaupes
+Colombia,Vichada,COL,701,Vichada
+Comoros,Mwali,COM,702,Mwali
+Comoros,Njazídja,COM,703,Njazidja
+Comoros,Nzwani,COM,704,Nzwani
+Cook Islands,,COK,705,
+Costa Rica,Alajuela,CRI,706,Alajuela
+Costa Rica,Cartago,CRI,707,Cartago
+Costa Rica,Guanacaste,CRI,708,Guanacaste
+Costa Rica,Heredia,CRI,709,Heredia
+Costa Rica,Limón,CRI,710,Limon
+Costa Rica,Puntarenas,CRI,711,Puntarenas
+Costa Rica,San José,CRI,712,San Jose
+Côte d'Ivoire,Agnéby,CIV,713,Agneby
+Côte d'Ivoire,Bafing,CIV,714,Bafing
+Côte d'Ivoire,Bas-Sassandra,CIV,715,Bas-Sassandra
+Côte d'Ivoire,Denguélé,CIV,716,Denguele
+Côte d'Ivoire,Dix-Huit Montagnes,CIV,717,Dix-Huit Montagnes
+Côte d'Ivoire,Fromager,CIV,718,Fromager
+Côte d'Ivoire,Haut-Sassandra,CIV,719,Haut-Sassandra
+Côte d'Ivoire,Lacs,CIV,720,Lacs
+Côte d'Ivoire,Lagunes,CIV,721,Lagunes
+Côte d'Ivoire,Marahoué,CIV,722,Marahoue
+Côte d'Ivoire,Moyen-Cavally,CIV,723,Moyen-Cavally
+Côte d'Ivoire,Moyen-Comoé,CIV,724,Moyen-Comoe
+Côte d'Ivoire,N'zi-Comoé,CIV,725,N'zi-Comoe
+Côte d'Ivoire,Savanes,CIV,726,Savanes
+Côte d'Ivoire,Sud-Bandama,CIV,727,Sud-Bandama
+Côte d'Ivoire,Sud-Comoé,CIV,728,Sud-Comoe
+Côte d'Ivoire,Vallée du Bandama,CIV,729,Vallee du Bandama
+Côte d'Ivoire,Worodougou,CIV,730,Worodougou
+Côte d'Ivoire,Zanzan,CIV,731,Zanzan
+Croatia,Bjelovarska-Bilogorska,HRV,732,Bjelovarska-Bilogorska
+Croatia,Brodsko-Posavska,HRV,733,Brodsko-Posavska
+Croatia,Dubrovacko-Neretvanska,HRV,734,Dubrovacko-Neretvanska
+Croatia,Grad Zagreb,HRV,735,Grad Zagreb
+Croatia,ibensko-Kninska,HRV,745,ibensko-Kninska
+Croatia,Istarska,HRV,736,Istarska
+Croatia,Karlovacka,HRV,737,Karlovacka
+Croatia,Koprivnicko-Krievacka,HRV,738,Koprivnicko-Krievacka
+Croatia,Krapinsko-Zagorska,HRV,739,Krapinsko-Zagorska
+Croatia,Licko-Senjska,HRV,740,Licko-Senjska
+Croatia,Medimurska,HRV,741,Medimurska
+Croatia,Osjecko-Baranjska,HRV,742,Osjecko-Baranjska
+Croatia,Poeko-Slavonska,HRV,743,Poeko-Slavonska
+Croatia,Primorsko-Goranska,HRV,744,Primorsko-Goranska
+Croatia,Sisacko-Moslavacka,HRV,746,Sisacko-Moslavacka
+Croatia,Splitsko-Dalmatinska,HRV,747,Splitsko-Dalmatinska
+Croatia,Varadinska,HRV,748,Varadinska
+Croatia,Viroviticko-Podravska,HRV,749,Viroviticko-Podravska
+Croatia,Vukovarsko-Srijemska,HRV,750,Vukovarsko-Srijemska
+Croatia,Zadarska,HRV,751,Zadarska
+Croatia,Zagrebacka,HRV,752,Zagrebacka
+Cuba,Camagüey,CUB,753,Camaguey
+Cuba,Ciego de Ávila,CUB,754,Ciego de Avila
+Cuba,Cienfuegos,CUB,755,Cienfuegos
+Cuba,Ciudad de la Habana,CUB,756,Ciudad de la Habana
+Cuba,Granma,CUB,757,Granma
+Cuba,Guantánamo,CUB,758,Guantanamo
+Cuba,Holguín,CUB,759,Holguin
+Cuba,Isla de la Juventud,CUB,760,Isla de la Juventud
+Cuba,La Habana,CUB,761,La Habana
+Cuba,Las Tunas,CUB,762,Las Tunas
+Cuba,Matanzas,CUB,763,Matanzas
+Cuba,Pinar del Río,CUB,764,Pinar del Rio
+Cuba,Sancti Spíritus,CUB,765,Sancti Spiritus
+Cuba,Santiago de Cuba,CUB,766,Santiago de Cuba
+Cuba,Villa Clara,CUB,767,Villa Clara
+Curaçao,,CUW,768,
+Cyprus,Famagusta,CYP,769,Famagusta
+Cyprus,Kyrenia,CYP,770,Kyrenia
+Cyprus,Larnaca,CYP,771,Larnaca
+Cyprus,Limassol,CYP,772,Limassol
+Cyprus,Nicosia,CYP,773,Nicosia
+Cyprus,Paphos,CYP,774,Paphos
+Czech Republic,Jihoceský,CZE,775,Jihocesky
+Czech Republic,Jihomoravský,CZE,776,Jihomoravsky
+Czech Republic,Karlovarský,CZE,777,Karlovarsky
+Czech Republic,Kraj Vysocina,CZE,778,Kraj Vysocina
+Czech Republic,Královéhradecký,CZE,779,Kralovehradecky
+Czech Republic,Liberecký,CZE,780,Liberecky
+Czech Republic,Moravskoslezský,CZE,781,Moravskoslezsky
+Czech Republic,Olomoucký,CZE,782,Olomoucky
+Czech Republic,Pardubický,CZE,783,Pardubicky
+Czech Republic,Plzenský,CZE,784,Plzensky
+Czech Republic,Prague,CZE,785,Prague
+Czech Republic,Stredoceský,CZE,786,Stredocesky
+Czech Republic,Ústecký,CZE,787,Ustecky
+Czech Republic,Zlínský,CZE,788,Zlinsky
+Democratic Republic of the Congo,Bandundu,COD,789,Bandundu
+Democratic Republic of the Congo,Bas-Congo,COD,790,Bas-Congo
+Democratic Republic of the Congo,Équateur,COD,791,Equateur
+Democratic Republic of the Congo,Kasaï-Occidental,COD,792,Kasai-Occidental
+Democratic Republic of the Congo,Kasaï-Oriental,COD,793,Kasai-Oriental
+Democratic Republic of the Congo,Katanga,COD,794,Katanga
+Democratic Republic of the Congo,Kinshasa City,COD,795,Kinshasa City
+Democratic Republic of the Congo,Kivu,COD,796,Kivu
+Democratic Republic of the Congo,Orientale,COD,797,Orientale
+Denmark,Århus,DNK,798,Arhus
+Denmark,Bornholm,DNK,799,Bornholm
+Denmark,Copenhagen,DNK,800,Copenhagen
+Denmark,Frederiksborg,DNK,801,Frederiksborg
+Denmark,Fyn,DNK,802,Fyn
+Denmark,North Jutland,DNK,803,North Jutland
+Denmark,Ribe,DNK,804,Ribe
+Denmark,Ringkøbing,DNK,805,Ringkobing
+Denmark,Roskilde,DNK,806,Roskilde
+Denmark,South Jutland,DNK,807,South Jutland
+Denmark,Storstrøm,DNK,808,Storstrom
+Denmark,Vejle,DNK,809,Vejle
+Denmark,Vestsjælland,DNK,810,Vestsjaelland
+Denmark,Viborg,DNK,811,Viborg
+Djibouti,Ali Sabieh,DJI,812,Ali Sabieh
+Djibouti,Dikhil,DJI,813,Dikhil
+Djibouti,Djibouti,DJI,814,Djibouti
+Djibouti,Obock,DJI,815,Obock
+Djibouti,Tadjourah,DJI,816,Tadjourah
+Dominican Republic,Azua,DOM,827,Azua
+Dominican Republic,Bahoruco,DOM,828,Bahoruco
+Dominican Republic,Barahona,DOM,829,Barahona
+Dominican Republic,Dajabón,DOM,830,Dajabon
+Dominican Republic,Distrito Nacional,DOM,831,Distrito Nacional
+Dominican Republic,Duarte,DOM,832,Duarte
+Dominican Republic,El Seybo,DOM,833,El Seybo
+Dominican Republic,Espaillat,DOM,834,Espaillat
+Dominican Republic,Hato Mayor,DOM,835,Hato Mayor
+Dominican Republic,Independencia,DOM,836,Independencia
+Dominican Republic,La Altagracia,DOM,837,La Altagracia
+Dominican Republic,La Estrelleta,DOM,838,La Estrelleta
+Dominican Republic,La Romana,DOM,839,La Romana
+Dominican Republic,La Vega,DOM,840,La Vega
+Dominican Republic,María Trinidad Sánchez,DOM,841,Maria Trinidad Sanchez
+Dominican Republic,Monseñor Nouel,DOM,842,Monsenor Nouel
+Dominican Republic,Monte Cristi,DOM,843,Monte Cristi
+Dominican Republic,Monte Plata,DOM,844,Monte Plata
+Dominican Republic,Pedernales,DOM,845,Pedernales
+Dominican Republic,Peravia,DOM,846,Peravia
+Dominican Republic,Puerto Plata,DOM,847,Puerto Plata
+Dominican Republic,Salcedo,DOM,848,Salcedo
+Dominican Republic,Samaná,DOM,849,Samana
+Dominican Republic,Sánchez Ramírez,DOM,854,Sanchez Ramirez
+Dominican Republic,San Cristóbal,DOM,850,San Cristobal
+Dominican Republic,San José de Ocoa,DOM,851,San Jose de Ocoa
+Dominican Republic,San Juan,DOM,852,San Juan
+Dominican Republic,San Pedro de Macorís,DOM,853,San Pedro de Macoris
+Dominican Republic,Santiago,DOM,855,Santiago
+Dominican Republic,Santiago Rodríguez,DOM,856,Santiago Rodriguez
+Dominican Republic,Santo Domingo,DOM,857,Santo Domingo
+Dominican Republic,Valverde,DOM,858,Valverde
+Dominica,Saint Andrew,DMA,817,Saint Andrew
+Dominica,Saint David,DMA,818,Saint David
+Dominica,Saint George,DMA,819,Saint George
+Dominica,Saint John,DMA,820,Saint John
+Dominica,Saint Joseph,DMA,821,Saint Joseph
+Dominica,Saint Luke,DMA,822,Saint Luke
+Dominica,Saint Mark,DMA,823,Saint Mark
+Dominica,Saint Patrick,DMA,824,Saint Patrick
+Dominica,Saint Paul,DMA,825,Saint Paul
+Dominica,Saint Peter,DMA,826,Saint Peter
+East Timor,Aileu,TLS,859,Aileu
+East Timor,Ainaro,TLS,860,Ainaro
+East Timor,Ambeno,TLS,861,Ambeno
+East Timor,Baucau,TLS,862,Baucau
+East Timor,Bobonaro,TLS,863,Bobonaro
+East Timor,Cova Lima,TLS,864,Cova Lima
+East Timor,Dili,TLS,865,Dili
+East Timor,Ermera,TLS,866,Ermera
+East Timor,Lautem,TLS,867,Lautem
+East Timor,Liquica,TLS,868,Liquica
+East Timor,Manatuto,TLS,869,Manatuto
+East Timor,Manufahi,TLS,870,Manufahi
+East Timor,Viqueque,TLS,871,Viqueque
+Ecuador,Azuay,ECU,872,Azuay
+Ecuador,Bolivar,ECU,873,Bolivar
+Ecuador,Cañar,ECU,874,Canar
+Ecuador,Carchi,ECU,875,Carchi
+Ecuador,Chimborazo,ECU,876,Chimborazo
+Ecuador,Cotopaxi,ECU,877,Cotopaxi
+Ecuador,El Oro,ECU,878,El Oro
+Ecuador,Esmeraldas,ECU,879,Esmeraldas
+Ecuador,Galápagos,ECU,880,Galapagos
+Ecuador,Guayas,ECU,881,Guayas
+Ecuador,Imbabura,ECU,882,Imbabura
+Ecuador,Loja,ECU,883,Loja
+Ecuador,Los Rios,ECU,884,Los Rios
+Ecuador,Manabi,ECU,885,Manabi
+Ecuador,Morona Santiago,ECU,886,Morona Santiago
+Ecuador,Orellana,ECU,887,Orellana
+Ecuador,Pastaza,ECU,888,Pastaza
+Ecuador,Pichincha,ECU,889,Pichincha
+Ecuador,Sucumbios,ECU,890,Sucumbios
+Ecuador,Tungurahua,ECU,891,Tungurahua
+Ecuador,Zamora Chinchipe,ECU,892,Zamora Chinchipe
+Egypt,Ad Daqahliyah,EGY,893,Ad Daqahliyah
+Egypt,Al Bahr al Ahmar,EGY,894,Al Bahr al Ahmar
+Egypt,Al Buhayrah,EGY,895,Al Buhayrah
+Egypt,Al Fayyum,EGY,896,Al Fayyum
+Egypt,Al Gharbiyah,EGY,897,Al Gharbiyah
+Egypt,Al Iskandariyah,EGY,898,Al Iskandariyah
+Egypt,Al Isma`iliyah,EGY,899,Al Isma`iliyah
+Egypt,Al Jizah,EGY,900,Al Jizah
+Egypt,Al Minufiyah,EGY,901,Al Minufiyah
+Egypt,Al Minya,EGY,902,Al Minya
+Egypt,Al Qahirah,EGY,903,Al Qahirah
+Egypt,Al Qalyubiyah,EGY,904,Al Qalyubiyah
+Egypt,Al Wadi al Jadid,EGY,905,Al Wadi al Jadid
+Egypt,Ash Sharqiyah,EGY,907,Ash Sharqiyah
+Egypt,As Suways,EGY,906,As Suways
+Egypt,Aswan,EGY,908,Aswan
+Egypt,Asyut,EGY,909,Asyut
+Egypt,Bani Suwayf,EGY,910,Bani Suwayf
+Egypt,Bur Sa`id,EGY,911,Bur Sa`id
+Egypt,Dumyat,EGY,912,Dumyat
+Egypt,Janub Sina',EGY,913,Janub Sina'
+Egypt,Kafr ash Shaykh,EGY,914,Kafr ash Shaykh
+Egypt,Matruh,EGY,915,Matruh
+Egypt,Qina,EGY,916,Qina
+Egypt,Shamal Sina',EGY,917,Shamal Sina'
+Egypt,Suhaj,EGY,918,Suhaj
+El Salvador,Ahuachapán,SLV,919,Ahuachapan
+El Salvador,Cabañas,SLV,920,Cabanas
+El Salvador,Chalatenango,SLV,921,Chalatenango
+El Salvador,Cuscatlán,SLV,922,Cuscatlan
+El Salvador,La Libertad,SLV,923,La Libertad
+El Salvador,La Paz,SLV,924,La Paz
+El Salvador,La Unión,SLV,925,La Union
+El Salvador,Morazán,SLV,926,Morazan
+El Salvador,San Miguel,SLV,927,San Miguel
+El Salvador,San Salvador,SLV,928,San Salvador
+El Salvador,Santa Ana,SLV,930,Santa Ana
+El Salvador,San Vicente,SLV,929,San Vicente
+El Salvador,Sonsonate,SLV,931,Sonsonate
+El Salvador,Usulután,SLV,932,Usulutan
+Equatorial Guinea,Annobón,GNQ,933,Annobon
+Equatorial Guinea,Bioko Norte,GNQ,934,Bioko Norte
+Equatorial Guinea,Bioko Sur,GNQ,935,Bioko Sur
+Equatorial Guinea,Centro Sur,GNQ,936,Centro Sur
+Equatorial Guinea,Kié-Ntem,GNQ,937,Kie-Ntem
+Equatorial Guinea,Litoral,GNQ,938,Litoral
+Equatorial Guinea,Wele-Nzás,GNQ,939,Wele-Nzas
+Eritrea,Anseba,ERI,940,Anseba
+Eritrea,Debubawi Keyih Bahri,ERI,942,Debubawi Keyih Bahri
+Eritrea,Debub,ERI,941,Debub
+Eritrea,Gash Barka,ERI,943,Gash Barka
+Eritrea,Maekel,ERI,944,Maekel
+Eritrea,Semenawi Keyih Bahri,ERI,945,Semenawi Keyih Bahri
+Estonia,Harju,EST,946,Harju
+Estonia,Hiiu,EST,947,Hiiu
+Estonia,Ida-Viru,EST,948,Ida-Viru
+Estonia,Järva,EST,949,Jarva
+Estonia,Jõgeva,EST,950,Jogeva
+Estonia,Lääne,EST,951,Laane
+Estonia,Lääne-Viru,EST,952,Laane-Viru
+Estonia,Pärnu,EST,953,Parnu
+Estonia,Peipsi,EST,954,Peipsi
+Estonia,Põlva,EST,955,Polva
+Estonia,Rapla,EST,956,Rapla
+Estonia,Saare,EST,957,Saare
+Estonia,Tartu,EST,958,Tartu
+Estonia,Valga,EST,959,Valga
+Estonia,Viljandi,EST,960,Viljandi
+Estonia,Võru,EST,961,Voru
+Ethiopia,Addis Ababa,ETH,962,Addis Ababa
+Ethiopia,Afar,ETH,963,Afar
+Ethiopia,Amhara,ETH,964,Amhara
+Ethiopia,Benshangul-Gumaz,ETH,965,Benshangul-Gumaz
+Ethiopia,Dire Dawa,ETH,966,Dire Dawa
+Ethiopia,Gambela Peoples,ETH,967,Gambela Peoples
+Ethiopia,Harari People,ETH,968,Harari People
+Ethiopia,Oromia,ETH,969,Oromia
+Ethiopia,Somali,ETH,970,Somali
+Ethiopia,"Southern Nations, Nationalities and Peoples",ETH,971,"Southern Nations, Nationalities and Peoples"
+Ethiopia,Tigray,ETH,972,Tigray
+Falkland Islands,,FLK,973,
+Faroe Islands,Eysturoyar,FRO,974,Eysturoyar
+Faroe Islands,Norderøerne,FRO,975,Norderoerne
+Faroe Islands,Sandoyar,FRO,976,Sandoyar
+Faroe Islands,Streymoyar,FRO,977,Streymoyar
+Faroe Islands,Suðuroyar,FRO,978,Suduroyar
+Faroe Islands,Vågø,FRO,979,Vago
+Fiji,Central,FJI,980,Central
+Fiji,Eastern,FJI,981,Eastern
+Fiji,Northern,FJI,982,Northern
+Fiji,Rotuma,FJI,983,Rotuma
+Fiji,Western,FJI,984,Western
+Finland,Eastern Finland,FIN,985,Eastern Finland
+Finland,Eland,ALA,986,Eland
+Finland,Lapland,FIN,987,Lapland
+Finland,Oulu,FIN,988,Oulu
+Finland,Southern Finland,FIN,989,Southern Finland
+Finland,Western Finland,FIN,990,Western Finland
+France,Alsace,FRA,991,Alsace
+France,Aquitaine,FRA,992,Aquitaine
+France,Auvergne,FRA,993,Auvergne
+France,Basse-Normandie,FRA,994,Basse-Normandie
+France,Bourgogne,FRA,995,Bourgogne
+France,Bretagne,FRA,996,Bretagne
+France,Centre,FRA,997,Centre
+France,Champagne-Ardenne,FRA,998,Champagne-Ardenne
+France,Corse,FRA,999,Corse
+France,Franche-Comté,FRA,1000,Franche-Comte
+France,Haute-Normandie,FRA,1001,Haute-Normandie
+France,Île-de-France,FRA,1002,Ile-de-France
+France,Languedoc-Roussillon,FRA,1003,Languedoc-Roussillon
+France,Limousin,FRA,1004,Limousin
+France,Lorraine,FRA,1005,Lorraine
+France,Midi-Pyrénées,FRA,1006,Midi-Pyrenees
+France,Nord-Pas-de-Calais,FRA,1007,Nord-Pas-de-Calais
+France,Pays de la Loire,FRA,1008,Pays de la Loire
+France,Picardie,FRA,1009,Picardie
+France,Poitou-Charentes,FRA,1010,Poitou-Charentes
+France,Provence-Alpes-Côte d'Azur,FRA,1011,Provence-Alpes-Cote d'Azur
+France,Rhône-Alpes,FRA,1012,Rhone-Alpes
+French Guiana,Cayenne,GUF,1013,Cayenne
+French Guiana,Saint-Laurent-du-Maroni,GUF,1014,Saint-Laurent-du-Maroni
+French Polynesia,,PYF,1015,
+French Southern Territories,Amsterdam and Saint-Paul,ATF,1016,Amsterdam and Saint-Paul
+French Southern Territories,Crozet Archipelago,ATF,1017,Crozet Archipelago
+French Southern Territories,Îles Éparses,ATF,1018,Iles Eparses
+French Southern Territories,Kerguelen,ATF,1019,Kerguelen
+Gabon,Estuaire,GAB,1020,Estuaire
+Gabon,Haut-Ogooué,GAB,1021,Haut-Ogooue
+Gabon,Moyen-Ogooué,GAB,1022,Moyen-Ogooue
+Gabon,Ngounié,GAB,1023,Ngounie
+Gabon,Nyanga,GAB,1024,Nyanga
+Gabon,Ogooué-Ivindo,GAB,1025,Ogooue-Ivindo
+Gabon,Ogooué-Lolo,GAB,1026,Ogooue-Lolo
+Gabon,Ogooué-Maritime,GAB,1027,Ogooue-Maritime
+Gabon,Wouleu-Ntem,GAB,1028,Wouleu-Ntem
+Gambia,Banjul,GMB,1029,Banjul
+Gambia,Lower River,GMB,1030,Lower River
+Gambia,Maccarthy Island,GMB,1031,Maccarthy Island
+Gambia,North Bank,GMB,1032,North Bank
+Gambia,Upper River,GMB,1033,Upper River
+Gambia,Western,GMB,1034,Western
+Georgia,Abkhazia,GEO,1035,Abkhazia
+Georgia,Ajaria,GEO,1036,Ajaria
+Georgia,Guria,GEO,1037,Guria
+Georgia,Imereti,GEO,1038,Imereti
+Georgia,Kakheti,GEO,1039,Kakheti
+Georgia,Kvemo Kartli,GEO,1040,Kvemo Kartli
+Georgia,Mtskheta-Mtianeti,GEO,1041,Mtskheta-Mtianeti
+Georgia,Racha-Lechkhumi-Kvemo Svaneti,GEO,1042,Racha-Lechkhumi-Kvemo Svaneti
+Georgia,Samegrelo-Zemo Svaneti,GEO,1043,Samegrelo-Zemo Svaneti
+Georgia,Samtskhe-Javakheti,GEO,1044,Samtskhe-Javakheti
+Georgia,Shida Kartli,GEO,1045,Shida Kartli
+Georgia,Tbilisi,GEO,1046,Tbilisi
+Germany,Baden-Württemberg,DEU,1047,Baden-Wurttemberg
+Germany,Bayern,DEU,1048,Bayern
+Germany,Berlin,DEU,1049,Berlin
+Germany,Brandenburg,DEU,1050,Brandenburg
+Germany,Bremen,DEU,1051,Bremen
+Germany,Hamburg,DEU,1052,Hamburg
+Germany,Hessen,DEU,1053,Hessen
+Germany,Mecklenburg-Vorpommern,DEU,1054,Mecklenburg-Vorpommern
+Germany,Niedersachsen,DEU,1055,Niedersachsen
+Germany,Nordrhein-Westfalen,DEU,1056,Nordrhein-Westfalen
+Germany,Rheinland-Pfalz,DEU,1057,Rheinland-Pfalz
+Germany,Saarland,DEU,1058,Saarland
+Germany,Sachsen-Anhalt,DEU,1060,Sachsen-Anhalt
+Germany,Sachsen,DEU,1059,Sachsen
+Germany,Schleswig-Holstein,DEU,1061,Schleswig-Holstein
+Germany,Thüringen,DEU,1062,Thuringen
+Ghana,Ashanti,GHA,1063,Ashanti
+Ghana,Brong Ahafo,GHA,1064,Brong Ahafo
+Ghana,Central,GHA,1065,Central
+Ghana,Eastern,GHA,1066,Eastern
+Ghana,Greater Accra,GHA,1067,Greater Accra
+Ghana,Northern,GHA,1068,Northern
+Ghana,Upper East,GHA,1069,Upper East
+Ghana,Upper West,GHA,1070,Upper West
+Ghana,Volta,GHA,1071,Volta
+Ghana,Western,GHA,1072,Western
+Gibraltar,Gibraltar,GIB,1073,Gibraltar
+Greece,Anatoliki Makedonia kai Thraki,GRC,1074,Anatoliki Makedonia kai Thraki
+Greece,Attiki,GRC,1075,Attiki
+Greece,Ayion Oros,GRC,1076,Ayion Oros
+Greece,Dytiki Ellada,GRC,1077,Dytiki Ellada
+Greece,Dytiki Makedonia,GRC,1078,Dytiki Makedonia
+Greece,Ionioi Nisoi,GRC,1079,Ionioi Nisoi
+Greece,Ipeiros,GRC,1080,Ipeiros
+Greece,Kentriki Makedonia,GRC,1081,Kentriki Makedonia
+Greece,Kriti,GRC,1082,Kriti
+Greece,Notio Aigaio,GRC,1083,Notio Aigaio
+Greece,Peloponnisos,GRC,1084,Peloponnisos
+Greece,Stereá Elláda,GRC,1085,Sterea Ellada
+Greece,Thessalia,GRC,1086,Thessalia
+Greece,Voreio Aigaio,GRC,1087,Voreio Aigaio
+Greenland,Avannaa,GRL,1088,Avannaa
+Greenland,Kitaa,GRL,1089,Kitaa
+Greenland,Tunu,GRL,1090,Tunu
+Grenada,Carriacou,GRD,1091,Carriacou
+Grenada,Saint Andrew,GRD,1092,Saint Andrew
+Grenada,Saint David,GRD,1093,Saint David
+Grenada,Saint George,GRD,1094,Saint George
+Grenada,Saint John,GRD,1095,Saint John
+Grenada,Saint Mark,GRD,1096,Saint Mark
+Grenada,Saint Patrick,GRD,1097,Saint Patrick
+Guadeloupe,Basse-Terre,GLP,1098,Basse-Terre
+Guadeloupe,Pointe-à-Pitre,GLP,1099,Pointe-a-Pitre
+Guam,Agana Heights,GUM,1100,Agana Heights
+Guam,Agat,GUM,1101,Agat
+Guam,Asan,GUM,1102,Asan
+Guam,Barrigada,GUM,1103,Barrigada
+Guam,Chalan-Pago-Ordot,GUM,1104,Chalan-Pago-Ordot
+Guam,Dededo,GUM,1105,Dededo
+Guam,Hagåtña,GUM,1106,Hagatna
+Guam,Inarajan,GUM,1107,Inarajan
+Guam,Mangilao,GUM,1108,Mangilao
+Guam,Merizo,GUM,1109,Merizo
+Guam,Mongmong-Toto-Maite,GUM,1110,Mongmong-Toto-Maite
+Guam,Piti,GUM,1111,Piti
+Guam,Santa Rita,GUM,1112,Santa Rita
+Guam,Sinajana,GUM,1113,Sinajana
+Guam,Talofofo,GUM,1114,Talofofo
+Guam,Tamuning,GUM,1115,Tamuning
+Guam,Umatac,GUM,1116,Umatac
+Guam,Yigo,GUM,1117,Yigo
+Guam,Yona,GUM,1118,Yona
+Guatemala,Alta Verapaz,GTM,1119,Alta Verapaz
+Guatemala,Baja Verapaz,GTM,1120,Baja Verapaz
+Guatemala,Chimaltenango,GTM,1121,Chimaltenango
+Guatemala,Chiquimula,GTM,1122,Chiquimula
+Guatemala,El Progreso,GTM,1123,El Progreso
+Guatemala,Escuintla,GTM,1124,Escuintla
+Guatemala,Guatemala,GTM,1125,Guatemala
+Guatemala,Huehuetenango,GTM,1126,Huehuetenango
+Guatemala,Izabal,GTM,1127,Izabal
+Guatemala,Jalapa,GTM,1128,Jalapa
+Guatemala,Jutiapa,GTM,1129,Jutiapa
+Guatemala,Petén,GTM,1130,Peten
+Guatemala,Quezaltenango,GTM,1131,Quezaltenango
+Guatemala,Quiché,GTM,1132,Quiche
+Guatemala,Retalhuleu,GTM,1133,Retalhuleu
+Guatemala,Sacatepéquez,GTM,1134,Sacatepequez
+Guatemala,San Marcos,GTM,1135,San Marcos
+Guatemala,Santa Rosa,GTM,1136,Santa Rosa
+Guatemala,Sololá,GTM,1137,Solola
+Guatemala,Suchitepéquez,GTM,1138,Suchitepequez
+Guatemala,Totonicapán,GTM,1139,Totonicapan
+Guatemala,Zacapa,GTM,1140,Zacapa
+Guernsey,,GGY,1141,
+Guinea-Bissau,Bafatá,GNB,1142,Bafata
+Guinea-Bissau,Biombo,GNB,1143,Biombo
+Guinea-Bissau,Bissau,GNB,1144,Bissau
+Guinea-Bissau,Bolama,GNB,1145,Bolama
+Guinea-Bissau,Cacheu,GNB,1146,Cacheu
+Guinea-Bissau,Gabú,GNB,1147,Gabu
+Guinea-Bissau,Oio,GNB,1148,Oio
+Guinea-Bissau,Quinara,GNB,1149,Quinara
+Guinea-Bissau,Tombali,GNB,1150,Tombali
+Guinea,Boké,GIN,1151,Boke
+Guinea,Conarky,GIN,1152,Conarky
+Guinea,Faranah,GIN,1153,Faranah
+Guinea,Kankan,GIN,1154,Kankan
+Guinea,Kindia,GIN,1155,Kindia
+Guinea,Labé,GIN,1156,Labe
+Guinea,Mamou,GIN,1157,Mamou
+Guinea,Nzérékoré,GIN,1158,Nzerekore
+Guyana,Barima-Waini,GUY,1159,Barima-Waini
+Guyana,Cuyuni-Mazaruni,GUY,1160,Cuyuni-Mazaruni
+Guyana,Demerara-Mahaica,GUY,1161,Demerara-Mahaica
+Guyana,East Berbice-Corentyne,GUY,1162,East Berbice-Corentyne
+Guyana,Essequibo Islands-West Demerara,GUY,1163,Essequibo Islands-West Demerara
+Guyana,Mahaica-Berbice,GUY,1164,Mahaica-Berbice
+Guyana,Pomeroon-Supenaam,GUY,1165,Pomeroon-Supenaam
+Guyana,Potaro-Siparuni,GUY,1166,Potaro-Siparuni
+Guyana,Upper Demerara-Berbice,GUY,1167,Upper Demerara-Berbice
+Guyana,Upper Takutu-Upper Essequibo,GUY,1168,Upper Takutu-Upper Essequibo
+Haiti,Centre,HTI,1169,Centre
+Haiti,Grand'Anse,HTI,1170,Grand'Anse
+Haiti,L'Artibonite,HTI,1171,L'Artibonite
+Haiti,Nippes,HTI,1172,Nippes
+Haiti,Nord-Est,HTI,1174,Nord-Est
+Haiti,Nord,HTI,1173,Nord
+Haiti,Nord-Ouest,HTI,1175,Nord-Ouest
+Haiti,Ouest,HTI,1176,Ouest
+Haiti,Sud-Est,HTI,1178,Sud-Est
+Haiti,Sud,HTI,1177,Sud
+Heard Island and McDonald Islands,,HMD,1179,
+Honduras,Atlántida,HND,1180,Atlantida
+Honduras,Choluteca,HND,1181,Choluteca
+Honduras,Colón,HND,1182,Colon
+Honduras,Comayagua,HND,1183,Comayagua
+Honduras,Copán,HND,1184,Copan
+Honduras,Cortés,HND,1185,Cortes
+Honduras,El Paraíso,HND,1186,El Paraiso
+Honduras,Francisco Morazán,HND,1187,Francisco Morazan
+Honduras,Gracias a Dios,HND,1188,Gracias a Dios
+Honduras,Intibucá,HND,1189,Intibuca
+Honduras,Islas de la Bahía,HND,1190,Islas de la Bahia
+Honduras,La Paz,HND,1191,La Paz
+Honduras,Lempira,HND,1192,Lempira
+Honduras,Ocotepeque,HND,1193,Ocotepeque
+Honduras,Olancho,HND,1194,Olancho
+Honduras,Santa Bárbara,HND,1195,Santa Barbara
+Honduras,Valle,HND,1196,Valle
+Honduras,Yoro,HND,1197,Yoro
+Hong Kong,Central and Western,HKG,1198,Central and Western
+Hong Kong,Eastern,HKG,1199,Eastern
+Hong Kong,Islands,HKG,1200,Islands
+Hong Kong,Kowloon City,HKG,1201,Kowloon City
+Hong Kong,Kwai Tsing,HKG,1202,Kwai Tsing
+Hong Kong,Kwun Tong,HKG,1203,Kwun Tong
+Hong Kong,North,HKG,1204,North
+Hong Kong,Sai Kung,HKG,1205,Sai Kung
+Hong Kong,Sham Shui Po,HKG,1207,Sham Shui Po
+Hong Kong,Sha Tin,HKG,1206,Sha Tin
+Hong Kong,Southern,HKG,1208,Southern
+Hong Kong,Tai Po,HKG,1209,Tai Po
+Hong Kong,Tsuen Wan,HKG,1210,Tsuen Wan
+Hong Kong,Tuen Mun,HKG,1211,Tuen Mun
+Hong Kong,Wan Chai,HKG,1212,Wan Chai
+Hong Kong,Wong Tai Sin,HKG,1213,Wong Tai Sin
+Hong Kong,Yau Tsim Mong,HKG,1214,Yau Tsim Mong
+Hong Kong,Yuen Long,HKG,1215,Yuen Long
+Hungary,Bács-Kiskun,HUN,1216,Bacs-Kiskun
+Hungary,Baranya,HUN,1217,Baranya
+Hungary,Békés,HUN,1218,Bekes
+Hungary,Borsod-Abaúj-Zemplén,HUN,1219,Borsod-Abauj-Zemplen
+Hungary,Budapest,HUN,1220,Budapest
+Hungary,Csongrád,HUN,1221,Csongrad
+Hungary,Fejér,HUN,1222,Fejer
+Hungary,Gyor-Moson-Sopron,HUN,1223,Gyor-Moson-Sopron
+Hungary,Hajdú-Bihar,HUN,1224,Hajdu-Bihar
+Hungary,Heves,HUN,1225,Heves
+Hungary,Jász-Nagykun-Szolnok,HUN,1226,Jasz-Nagykun-Szolnok
+Hungary,Komárom-Esztergom,HUN,1227,Komarom-Esztergom
+Hungary,Nógrád,HUN,1228,Nograd
+Hungary,Pest,HUN,1229,Pest
+Hungary,Somogy,HUN,1230,Somogy
+Hungary,Szabolcs-Szatmár-Bereg,HUN,1231,Szabolcs-Szatmar-Bereg
+Hungary,Tolna,HUN,1232,Tolna
+Hungary,Vas,HUN,1233,Vas
+Hungary,Veszprém,HUN,1234,Veszprem
+Hungary,Zala,HUN,1235,Zala
+Iceland,Austurland,ISL,1236,Austurland
+Iceland,Hálshreppur,ISL,1237,Halshreppur
+Iceland,Höfuðborgarsvæði,ISL,1238,Hofudborgarsvaedi
+Iceland,Norðurland vestra,ISL,1239,Nordurland vestra
+Iceland,Suðurland,ISL,1240,Sudurland
+Iceland,Suðurnes,ISL,1241,Sudurnes
+Iceland,Vestfirðir,ISL,1242,Vestfirdir
+Iceland,Vesturland,ISL,1243,Vesturland
+India,Andaman and Nicobar,IND,1244,Andaman and Nicobar
+India,Andhra Pradesh,IND,1245,Andhra Pradesh
+India,Arunachal Pradesh,IND,1246,Arunachal Pradesh
+India,Assam,IND,1247,Assam
+India,Bihar,IND,1248,Bihar
+India,Chandigarh,IND,1249,Chandigarh
+India,Chhattisgarh,IND,1250,Chhattisgarh
+India,Dadra and Nagar Haveli,IND,1251,Dadra and Nagar Haveli
+India,Daman and Diu,IND,1252,Daman and Diu
+India,Delhi,IND,1253,Delhi
+India,Goa,IND,1254,Goa
+India,Gujarat,IND,1255,Gujarat
+India,Haryana,IND,1256,Haryana
+India,Himachal Pradesh,IND,1257,Himachal Pradesh
+India,Jammu and Kashmir,IND,1258,Jammu and Kashmir
+India,Jharkhand,IND,1259,Jharkhand
+India,Karnataka,IND,1260,Karnataka
+India,Kerala,IND,1261,Kerala
+India,Lakshadweep,IND,1262,Lakshadweep
+India,Madhya Pradesh,IND,1263,Madhya Pradesh
+India,Maharashtra,IND,1264,Maharashtra
+India,Manipur,IND,1265,Manipur
+India,Meghalaya,IND,1266,Meghalaya
+India,Mizoram,IND,1267,Mizoram
+India,Nagaland,IND,1268,Nagaland
+India,Orissa,IND,1269,Orissa
+India,Puducherry,IND,1270,Puducherry
+India,Punjab,IND,1271,Punjab
+India,Rajasthan,IND,1272,Rajasthan
+India,Sikkim,IND,1273,Sikkim
+India,Tamil Nadu,IND,1274,Tamil Nadu
+India,Tripura,IND,1275,Tripura
+India,Uttaranchal,IND,1277,Uttaranchal
+India,Uttar Pradesh,IND,1276,Uttar Pradesh
+India,West Bengal,IND,1278,West Bengal
+Indonesia,Aceh,IDN,1279,Aceh
+Indonesia,Bali,IDN,1280,Bali
+Indonesia,Bangka-Belitung,IDN,1281,Bangka-Belitung
+Indonesia,Banten,IDN,1282,Banten
+Indonesia,Bengkulu,IDN,1283,Bengkulu
+Indonesia,Gorontalo,IDN,1284,Gorontalo
+Indonesia,Irian Jaya Barat,IDN,1285,Irian Jaya Barat
+Indonesia,Jakarta Raya,IDN,1286,Jakarta Raya
+Indonesia,Jambi,IDN,1287,Jambi
+Indonesia,Jawa Barat,IDN,1288,Jawa Barat
+Indonesia,Jawa Tengah,IDN,1289,Jawa Tengah
+Indonesia,Jawa Timur,IDN,1290,Jawa Timur
+Indonesia,Kalimantan Barat,IDN,1291,Kalimantan Barat
+Indonesia,Kalimantan Selatan,IDN,1292,Kalimantan Selatan
+Indonesia,Kalimantan Tengah,IDN,1293,Kalimantan Tengah
+Indonesia,Kalimantan Timur,IDN,1294,Kalimantan Timur
+Indonesia,Kepulauan Riau,IDN,1295,Kepulauan Riau
+Indonesia,Lampung,IDN,1296,Lampung
+Indonesia,Maluku,IDN,1297,Maluku
+Indonesia,Maluku Utara,IDN,1298,Maluku Utara
+Indonesia,Nusa Tenggara Barat,IDN,1299,Nusa Tenggara Barat
+Indonesia,Nusa Tenggara Timur,IDN,1300,Nusa Tenggara Timur
+Indonesia,Papua,IDN,1301,Papua
+Indonesia,Riau,IDN,1302,Riau
+Indonesia,Sulawesi Barat,IDN,1303,Sulawesi Barat
+Indonesia,Sulawesi Selatan,IDN,1304,Sulawesi Selatan
+Indonesia,Sulawesi Tengah,IDN,1305,Sulawesi Tengah
+Indonesia,Sulawesi Tenggara,IDN,1306,Sulawesi Tenggara
+Indonesia,Sulawesi Utara,IDN,1307,Sulawesi Utara
+Indonesia,Sumatera Barat,IDN,1308,Sumatera Barat
+Indonesia,Sumatera Selatan,IDN,1309,Sumatera Selatan
+Indonesia,Sumatera Utara,IDN,1310,Sumatera Utara
+Indonesia,Yogyakarta,IDN,1311,Yogyakarta
+Iran,Ardebil,IRN,1312,Ardebil
+Iran,Bushehr,IRN,1313,Bushehr
+Iran,Chahar Mahall and Bakhtiari,IRN,1314,Chahar Mahall and Bakhtiari
+Iran,East Azarbaijan,IRN,1315,East Azarbaijan
+Iran,Esfahan,IRN,1316,Esfahan
+Iran,Fars,IRN,1317,Fars
+Iran,Gilan,IRN,1318,Gilan
+Iran,Golestan,IRN,1319,Golestan
+Iran,Hamadan,IRN,1320,Hamadan
+Iran,Hormozgan,IRN,1321,Hormozgan
+Iran,Ilam,IRN,1322,Ilam
+Iran,Kerman,IRN,1323,Kerman
+Iran,Kermanshah,IRN,1324,Kermanshah
+Iran,Khuzestan,IRN,1325,Khuzestan
+Iran,Kohgiluyeh and Buyer Ahmad,IRN,1326,Kohgiluyeh and Buyer Ahmad
+Iran,Kordestan,IRN,1327,Kordestan
+Iran,Lorestan,IRN,1328,Lorestan
+Iran,Markazi,IRN,1329,Markazi
+Iran,Mazandaran,IRN,1330,Mazandaran
+Iran,North Khorasan,IRN,1331,North Khorasan
+Iran,Qazvin,IRN,1332,Qazvin
+Iran,Qom,IRN,1333,Qom
+Iran,Razavi Khorasan,IRN,1334,Razavi Khorasan
+Iran,Semnan,IRN,1335,Semnan
+Iran,Sistan and Baluchestan,IRN,1336,Sistan and Baluchestan
+Iran,South Khorasan,IRN,1337,South Khorasan
+Iran,Tehran,IRN,1338,Tehran
+Iran,West Azarbaijan,IRN,1339,West Azarbaijan
+Iran,Yazd,IRN,1340,Yazd
+Iran,Zanjan,IRN,1341,Zanjan
+Iraq,Al-Anbar,IRQ,1342,Al-Anbar
+Iraq,Al-Basrah,IRQ,1343,Al-Basrah
+Iraq,Al-Muthannia,IRQ,1344,Al-Muthannia
+Iraq,Al-Qadisiyah,IRQ,1345,Al-Qadisiyah
+Iraq,An-Najaf,IRQ,1346,An-Najaf
+Iraq,Arbil,IRQ,1347,Arbil
+Iraq,As-Sulaymaniyah,IRQ,1348,As-Sulaymaniyah
+Iraq,At-Ta'mim,IRQ,1349,At-Ta'mim
+Iraq,Babil,IRQ,1350,Babil
+Iraq,Baghdad,IRQ,1351,Baghdad
+Iraq,Dhi-Qar,IRQ,1352,Dhi-Qar
+Iraq,Dihok,IRQ,1353,Dihok
+Iraq,Diyala,IRQ,1354,Diyala
+Iraq,Karbala',IRQ,1355,Karbala'
+Iraq,Maysan,IRQ,1356,Maysan
+Iraq,Ninawa,IRQ,1357,Ninawa
+Iraq,Sala ad-Din,IRQ,1358,Sala ad-Din
+Iraq,Wasit,IRQ,1359,Wasit
+Ireland,Carlow,IRL,1360,Carlow
+Ireland,Cavan,IRL,1361,Cavan
+Ireland,Clare,IRL,1362,Clare
+Ireland,Cork,IRL,1363,Cork
+Ireland,Donegal,IRL,1364,Donegal
+Ireland,Dublin,IRL,1365,Dublin
+Ireland,Galway,IRL,1366,Galway
+Ireland,Kerry,IRL,1367,Kerry
+Ireland,Kildare,IRL,1368,Kildare
+Ireland,Kilkenny,IRL,1369,Kilkenny
+Ireland,Laoighis,IRL,1370,Laoighis
+Ireland,Leitrim,IRL,1371,Leitrim
+Ireland,Limerick,IRL,1372,Limerick
+Ireland,Longford,IRL,1373,Longford
+Ireland,Louth,IRL,1374,Louth
+Ireland,Mayo,IRL,1375,Mayo
+Ireland,Meath,IRL,1376,Meath
+Ireland,Monaghan,IRL,1377,Monaghan
+Ireland,Offaly,IRL,1378,Offaly
+Ireland,Roscommon,IRL,1379,Roscommon
+Ireland,Sligo,IRL,1380,Sligo
+Ireland,Tipperary,IRL,1381,Tipperary
+Ireland,Waterford,IRL,1382,Waterford
+Ireland,Westmeath,IRL,1383,Westmeath
+Ireland,Wexford,IRL,1384,Wexford
+Ireland,Wicklow,IRL,1385,Wicklow
+Isle of Man,,IMN,1386,
+Israel,Golan,ISR,1387,Golan
+Israel,HaDarom,ISR,1388,HaDarom
+Israel,Haifa,ISR,1389,Haifa
+Israel,HaMerkaz,ISR,1390,HaMerkaz
+Israel,HaZafon,ISR,1391,HaZafon
+Israel,Jerusalem,ISR,1392,Jerusalem
+Israel,Tel Aviv,ISR,1393,Tel Aviv
+Italy,Abruzzo,ITA,1394,Abruzzo
+Italy,Apulia,ITA,1395,Apulia
+Italy,Basilicata,ITA,1396,Basilicata
+Italy,Calabria,ITA,1397,Calabria
+Italy,Campania,ITA,1398,Campania
+Italy,Emilia-Romagna,ITA,1399,Emilia-Romagna
+Italy,Friuli-Venezia Giulia,ITA,1400,Friuli-Venezia Giulia
+Italy,Lazio,ITA,1401,Lazio
+Italy,Liguria,ITA,1402,Liguria
+Italy,Lombardia,ITA,1403,Lombardia
+Italy,Marche,ITA,1404,Marche
+Italy,Molise,ITA,1405,Molise
+Italy,Piemonte,ITA,1406,Piemonte
+Italy,Sardegna,ITA,1407,Sardegna
+Italy,Sicily,ITA,1408,Sicily
+Italy,Toscana,ITA,1409,Toscana
+Italy,Trentino-Alto Adige,ITA,1410,Trentino-Alto Adige
+Italy,Umbria,ITA,1411,Umbria
+Italy,Valle d'Aosta,ITA,1412,Valle d'Aosta
+Italy,Veneto,ITA,1413,Veneto
+Jamaica,Clarendon,JAM,1414,Clarendon
+Jamaica,Hanover,JAM,1415,Hanover
+Jamaica,Kingston,JAM,1416,Kingston
+Jamaica,Manchester,JAM,1417,Manchester
+Jamaica,Portland,JAM,1418,Portland
+Jamaica,Saint Andrew,JAM,1419,Saint Andrew
+Jamaica,Saint Ann,JAM,1420,Saint Ann
+Jamaica,Saint Catherine,JAM,1421,Saint Catherine
+Jamaica,Saint Elizabeth,JAM,1422,Saint Elizabeth
+Jamaica,Saint James,JAM,1423,Saint James
+Jamaica,Saint Mary,JAM,1424,Saint Mary
+Jamaica,Saint Thomas,JAM,1425,Saint Thomas
+Jamaica,Trelawny,JAM,1426,Trelawny
+Jamaica,Westmoreland,JAM,1427,Westmoreland
+Japan,Aichi,JPN,1428,Aichi
+Japan,Akita,JPN,1429,Akita
+Japan,Aomori,JPN,1430,Aomori
+Japan,Chiba,JPN,1431,Chiba
+Japan,Ehime,JPN,1432,Ehime
+Japan,Fukui,JPN,1433,Fukui
+Japan,Fukuoka,JPN,1434,Fukuoka
+Japan,Fukushima,JPN,1435,Fukushima
+Japan,Gifu,JPN,1436,Gifu
+Japan,Gunma,JPN,1437,Gunma
+Japan,Hiroshima,JPN,1438,Hiroshima
+Japan,Hokkaido,JPN,1439,Hokkaido
+Japan,Hyogo,JPN,1440,Hyogo
+Japan,Ibaraki,JPN,1441,Ibaraki
+Japan,Ishikawa,JPN,1442,Ishikawa
+Japan,Iwate,JPN,1443,Iwate
+Japan,Kagawa,JPN,1444,Kagawa
+Japan,Kagoshima,JPN,1445,Kagoshima
+Japan,Kanagawa,JPN,1446,Kanagawa
+Japan,Kochi,JPN,1447,Kochi
+Japan,Kumamoto,JPN,1448,Kumamoto
+Japan,Kyoto,JPN,1449,Kyoto
+Japan,Mie,JPN,1450,Mie
+Japan,Miyagi,JPN,1451,Miyagi
+Japan,Miyazaki,JPN,1452,Miyazaki
+Japan,Nagano,JPN,1453,Nagano
+Japan,Naoasaki,JPN,1454,Naoasaki
+Japan,Nara,JPN,1455,Nara
+Japan,Niigata,JPN,1456,Niigata
+Japan,Oita,JPN,1457,Oita
+Japan,Okayama,JPN,1458,Okayama
+Japan,Okinawa,JPN,1459,Okinawa
+Japan,Osaka,JPN,1460,Osaka
+Japan,Saga,JPN,1461,Saga
+Japan,Saitama,JPN,1462,Saitama
+Japan,Shiga,JPN,1463,Shiga
+Japan,Shimane,JPN,1464,Shimane
+Japan,Shizuoka,JPN,1465,Shizuoka
+Japan,Tochigi,JPN,1466,Tochigi
+Japan,Tokushima,JPN,1467,Tokushima
+Japan,Tokyo,JPN,1468,Tokyo
+Japan,Tottori,JPN,1469,Tottori
+Japan,Toyama,JPN,1470,Toyama
+Japan,Wakayama,JPN,1471,Wakayama
+Japan,Yamagata,JPN,1472,Yamagata
+Japan,Yamaguchi,JPN,1473,Yamaguchi
+Japan,Yamanashi,JPN,1474,Yamanashi
+Jersey,,JEY,1475,
+Jordan,Ajlun,JOR,1476,Ajlun
+Jordan,Amman,JOR,1477,Amman
+Jordan,Aqaba,JOR,1478,Aqaba
+Jordan,Balqa,JOR,1479,Balqa
+Jordan,Irbid,JOR,1480,Irbid
+Jordan,Jarash,JOR,1481,Jarash
+Jordan,Karak,JOR,1482,Karak
+Jordan,Ma`an,JOR,1483,Ma`an
+Jordan,Madaba,JOR,1484,Madaba
+Jordan,Mafraq,JOR,1485,Mafraq
+Jordan,Tafilah,JOR,1486,Tafilah
+Jordan,Zarqa,JOR,1487,Zarqa
+Kazakhstan,Almaty,KAZ,1488,Almaty
+Kazakhstan,Aqmola,KAZ,1489,Aqmola
+Kazakhstan,Aqtöbe,KAZ,1490,Aqtobe
+Kazakhstan,Atyrau,KAZ,1491,Atyrau
+Kazakhstan,East Kazakhstan,KAZ,1492,East Kazakhstan
+Kazakhstan,Mangghystau,KAZ,1493,Mangghystau
+Kazakhstan,North Kazakhstan,KAZ,1494,North Kazakhstan
+Kazakhstan,Pavlodar,KAZ,1495,Pavlodar
+Kazakhstan,Qaraghandy,KAZ,1496,Qaraghandy
+Kazakhstan,Qostanay,KAZ,1497,Qostanay
+Kazakhstan,Qyzylorda,KAZ,1498,Qyzylorda
+Kazakhstan,South Kazakhstan,KAZ,1499,South Kazakhstan
+Kazakhstan,West Kazakhstan,KAZ,1500,West Kazakhstan
+Kazakhstan,Zhambyl,KAZ,1501,Zhambyl
+Kenya,Central,KEN,1502,Central
+Kenya,Coast,KEN,1503,Coast
+Kenya,Eastern,KEN,1504,Eastern
+Kenya,Nairobi,KEN,1505,Nairobi
+Kenya,North-Eastern,KEN,1506,North-Eastern
+Kenya,Nyanza,KEN,1507,Nyanza
+Kenya,Rift Valley,KEN,1508,Rift Valley
+Kenya,Western,KEN,1509,Western
+Kiribati,,KIR,1510,
+Kosovo,Ðakovica,KO-,1511,Dakovica
+Kosovo,Gnjilane,KO-,1512,Gnjilane
+Kosovo,Kosovska Mitrovica,KO-,1513,Kosovska Mitrovica
+Kosovo,Pecki,KO-,1514,Pecki
+Kosovo,Pristina,KO-,1515,Pristina
+Kosovo,Prizren,KO-,1516,Prizren
+Kosovo,Uroevac,KO-,1517,Uroevac
+Kuwait,Al Ahmadi,KWT,1518,Al Ahmadi
+Kuwait,Al Farwaniyah,KWT,1519,Al Farwaniyah
+Kuwait,Al Jahrah,KWT,1520,Al Jahrah
+Kuwait,Al Kuwayt,KWT,1521,Al Kuwayt
+Kuwait,Hawalli,KWT,1522,Hawalli
+Kyrgyzstan,Batken,KGZ,1523,Batken
+Kyrgyzstan,Bishkek,KGZ,1524,Bishkek
+Kyrgyzstan,Chuy,KGZ,1525,Chuy
+Kyrgyzstan,Jalal-Abad,KGZ,1526,Jalal-Abad
+Kyrgyzstan,Naryn,KGZ,1527,Naryn
+Kyrgyzstan,Osh,KGZ,1528,Osh
+Kyrgyzstan,Talas,KGZ,1529,Talas
+Kyrgyzstan,Ysyk-Köl,KGZ,1530,Ysyk-Kol
+Laos,Attapu,LAO,1531,Attapu
+Laos,Bokeo,LAO,1532,Bokeo
+Laos,Bolikhamxai,LAO,1533,Bolikhamxai
+Laos,Champasak,LAO,1534,Champasak
+Laos,Houaphan,LAO,1535,Houaphan
+Laos,Khammouan,LAO,1536,Khammouan
+Laos,Louang Namtha,LAO,1537,Louang Namtha
+Laos,Louangphrabang,LAO,1538,Louangphrabang
+Laos,Oudômxai,LAO,1539,Oudomxai
+Laos,Phôngsali,LAO,1540,Phongsali
+Laos,Saravan,LAO,1541,Saravan
+Laos,Savannakhét,LAO,1542,Savannakhet
+Laos,Vientiane,LAO,1543,Vientiane
+Laos,Vientiane [prefecture],LAO,1544,Vientiane [prefecture]
+Laos,Xaignabouri,LAO,1545,Xaignabouri
+Laos,Xaisômboun,LAO,1546,Xaisomboun
+Laos,Xékong,LAO,1547,Xekong
+Laos,Xiangkhoang,LAO,1548,Xiangkhoang
+Latvia,Kurzeme,LVA,1549,Kurzeme
+Latvia,Latgale,LVA,1550,Latgale
+Latvia,Riga,LVA,1551,Riga
+Latvia,Vidzeme,LVA,1552,Vidzeme
+Latvia,Zemgale,LVA,1553,Zemgale
+Lebanon,An Nabatiyah,LBN,1554,An Nabatiyah
+Lebanon,Beirut,LBN,1555,Beirut
+Lebanon,Beqaa,LBN,1556,Beqaa
+Lebanon,Mount Lebanon,LBN,1557,Mount Lebanon
+Lebanon,North Lebanon,LBN,1558,North Lebanon
+Lebanon,South Lebanon,LBN,1559,South Lebanon
+Lesotho,Berea,LSO,1560,Berea
+Lesotho,Butha-Buthe,LSO,1561,Butha-Buthe
+Lesotho,Leribe,LSO,1562,Leribe
+Lesotho,Mafeteng,LSO,1563,Mafeteng
+Lesotho,Maseru,LSO,1564,Maseru
+Lesotho,Mohale's Hoek,LSO,1565,Mohale's Hoek
+Lesotho,Mokhotlong,LSO,1566,Mokhotlong
+Lesotho,Qacha's Nek,LSO,1567,Qacha's Nek
+Lesotho,Quthing,LSO,1568,Quthing
+Lesotho,Thaba-Tseka,LSO,1569,Thaba-Tseka
+Liberia,Bomi,LBR,1570,Bomi
+Liberia,Bong,LBR,1571,Bong
+Liberia,Gbapolu,LBR,1572,Gbapolu
+Liberia,GrandBassa,LBR,1574,GrandBassa
+Liberia,Grand Cape Mount,LBR,1573,Grand Cape Mount
+Liberia,GrandGedeh,LBR,1575,GrandGedeh
+Liberia,GrandKru,LBR,1576,GrandKru
+Liberia,Lofa,LBR,1577,Lofa
+Liberia,Margibi,LBR,1578,Margibi
+Liberia,Maryland,LBR,1579,Maryland
+Liberia,Montserrado,LBR,1580,Montserrado
+Liberia,Nimba,LBR,1581,Nimba
+Liberia,River Cess,LBR,1582,River Cess
+Liberia,River Gee,LBR,1583,River Gee
+Liberia,Sinoe,LBR,1584,Sinoe
+Libya,Ajdabiya,LBY,1585,Ajdabiya
+Libya,Al Butnan,LBY,1586,Al Butnan
+Libya,Al Hizam Al Akhdar,LBY,1587,Al Hizam Al Akhdar
+Libya,Al Jabal al Akhdar,LBY,1588,Al Jabal al Akhdar
+Libya,Al Jifarah,LBY,1589,Al Jifarah
+Libya,Al Jufrah,LBY,1590,Al Jufrah
+Libya,Al Kufrah,LBY,1591,Al Kufrah
+Libya,Al Marj,LBY,1592,Al Marj
+Libya,Al Marqab,LBY,1593,Al Marqab
+Libya,Al Qubbah,LBY,1594,Al Qubbah
+Libya,Al Wahah,LBY,1595,Al Wahah
+Libya,An Nuqat al Khams,LBY,1596,An Nuqat al Khams
+Libya,Ash Shati',LBY,1597,Ash Shati'
+Libya,Az Zawiyah,LBY,1598,Az Zawiyah
+Libya,Bani Walid,LBY,1599,Bani Walid
+Libya,Benghazi,LBY,1600,Benghazi
+Libya,Darnah,LBY,1601,Darnah
+Libya,Ghadamis,LBY,1602,Ghadamis
+Libya,Gharyan,LBY,1603,Gharyan
+Libya,Ghat,LBY,1604,Ghat
+Libya,Misratah,LBY,1605,Misratah
+Libya,Mizdah,LBY,1606,Mizdah
+Libya,Murzuq,LBY,1607,Murzuq
+Libya,Nalut,LBY,1608,Nalut
+Libya,Sabha,LBY,1609,Sabha
+Libya,Sabratah Surman,LBY,1610,Sabratah Surman
+Libya,Surt,LBY,1611,Surt
+Libya,Tajura' wa an Nawahi al Arba,LBY,1612,Tajura' wa an Nawahi al Arba
+Libya,Tarabulus,LBY,1613,Tarabulus
+Libya,Tarhunah-Masallatah,LBY,1614,Tarhunah-Masallatah
+Libya,Wadi Al Hayat,LBY,1615,Wadi Al Hayat
+Libya,Yafran-Jadu,LBY,1616,Yafran-Jadu
+Liechtenstein,Balzers,LIE,1617,Balzers
+Liechtenstein,Eschen,LIE,1618,Eschen
+Liechtenstein,Gamprin,LIE,1619,Gamprin
+Liechtenstein,Mauren,LIE,1620,Mauren
+Liechtenstein,Planken,LIE,1621,Planken
+Liechtenstein,Ruggell,LIE,1622,Ruggell
+Liechtenstein,Schaan,LIE,1623,Schaan
+Liechtenstein,Schellenberg,LIE,1624,Schellenberg
+Liechtenstein,Triesenberg,LIE,1626,Triesenberg
+Liechtenstein,Triesen,LIE,1625,Triesen
+Liechtenstein,Valduz,LIE,1627,Valduz
+Lithuania,Alytaus,LTU,1628,Alytaus
+Lithuania,iauliai,LTU,1633,iauliai
+Lithuania,Kauno,LTU,1629,Kauno
+Lithuania,Klaipedos,LTU,1630,Klaipedos
+Lithuania,Marijampoles,LTU,1631,Marijampoles
+Lithuania,Panevezio,LTU,1632,Panevezio
+Lithuania,Taurages,LTU,1634,Taurages
+Lithuania,Teliai,LTU,1635,Teliai
+Lithuania,Utenos,LTU,1636,Utenos
+Lithuania,Vilniaus,LTU,1637,Vilniaus
+Luxembourg,Diekirch,LUX,1638,Diekirch
+Luxembourg,Grevenmacher,LUX,1639,Grevenmacher
+Luxembourg,Luxembourg,LUX,1640,Luxembourg
+Macao,Ilhas,MAC,1641,Ilhas
+Macedonia,Eastern,MKD,1642,Eastern
+Macedonia,Northeastern,MKD,1643,Northeastern
+Macedonia,Pelagonia,MKD,1644,Pelagonia
+Macedonia,Polog,MKD,1645,Polog
+Macedonia,Skopje,MKD,1646,Skopje
+Macedonia,Southeastern,MKD,1647,Southeastern
+Macedonia,Southwestern,MKD,1648,Southwestern
+Macedonia,Vardar,MKD,1649,Vardar
+Madagascar,Antananarivo,MDG,1650,Antananarivo
+Madagascar,Antsiranana,MDG,1651,Antsiranana
+Madagascar,Fianarantsoa,MDG,1652,Fianarantsoa
+Madagascar,Mahajanga,MDG,1653,Mahajanga
+Madagascar,Toamasina,MDG,1654,Toamasina
+Madagascar,Toliary,MDG,1655,Toliary
+Malawi,Balaka,MWI,1656,Balaka
+Malawi,Blantyre,MWI,1657,Blantyre
+Malawi,Chikwawa,MWI,1658,Chikwawa
+Malawi,Chiradzulu,MWI,1659,Chiradzulu
+Malawi,Chitipa,MWI,1660,Chitipa
+Malawi,Dedza,MWI,1661,Dedza
+Malawi,Dowa,MWI,1662,Dowa
+Malawi,Karonga,MWI,1663,Karonga
+Malawi,Kasungu,MWI,1664,Kasungu
+Malawi,Lilongwe,MWI,1665,Lilongwe
+Malawi,Machinga,MWI,1666,Machinga
+Malawi,Mangochi,MWI,1667,Mangochi
+Malawi,Mchinji,MWI,1668,Mchinji
+Malawi,Mulanje,MWI,1669,Mulanje
+Malawi,Mwanza,MWI,1670,Mwanza
+Malawi,Mzimba,MWI,1671,Mzimba
+Malawi,Nkhata Bay,MWI,1672,Nkhata Bay
+Malawi,Nkhotakota,MWI,1673,Nkhotakota
+Malawi,Nsanje,MWI,1674,Nsanje
+Malawi,Ntcheu,MWI,1675,Ntcheu
+Malawi,Ntchisi,MWI,1676,Ntchisi
+Malawi,Phalombe,MWI,1677,Phalombe
+Malawi,Rumphi,MWI,1678,Rumphi
+Malawi,Salima,MWI,1679,Salima
+Malawi,Thyolo,MWI,1680,Thyolo
+Malawi,Zomba,MWI,1681,Zomba
+Malaysia,Johor,MYS,1682,Johor
+Malaysia,Kedah,MYS,1683,Kedah
+Malaysia,Kelantan,MYS,1684,Kelantan
+Malaysia,Melaka,MYS,1685,Melaka
+Malaysia,Negeri Sembilan,MYS,1686,Negeri Sembilan
+Malaysia,Pahang,MYS,1687,Pahang
+Malaysia,Perak,MYS,1688,Perak
+Malaysia,Perlis,MYS,1689,Perlis
+Malaysia,Pulau Pinang,MYS,1690,Pulau Pinang
+Malaysia,Sabah,MYS,1691,Sabah
+Malaysia,Sarawak,MYS,1692,Sarawak
+Malaysia,Selangor,MYS,1693,Selangor
+Malaysia,Trengganu,MYS,1694,Trengganu
+Maldives,,MDV,1695,
+Mali,Bamako,MLI,1696,Bamako
+Mali,Gao,MLI,1697,Gao
+Mali,Kayes,MLI,1698,Kayes
+Mali,Kidal,MLI,1699,Kidal
+Mali,Koulikoro,MLI,1700,Koulikoro
+Mali,Mopti,MLI,1701,Mopti
+Mali,Ségou,MLI,1702,Segou
+Mali,Sikasso,MLI,1703,Sikasso
+Mali,Timbuktu,MLI,1704,Timbuktu
+Malta,,MLT,1705,
+Marshall Islands,,MHL,1706,
+Martinique,Fort-de-France,MTQ,1707,Fort-de-France
+Martinique,Le Marin,MTQ,1708,Le Marin
+Martinique,Le Trinité,MTQ,1709,Le Trinite
+Martinique,Saint-Pierre,MTQ,1710,Saint-Pierre
+Mauritania,Adrar,MRT,1711,Adrar
+Mauritania,Assaba,MRT,1712,Assaba
+Mauritania,Brakna,MRT,1713,Brakna
+Mauritania,Dakhlet Nouadhibou,MRT,1714,Dakhlet Nouadhibou
+Mauritania,Gorgol,MRT,1715,Gorgol
+Mauritania,Guidimaka,MRT,1716,Guidimaka
+Mauritania,Hodh ech Chargui,MRT,1717,Hodh ech Chargui
+Mauritania,Hodh el Gharbi,MRT,1718,Hodh el Gharbi
+Mauritania,Inchiri,MRT,1719,Inchiri
+Mauritania,Nouakchott,MRT,1720,Nouakchott
+Mauritania,Tagant,MRT,1721,Tagant
+Mauritania,Tiris Zemmour,MRT,1722,Tiris Zemmour
+Mauritania,Trarza,MRT,1723,Trarza
+Mauritius,Black River,MUS,1724,Black River
+Mauritius,Coco Island,MUS,1725,Coco Island
+Mauritius,Flacq,MUS,1726,Flacq
+Mauritius,Grand Port,MUS,1727,Grand Port
+Mauritius,Moka,MUS,1728,Moka
+Mauritius,North Island,MUS,1729,North Island
+Mauritius,Pamplemousses,MUS,1730,Pamplemousses
+Mauritius,Plaines Wilhems,MUS,1731,Plaines Wilhems
+Mauritius,Port Louis,MUS,1732,Port Louis
+Mauritius,Rivière du Rempart,MUS,1733,Riviere du Rempart
+Mauritius,Rodriguez,MUS,1734,Rodriguez
+Mauritius,Savanne,MUS,1735,Savanne
+Mayotte,Acoua,MYT,1736,Acoua
+Mayotte,Bandraboua,MYT,1737,Bandraboua
+Mayotte,Bandrele,MYT,1738,Bandrele
+Mayotte,Boueni,MYT,1739,Boueni
+Mayotte,Chiconi,MYT,1740,Chiconi
+Mayotte,Chirongui,MYT,1741,Chirongui
+Mayotte,Dembeni,MYT,1742,Dembeni
+Mayotte,Dzaoudzi,MYT,1743,Dzaoudzi
+Mayotte,Kani-Keli,MYT,1744,Kani-Keli
+Mayotte,Koungou,MYT,1745,Koungou
+Mayotte,Mamoudzou,MYT,1747,Mamoudzou
+Mayotte,Mtsamboro,MYT,1748,Mtsamboro
+Mayotte,M'tsangamouji,MYT,1746,M'tsangamouji
+Mayotte,Ouangani,MYT,1749,Ouangani
+Mayotte,Pamandzi,MYT,1750,Pamandzi
+Mayotte,Sada,MYT,1751,Sada
+Mayotte,Tsingoni,MYT,1752,Tsingoni
+Mexico,Aguascalientes,MEX,1753,Aguascalientes
+Mexico,Baja California,MEX,1754,Baja California
+Mexico,Baja California Sur,MEX,1755,Baja California Sur
+Mexico,Campeche,MEX,1756,Campeche
+Mexico,Chiapas,MEX,1757,Chiapas
+Mexico,Chihuahua,MEX,1758,Chihuahua
+Mexico,Coahuila,MEX,1759,Coahuila
+Mexico,Colima,MEX,1760,Colima
+Mexico,Distrito Federal,MEX,1761,Distrito Federal
+Mexico,Durango,MEX,1762,Durango
+Mexico,Guanajuato,MEX,1763,Guanajuato
+Mexico,Guerrero,MEX,1764,Guerrero
+Mexico,Hidalgo,MEX,1765,Hidalgo
+Mexico,Jalisco,MEX,1766,Jalisco
+Mexico,México,MEX,1767,Mexico
+Mexico,Michoacán,MEX,1768,Michoacan
+Mexico,Morelos,MEX,1769,Morelos
+Mexico,Nayarit,MEX,1770,Nayarit
+Mexico,Nuevo León,MEX,1771,Nuevo Leon
+Mexico,Oaxaca,MEX,1772,Oaxaca
+Mexico,Puebla,MEX,1773,Puebla
+Mexico,Querétaro,MEX,1774,Queretaro
+Mexico,Quintana Roo,MEX,1775,Quintana Roo
+Mexico,San Luis Potosí,MEX,1776,San Luis Potosi
+Mexico,Sinaloa,MEX,1777,Sinaloa
+Mexico,Sonora,MEX,1778,Sonora
+Mexico,Tabasco,MEX,1779,Tabasco
+Mexico,Tamaulipas,MEX,1780,Tamaulipas
+Mexico,Tlaxcala,MEX,1781,Tlaxcala
+Mexico,Veracruz,MEX,1782,Veracruz
+Mexico,Yucatán,MEX,1783,Yucatan
+Mexico,Zacatecas,MEX,1784,Zacatecas
+Micronesia,Chuuk,FSM,1785,Chuuk
+Micronesia,Kosrae,FSM,1786,Kosrae
+Micronesia,Pohnpei,FSM,1787,Pohnpei
+Micronesia,Yap,FSM,1788,Yap
+Moldova,Anenii Noi,MDA,1789,Anenii Noi
+Moldova,Balti,MDA,1790,Balti
+Moldova,Basarabeasca,MDA,1791,Basarabeasca
+Moldova,Bender,MDA,1792,Bender
+Moldova,Briceni,MDA,1793,Briceni
+Moldova,Cahul,MDA,1794,Cahul
+Moldova,Calarasi,MDA,1795,Calarasi
+Moldova,Cantemir,MDA,1796,Cantemir
+Moldova,Causeni,MDA,1797,Causeni
+Moldova,Chisinau,MDA,1798,Chisinau
+Moldova,Cimislia,MDA,1799,Cimislia
+Moldova,Criuleni,MDA,1800,Criuleni
+Moldova,Donduseni,MDA,1801,Donduseni
+Moldova,Drochia,MDA,1802,Drochia
+Moldova,Dubasari,MDA,1803,Dubasari
+Moldova,Edinet,MDA,1804,Edinet
+Moldova,Falesti,MDA,1805,Falesti
+Moldova,Floresti,MDA,1806,Floresti
+Moldova,Gagauzia,MDA,1807,Gagauzia
+Moldova,Glodeni,MDA,1808,Glodeni
+Moldova,Hîncesti,MDA,1809,Hincesti
+Moldova,Ialoveni,MDA,1810,Ialoveni
+Moldova,Leova,MDA,1811,Leova
+Moldova,Nisporeni,MDA,1812,Nisporeni
+Moldova,Ocnita,MDA,1813,Ocnita
+Moldova,Orhei,MDA,1814,Orhei
+Moldova,Rezina,MDA,1815,Rezina
+Moldova,Rîscani,MDA,1816,Riscani
+Moldova,Sîngerei,MDA,1817,Singerei
+Moldova,Soldanesti,MDA,1818,Soldanesti
+Moldova,Soroca,MDA,1819,Soroca
+Moldova,Stefan Voda,MDA,1820,Stefan Voda
+Moldova,Straseni,MDA,1821,Straseni
+Moldova,Taraclia,MDA,1822,Taraclia
+Moldova,Telenesti,MDA,1823,Telenesti
+Moldova,Transnistria,MDA,1824,Transnistria
+Moldova,Ungheni,MDA,1825,Ungheni
+Monaco,Monaco,MCO,1826,Monaco
+Mongolia,Arhangay,MNG,1827,Arhangay
+Mongolia,Bayanhongor,MNG,1829,Bayanhongor
+Mongolia,Bayan-Ölgiy,MNG,1828,Bayan-Olgiy
+Mongolia,Bulgan,MNG,1830,Bulgan
+Mongolia,Darhan-Uul,MNG,1831,Darhan-Uul
+Mongolia,Dornod,MNG,1832,Dornod
+Mongolia,Dornogovi,MNG,1833,Dornogovi
+Mongolia,Dundgovi,MNG,1834,Dundgovi
+Mongolia,Dzavhan,MNG,1835,Dzavhan
+Mongolia,Govi-Altay,MNG,1836,Govi-Altay
+Mongolia,Govisümber,MNG,1837,Govisumber
+Mongolia,Hentiy,MNG,1838,Hentiy
+Mongolia,Hovd,MNG,1839,Hovd
+Mongolia,Hövsgöl,MNG,1840,Hovsgol
+Mongolia,Ömnögovi,MNG,1841,Omnogovi
+Mongolia,Orhon,MNG,1842,Orhon
+Mongolia,Övörhangay,MNG,1843,Ovorhangay
+Mongolia,Selenge,MNG,1844,Selenge
+Mongolia,Sühbaatar,MNG,1845,Suhbaatar
+Mongolia,Töv,MNG,1846,Tov
+Mongolia,Ulaanbaatar,MNG,1847,Ulaanbaatar
+Mongolia,Uvs,MNG,1848,Uvs
+Montenegro,abljak,MNE,1869,abljak
+Montenegro,Andrijevica,MNE,1849,Andrijevica
+Montenegro,avnik,MNE,1866,avnik
+Montenegro,Bar,MNE,1850,Bar
+Montenegro,Berane,MNE,1851,Berane
+Montenegro,Bijelo Polje,MNE,1852,Bijelo Polje
+Montenegro,Budva,MNE,1853,Budva
+Montenegro,Cetinje,MNE,1854,Cetinje
+Montenegro,Danilovgrad,MNE,1855,Danilovgrad
+Montenegro,Herceg Novi,MNE,1856,Herceg Novi
+Montenegro,Kolain,MNE,1857,Kolain
+Montenegro,Kotor,MNE,1858,Kotor
+Montenegro,Mojkovac,MNE,1859,Mojkovac
+Montenegro,Nikic,MNE,1860,Nikic
+Montenegro,Plav,MNE,1861,Plav
+Montenegro,Pljevlja,MNE,1862,Pljevlja
+Montenegro,Pluine,MNE,1863,Pluine
+Montenegro,Podgorica,MNE,1864,Podgorica
+Montenegro,Roaje,MNE,1865,Roaje
+Montenegro,Tivat,MNE,1867,Tivat
+Montenegro,Ulcinj,MNE,1868,Ulcinj
+Montserrat,,MSR,1870,
+Morocco,Chaouia - Ouardigha,MAR,1871,Chaouia - Ouardigha
+Morocco,Doukkala - Abda,MAR,1872,Doukkala - Abda
+Morocco,Fès - Boulemane,MAR,1873,Fes - Boulemane
+Morocco,Gharb - Chrarda - Béni Hssen,MAR,1874,Gharb - Chrarda - Beni Hssen
+Morocco,Grand Casablanca,MAR,1875,Grand Casablanca
+Morocco,Guelmim - Es-Semara,MAR,1876,Guelmim - Es-Semara
+Morocco,Laâyoune - Boujdour - Sakia El Hamra,MAR,1877,Laayoune - Boujdour - Sakia El Hamra
+Morocco,Marrakech - Tensift - Al Haouz,MAR,1878,Marrakech - Tensift - Al Haouz
+Morocco,Meknès - Tafilalet,MAR,1879,Meknes - Tafilalet
+Morocco,Oriental,MAR,1880,Oriental
+Morocco,Rabat - Salé - Zemmour - Zaer,MAR,1881,Rabat - Sale - Zemmour - Zaer
+Morocco,Souss - Massa - Draâ,MAR,1882,Souss - Massa - Draa
+Morocco,Tadla - Azilal,MAR,1883,Tadla - Azilal
+Morocco,Tanger - Tétouan,MAR,1884,Tanger - Tetouan
+Morocco,Taza - Al Hoceima - Taounate,MAR,1885,Taza - Al Hoceima - Taounate
+Mozambique,Cabo Delgado,MOZ,1886,Cabo Delgado
+Mozambique,Gaza,MOZ,1887,Gaza
+Mozambique,Inhambane,MOZ,1888,Inhambane
+Mozambique,Manica,MOZ,1889,Manica
+Mozambique,Maputo,MOZ,1890,Maputo
+Mozambique,Nampula,MOZ,1891,Nampula
+Mozambique,Nassa,MOZ,1892,Nassa
+Mozambique,Sofala,MOZ,1893,Sofala
+Mozambique,Tete,MOZ,1894,Tete
+Mozambique,Zambezia,MOZ,1895,Zambezia
+Myanmar,Ayeyarwady,MMR,1896,Ayeyarwady
+Myanmar,Bago,MMR,1897,Bago
+Myanmar,Chin,MMR,1898,Chin
+Myanmar,Kachin,MMR,1899,Kachin
+Myanmar,Kayah,MMR,1900,Kayah
+Myanmar,Kayin,MMR,1901,Kayin
+Myanmar,Magway,MMR,1902,Magway
+Myanmar,Mandalay,MMR,1903,Mandalay
+Myanmar,Mon,MMR,1904,Mon
+Myanmar,Rakhine,MMR,1905,Rakhine
+Myanmar,Sagaing,MMR,1906,Sagaing
+Myanmar,Shan,MMR,1907,Shan
+Myanmar,Tanintharyi,MMR,1908,Tanintharyi
+Myanmar,Yangon,MMR,1909,Yangon
+Namibia,Caprivi,NAM,1910,Caprivi
+Namibia,Erongo,NAM,1911,Erongo
+Namibia,Hardap,NAM,1912,Hardap
+Namibia,Karas,NAM,1913,Karas
+Namibia,Kavango,NAM,1914,Kavango
+Namibia,Khomas,NAM,1915,Khomas
+Namibia,Kunene,NAM,1916,Kunene
+Namibia,Ohangwena,NAM,1917,Ohangwena
+Namibia,Omaheke,NAM,1918,Omaheke
+Namibia,Omusati,NAM,1919,Omusati
+Namibia,Oshana,NAM,1920,Oshana
+Namibia,Oshikoto,NAM,1921,Oshikoto
+Namibia,Otjozondjupa,NAM,1922,Otjozondjupa
+Nauru,Aiwo,NRU,1923,Aiwo
+Nauru,Anabar,NRU,1924,Anabar
+Nauru,Anetan,NRU,1925,Anetan
+Nauru,Anibare,NRU,1926,Anibare
+Nauru,Baiti,NRU,1927,Baiti
+Nauru,Boe,NRU,1928,Boe
+Nauru,Buada,NRU,1929,Buada
+Nauru,Denigomodu,NRU,1930,Denigomodu
+Nauru,Ewa,NRU,1931,Ewa
+Nauru,Ijuw,NRU,1932,Ijuw
+Nauru,Meneng,NRU,1933,Meneng
+Nauru,Nibok,NRU,1934,Nibok
+Nauru,Uaboe,NRU,1935,Uaboe
+Nauru,Yaren,NRU,1936,Yaren
+Nepal,Central,NPL,1938,Central
+Nepal,East,NPL,1939,East
+Nepal,Far-Western,NPL,1940,Far-Western
+Nepal,Mid-Western,NPL,1941,Mid-Western
+Nepal,,NPL,1937,
+Nepal,West,NPL,1942,West
+Netherlands,Drenthe,NLD,1943,Drenthe
+Netherlands,Flevoland,NLD,1944,Flevoland
+Netherlands,Friesland,NLD,1945,Friesland
+Netherlands,Gelderland,NLD,1946,Gelderland
+Netherlands,Groningen,NLD,1947,Groningen
+Netherlands,IJsselmeer,NLD,1948,IJsselmeer
+Netherlands,Limburg,NLD,1949,Limburg
+Netherlands,Noord-Brabant,NLD,1950,Noord-Brabant
+Netherlands,Noord-Holland,NLD,1951,Noord-Holland
+Netherlands,Overijssel,NLD,1952,Overijssel
+Netherlands,Utrecht,NLD,1953,Utrecht
+Netherlands,Zeeland,NLD,1954,Zeeland
+Netherlands,Zeeuwse meren,NLD,1955,Zeeuwse meren
+Netherlands,Zuid-Holland,NLD,1956,Zuid-Holland
+New Caledonia,Îles Loyauté,NCL,1957,Iles Loyaute
+New Caledonia,Nord,NCL,1958,Nord
+New Caledonia,Sud,NCL,1959,Sud
+New Zealand,Auckland,NZL,1960,Auckland
+New Zealand,Bay of Plenty,NZL,1961,Bay of Plenty
+New Zealand,Canterbury,NZL,1962,Canterbury
+New Zealand,Chatham Islands,NZL,1963,Chatham Islands
+New Zealand,Gisborne,NZL,1964,Gisborne
+New Zealand,Hawke's Bay,NZL,1965,Hawke's Bay
+New Zealand,Manawatu-Wanganui,NZL,1966,Manawatu-Wanganui
+New Zealand,Marlborough,NZL,1967,Marlborough
+New Zealand,Nelson,NZL,1968,Nelson
+New Zealand,Northland,NZL,1969,Northland
+New Zealand,Otago,NZL,1970,Otago
+New Zealand,Southland,NZL,1971,Southland
+New Zealand,Taranaki,NZL,1972,Taranaki
+New Zealand,Waikato,NZL,1973,Waikato
+New Zealand,Wellington,NZL,1974,Wellington
+New Zealand,West Coast,NZL,1975,West Coast
+Nicaragua,Atlántico Norte,NIC,1976,Atlantico Norte
+Nicaragua,Atlántico Sur,NIC,1977,Atlantico Sur
+Nicaragua,Boaco,NIC,1978,Boaco
+Nicaragua,Carazo,NIC,1979,Carazo
+Nicaragua,Chinandega,NIC,1980,Chinandega
+Nicaragua,Chontales,NIC,1981,Chontales
+Nicaragua,Estelí,NIC,1982,Esteli
+Nicaragua,Granada,NIC,1983,Granada
+Nicaragua,Jinotega,NIC,1984,Jinotega
+Nicaragua,León,NIC,1985,Leon
+Nicaragua,Madriz,NIC,1986,Madriz
+Nicaragua,Managua,NIC,1987,Managua
+Nicaragua,Masaya,NIC,1988,Masaya
+Nicaragua,Matagalpa,NIC,1989,Matagalpa
+Nicaragua,Nicaragua,NIC,1990,Nicaragua
+Nicaragua,Nueva Segovia,NIC,1991,Nueva Segovia
+Nicaragua,Río San Juan,NIC,1992,Rio San Juan
+Nicaragua,Rivas,NIC,1993,Rivas
+Niger,Agadez,NER,1994,Agadez
+Niger,Diffa,NER,1995,Diffa
+Niger,Dosso,NER,1996,Dosso
+Nigeria,Abia,NGA,2002,Abia
+Nigeria,Adamawa,NGA,2003,Adamawa
+Nigeria,Akwa Ibom,NGA,2004,Akwa Ibom
+Nigeria,Anambra,NGA,2005,Anambra
+Nigeria,Bauchi,NGA,2006,Bauchi
+Nigeria,Bayelsa,NGA,2007,Bayelsa
+Nigeria,Benue,NGA,2008,Benue
+Nigeria,Borno,NGA,2009,Borno
+Nigeria,Cross River,NGA,2010,Cross River
+Nigeria,Delta,NGA,2011,Delta
+Nigeria,Ebonyi,NGA,2012,Ebonyi
+Nigeria,Edo,NGA,2013,Edo
+Nigeria,Ekiti,NGA,2014,Ekiti
+Nigeria,Enugu,NGA,2015,Enugu
+Nigeria,Federal Capital Territory,NGA,2016,Federal Capital Territory
+Nigeria,Gombe,NGA,2017,Gombe
+Nigeria,Imo,NGA,2018,Imo
+Nigeria,Jigawa,NGA,2019,Jigawa
+Nigeria,Kaduna,NGA,2020,Kaduna
+Nigeria,Kano,NGA,2021,Kano
+Nigeria,Katsina,NGA,2022,Katsina
+Nigeria,Kebbi,NGA,2023,Kebbi
+Nigeria,Kogi,NGA,2024,Kogi
+Nigeria,Kwara,NGA,2025,Kwara
+Nigeria,Lagos,NGA,2026,Lagos
+Nigeria,Nassarawa,NGA,2027,Nassarawa
+Nigeria,Niger,NGA,2028,Niger
+Nigeria,Ogun,NGA,2029,Ogun
+Nigeria,Ondo,NGA,2030,Ondo
+Nigeria,Osun,NGA,2031,Osun
+Nigeria,Oyo,NGA,2032,Oyo
+Nigeria,Plateau,NGA,2033,Plateau
+Nigeria,Rivers,NGA,2034,Rivers
+Nigeria,Sokoto,NGA,2035,Sokoto
+Nigeria,Taraba,NGA,2036,Taraba
+Nigeria,Water body,NGA,2037,Water body
+Nigeria,Yobe,NGA,2038,Yobe
+Nigeria,Zamfara,NGA,2039,Zamfara
+Niger,Maradi,NER,1997,Maradi
+Niger,Niamey,NER,1998,Niamey
+Niger,Tahoua,NER,1999,Tahoua
+Niger,Tillabéry,NER,2000,Tillabery
+Niger,Zinder,NER,2001,Zinder
+Niue,Niue,NIU,2040,Niue
+Norfolk Island,,NFK,2041,
+Northern Mariana Islands,Northern Islands,MNP,2056,Northern Islands
+Northern Mariana Islands,Rota,MNP,2057,Rota
+Northern Mariana Islands,Saipan,MNP,2058,Saipan
+Northern Mariana Islands,Tinian,MNP,2059,Tinian
+North Korea,Chagang-do,PRK,2042,Chagang-do
+North Korea,Hamgyong-bukto,PRK,2043,Hamgyong-bukto
+North Korea,Hamgyong-namdo,PRK,2044,Hamgyong-namdo
+North Korea,Hwanghae-bukto,PRK,2045,Hwanghae-bukto
+North Korea,Hwanghae-namdo,PRK,2046,Hwanghae-namdo
+North Korea,Kaesong,PRK,2047,Kaesong
+North Korea,Kangwon-do,PRK,2048,Kangwon-do
+North Korea,Kumgangsan,PRK,2049,Kumgangsan
+North Korea,P'yongan-bukto,PRK,2050,P'yongan-bukto
+North Korea,P'yongan-namdo,PRK,2051,P'yongan-namdo
+North Korea,P'yongyang,PRK,2052,P'yongyang
+North Korea,Rason,PRK,2053,Rason
+North Korea,Ryanggang,PRK,2054,Ryanggang
+North Korea,Sinuiju,PRK,2055,Sinuiju
+Norway,Akershus,NOR,2060,Akershus
+Norway,Ãstfold,NOR,2061,Astfold
+Norway,Aust-Agder,NOR,2062,Aust-Agder
+Norway,Buskerud,NOR,2063,Buskerud
+Norway,Finnmark,NOR,2064,Finnmark
+Norway,Hedmark,NOR,2065,Hedmark
+Norway,Hordaland,NOR,2066,Hordaland
+Norway,Møre og Romsdal,NOR,2067,More og Romsdal
+Norway,Nordland,NOR,2069,Nordland
+Norway,Nord-Trøndelag,NOR,2068,Nord-Trondelag
+Norway,Oppland,NOR,2070,Oppland
+Norway,Oslo,NOR,2071,Oslo
+Norway,Rogaland,NOR,2072,Rogaland
+Norway,Sogn og Fjordane,NOR,2073,Sogn og Fjordane
+Norway,Sør-Trøndelag,NOR,2074,Sor-Trondelag
+Norway,Telemark,NOR,2075,Telemark
+Norway,Troms,NOR,2076,Troms
+Norway,Vest-Agder,NOR,2077,Vest-Agder
+Norway,Vestfold,NOR,2078,Vestfold
+Oman,Ad Dakhliyah,OMN,2079,Ad Dakhliyah
+Oman,Al Batnah,OMN,2080,Al Batnah
+Oman,Al Dhahira,OMN,2081,Al Dhahira
+Oman,Al Wusta,OMN,2082,Al Wusta
+Oman,Ash Sharqiyah,OMN,2083,Ash Sharqiyah
+Oman,Dhofar,OMN,2084,Dhofar
+Oman,Musandam,OMN,2085,Musandam
+Oman,Muscat,OMN,2086,Muscat
+Pakistan,Azad Kashmir,PAK,2087,Azad Kashmir
+Pakistan,Baluchistan,PAK,2088,Baluchistan
+Pakistan,F.A.T.A.,PAK,2089,F.A.T.A.
+Pakistan,F.C.T.,PAK,2090,F.C.T.
+Pakistan,Northern Areas,PAK,2092,Northern Areas
+Pakistan,N.W.F.P.,PAK,2091,N.W.F.P.
+Pakistan,Punjab,PAK,2093,Punjab
+Pakistan,Sind,PAK,2094,Sind
+Palau,Aimeliik,PLW,2095,Aimeliik
+Palau,Airai,PLW,2096,Airai
+Palau,Kayangel,PLW,2097,Kayangel
+Palau,Koror,PLW,2098,Koror
+Palau,Melekeok,PLW,2099,Melekeok
+Palau,Ngaraard,PLW,2100,Ngaraard
+Palau,Ngarchelong,PLW,2101,Ngarchelong
+Palau,Ngardmau,PLW,2102,Ngardmau
+Palau,Ngatpang,PLW,2103,Ngatpang
+Palau,Ngchesar,PLW,2104,Ngchesar
+Palau,Ngeremlengui,PLW,2105,Ngeremlengui
+Palau,Ngiwal,PLW,2106,Ngiwal
+Palau,Peleliu,PLW,2107,Peleliu
+Palestina,Gaza,PSE,2108,Gaza
+Palestina,West Bank,PSE,2109,West Bank
+Panama,Bocas del Toro,PAN,2110,Bocas del Toro
+Panama,Chiriquí,PAN,2111,Chiriqui
+Panama,Coclé,PAN,2112,Cocle
+Panama,Colón,PAN,2113,Colon
+Panama,Darién,PAN,2114,Darien
+Panama,Emberá,PAN,2115,Embera
+Panama,Herrera,PAN,2116,Herrera
+Panama,Kuna Yala,PAN,2117,Kuna Yala
+Panama,Los Santos,PAN,2118,Los Santos
+Panama,Ngöbe Buglé,PAN,2119,Ngobe Bugle
+Panama,Panamá,PAN,2120,Panama
+Panama,Veraguas,PAN,2121,Veraguas
+Papua New Guinea,Central,PNG,2122,Central
+Papua New Guinea,Chimbu,PNG,2123,Chimbu
+Papua New Guinea,Eastern Highlands,PNG,2126,Eastern Highlands
+Papua New Guinea,East New Britain,PNG,2124,East New Britain
+Papua New Guinea,East Sepik,PNG,2125,East Sepik
+Papua New Guinea,Enga,PNG,2127,Enga
+Papua New Guinea,Gulf,PNG,2128,Gulf
+Papua New Guinea,Madang,PNG,2129,Madang
+Papua New Guinea,Manus,PNG,2130,Manus
+Papua New Guinea,Milne Bay,PNG,2131,Milne Bay
+Papua New Guinea,Morobe,PNG,2132,Morobe
+Papua New Guinea,New Ireland,PNG,2133,New Ireland
+Papua New Guinea,Northern,PNG,2135,Northern
+Papua New Guinea,North Solomons,PNG,2134,North Solomons
+Papua New Guinea,Sandaun,PNG,2136,Sandaun
+Papua New Guinea,Southern Highlands,PNG,2137,Southern Highlands
+Papua New Guinea,Western Highlands,PNG,2140,Western Highlands
+Papua New Guinea,Western,PNG,2139,Western
+Papua New Guinea,West New Britain,PNG,2138,West New Britain
+Paraguay,Alto Paraguay,PRY,2141,Alto Paraguay
+Paraguay,Alto Paraná,PRY,2142,Alto Parana
+Paraguay,Amambay,PRY,2143,Amambay
+Paraguay,Asunción,PRY,2144,Asuncion
+Paraguay,Boquerón,PRY,2145,Boqueron
+Paraguay,Caaguazú,PRY,2146,Caaguazu
+Paraguay,Caazapá,PRY,2147,Caazapa
+Paraguay,Canindeyú,PRY,2148,Canindeyu
+Paraguay,Central,PRY,2149,Central
+Paraguay,Concepción,PRY,2150,Concepcion
+Paraguay,Cordillera,PRY,2151,Cordillera
+Paraguay,Guairá,PRY,2152,Guaira
+Paraguay,Itapúa,PRY,2153,Itapua
+Paraguay,Misiones,PRY,2154,Misiones
+Paraguay,Ñeembucú,PRY,2155,Neembucu
+Paraguay,Paraguarí,PRY,2156,Paraguari
+Paraguay,Presidente Hayes,PRY,2157,Presidente Hayes
+Paraguay,San Pedro,PRY,2158,San Pedro
+Peru,Amazonas,PER,2159,Amazonas
+Peru,Ancash,PER,2160,Ancash
+Peru,Apurímac,PER,2161,Apurimac
+Peru,Arequipa,PER,2162,Arequipa
+Peru,Ayacucho,PER,2163,Ayacucho
+Peru,Cajamarca,PER,2164,Cajamarca
+Peru,Callao,PER,2165,Callao
+Peru,Cusco,PER,2166,Cusco
+Peru,Huancavelica,PER,2167,Huancavelica
+Peru,Huánuco,PER,2168,Huanuco
+Peru,Ica,PER,2169,Ica
+Peru,Junín,PER,2170,Junin
+Peru,La Libertad,PER,2171,La Libertad
+Peru,Lambayeque,PER,2172,Lambayeque
+Peru,Lima,PER,2173,Lima
+Peru,Loreto,PER,2174,Loreto
+Peru,Madre de Dios,PER,2175,Madre de Dios
+Peru,Moquegua,PER,2176,Moquegua
+Peru,Pasco,PER,2177,Pasco
+Peru,Piura,PER,2178,Piura
+Peru,Puno,PER,2179,Puno
+Peru,San Martín,PER,2180,San Martin
+Peru,Tacna,PER,2181,Tacna
+Peru,Tumbes,PER,2182,Tumbes
+Peru,Ucayali,PER,2183,Ucayali
+Philippines,Abra,PHL,2184,Abra
+Philippines,Agusan del Norte,PHL,2185,Agusan del Norte
+Philippines,Agusan del Sur,PHL,2186,Agusan del Sur
+Philippines,Aklan,PHL,2187,Aklan
+Philippines,Albay,PHL,2188,Albay
+Philippines,Antique,PHL,2189,Antique
+Philippines,Apayao,PHL,2190,Apayao
+Philippines,Aurora,PHL,2191,Aurora
+Philippines,Basilan,PHL,2192,Basilan
+Philippines,Bataan,PHL,2193,Bataan
+Philippines,Batanes,PHL,2194,Batanes
+Philippines,Batangas,PHL,2195,Batangas
+Philippines,Benguet,PHL,2196,Benguet
+Philippines,Biliran,PHL,2197,Biliran
+Philippines,Bohol,PHL,2198,Bohol
+Philippines,Bukidnon,PHL,2199,Bukidnon
+Philippines,Bulacan,PHL,2200,Bulacan
+Philippines,Cagayan,PHL,2201,Cagayan
+Philippines,Camarines Norte,PHL,2202,Camarines Norte
+Philippines,Camarines Sur,PHL,2203,Camarines Sur
+Philippines,Camiguin,PHL,2204,Camiguin
+Philippines,Capiz,PHL,2205,Capiz
+Philippines,Catanduanes,PHL,2206,Catanduanes
+Philippines,Cavite,PHL,2207,Cavite
+Philippines,Cebu,PHL,2208,Cebu
+Philippines,Compostela Valley,PHL,2209,Compostela Valley
+Philippines,Davao del Norte,PHL,2210,Davao del Norte
+Philippines,Davao del Sur,PHL,2211,Davao del Sur
+Philippines,Davao Oriental,PHL,2212,Davao Oriental
+Philippines,Dinagat Islands,PHL,2213,Dinagat Islands
+Philippines,Eastern Samar,PHL,2214,Eastern Samar
+Philippines,Guimaras,PHL,2215,Guimaras
+Philippines,Ifugao,PHL,2216,Ifugao
+Philippines,Ilocos Norte,PHL,2217,Ilocos Norte
+Philippines,Ilocos Sur,PHL,2218,Ilocos Sur
+Philippines,Iloilo,PHL,2219,Iloilo
+Philippines,Isabela,PHL,2220,Isabela
+Philippines,Kalinga,PHL,2221,Kalinga
+Philippines,Laguna,PHL,2223,Laguna
+Philippines,Lanao del Norte,PHL,2224,Lanao del Norte
+Philippines,Lanao del Sur,PHL,2225,Lanao del Sur
+Philippines,La Union,PHL,2222,La Union
+Philippines,Leyte,PHL,2226,Leyte
+Philippines,Maguindanao,PHL,2227,Maguindanao
+Philippines,Marinduque,PHL,2228,Marinduque
+Philippines,Masbate,PHL,2229,Masbate
+Philippines,Metropolitan Manila,PHL,2230,Metropolitan Manila
+Philippines,Misamis Occidental,PHL,2231,Misamis Occidental
+Philippines,Misamis Oriental,PHL,2232,Misamis Oriental
+Philippines,Mountain Province,PHL,2233,Mountain Province
+Philippines,Negros Occidental,PHL,2234,Negros Occidental
+Philippines,Negros Oriental,PHL,2235,Negros Oriental
+Philippines,North Cotabato,PHL,2236,North Cotabato
+Philippines,Northern Samar,PHL,2237,Northern Samar
+Philippines,Nueva Ecija,PHL,2238,Nueva Ecija
+Philippines,Nueva Vizcaya,PHL,2239,Nueva Vizcaya
+Philippines,Occidental Mindoro,PHL,2240,Occidental Mindoro
+Philippines,Oriental Mindoro,PHL,2241,Oriental Mindoro
+Philippines,Palawan,PHL,2242,Palawan
+Philippines,Pampanga,PHL,2243,Pampanga
+Philippines,Pangasinan,PHL,2244,Pangasinan
+Philippines,Quezon,PHL,2245,Quezon
+Philippines,Quirino,PHL,2246,Quirino
+Philippines,Rizal,PHL,2247,Rizal
+Philippines,Romblon,PHL,2248,Romblon
+Philippines,Samar,PHL,2249,Samar
+Philippines,Sarangani,PHL,2250,Sarangani
+Philippines,Shariff Kabunsuan,PHL,2251,Shariff Kabunsuan
+Philippines,Siquijor,PHL,2252,Siquijor
+Philippines,Sorsogon,PHL,2253,Sorsogon
+Philippines,South Cotabato,PHL,2254,South Cotabato
+Philippines,Southern Leyte,PHL,2255,Southern Leyte
+Philippines,Sultan Kudarat,PHL,2256,Sultan Kudarat
+Philippines,Sulu,PHL,2257,Sulu
+Philippines,Surigao del Norte,PHL,2258,Surigao del Norte
+Philippines,Surigao del Sur,PHL,2259,Surigao del Sur
+Philippines,Tarlac,PHL,2260,Tarlac
+Philippines,Tawi-Tawi,PHL,2261,Tawi-Tawi
+Philippines,Zambales,PHL,2262,Zambales
+Philippines,Zamboanga del Norte,PHL,2263,Zamboanga del Norte
+Philippines,Zamboanga del Sur,PHL,2264,Zamboanga del Sur
+Philippines,Zamboanga Sibugay,PHL,2265,Zamboanga Sibugay
+Pitcairn Islands,,PCN,2266,
+Poland,Greater Poland,POL,2267,Greater Poland
+Poland,Kuyavian-Pomeranian,POL,2268,Kuyavian-Pomeranian
+Poland,Lesser Poland,POL,2269,Lesser Poland
+Poland,Lódz,POL,2270,Lodz
+Poland,Lower Silesian,POL,2271,Lower Silesian
+Poland,Lublin,POL,2272,Lublin
+Poland,Lubusz,POL,2273,Lubusz
+Poland,Masovian,POL,2274,Masovian
+Poland,Opole,POL,2275,Opole
+Poland,Podlachian,POL,2276,Podlachian
+Poland,Pomeranian,POL,2277,Pomeranian
+Poland,Silesian,POL,2278,Silesian
+Poland,Subcarpathian,POL,2279,Subcarpathian
+Poland,Swietokrzyskie,POL,2280,Swietokrzyskie
+Poland,Warmian-Masurian,POL,2281,Warmian-Masurian
+Poland,West Pomeranian,POL,2282,West Pomeranian
+Portugal,Aveiro,PRT,2283,Aveiro
+Portugal,Azores,PRT,2284,Azores
+Portugal,Beja,PRT,2285,Beja
+Portugal,Bragança,PRT,2287,Braganca
+Portugal,Braga,PRT,2286,Braga
+Portugal,Castelo Branco,PRT,2288,Castelo Branco
+Portugal,Coimbra,PRT,2289,Coimbra
+Portugal,Évora,PRT,2290,Evora
+Portugal,Faro,PRT,2291,Faro
+Portugal,Guarda,PRT,2292,Guarda
+Portugal,Leiria,PRT,2293,Leiria
+Portugal,Lisboa,PRT,2294,Lisboa
+Portugal,Madeira,PRT,2295,Madeira
+Portugal,Portalegre,PRT,2296,Portalegre
+Portugal,Porto,PRT,2297,Porto
+Portugal,Santarém,PRT,2298,Santarem
+Portugal,Setúbal,PRT,2299,Setubal
+Portugal,Viana do Castelo,PRT,2300,Viana do Castelo
+Portugal,Vila Real,PRT,2301,Vila Real
+Portugal,Viseu,PRT,2302,Viseu
+Puerto Rico,Adjuntas,PRI,2303,Adjuntas
+Puerto Rico,Aguada,PRI,2304,Aguada
+Puerto Rico,Aguadilla,PRI,2305,Aguadilla
+Puerto Rico,Aguas Buenas,PRI,2306,Aguas Buenas
+Puerto Rico,Aibonito,PRI,2307,Aibonito
+Puerto Rico,Añasco,PRI,2308,Anasco
+Puerto Rico,Arecibo,PRI,2309,Arecibo
+Puerto Rico,Arroyo,PRI,2310,Arroyo
+Puerto Rico,Barceloneta,PRI,2311,Barceloneta
+Puerto Rico,Barranquitas,PRI,2312,Barranquitas
+Puerto Rico,Bayamón,PRI,2313,Bayamon
+Puerto Rico,Cabo Rojo,PRI,2314,Cabo Rojo
+Puerto Rico,Caguas,PRI,2315,Caguas
+Puerto Rico,Camuy,PRI,2316,Camuy
+Puerto Rico,Canóvanas,PRI,2317,Canovanas
+Puerto Rico,Carolina,PRI,2318,Carolina
+Puerto Rico,Cataño,PRI,2319,Catano
+Puerto Rico,Cayey,PRI,2320,Cayey
+Puerto Rico,Ceiba,PRI,2321,Ceiba
+Puerto Rico,Ciales,PRI,2322,Ciales
+Puerto Rico,Cidra,PRI,2323,Cidra
+Puerto Rico,Coamo,PRI,2324,Coamo
+Puerto Rico,Comerío,PRI,2325,Comerio
+Puerto Rico,Corozal,PRI,2326,Corozal
+Puerto Rico,Culebra,PRI,2327,Culebra
+Puerto Rico,Dorado,PRI,2328,Dorado
+Puerto Rico,Fajardo,PRI,2329,Fajardo
+Puerto Rico,Florida,PRI,2330,Florida
+Puerto Rico,Guánica,PRI,2331,Guanica
+Puerto Rico,Guayama,PRI,2332,Guayama
+Puerto Rico,Guayanilla,PRI,2333,Guayanilla
+Puerto Rico,Guaynabo,PRI,2334,Guaynabo
+Puerto Rico,Gurabo,PRI,2335,Gurabo
+Puerto Rico,Hatillo,PRI,2336,Hatillo
+Puerto Rico,Hormigueros,PRI,2337,Hormigueros
+Puerto Rico,Humacao,PRI,2338,Humacao
+Puerto Rico,Isabela,PRI,2339,Isabela
+Puerto Rico,Jayuya,PRI,2340,Jayuya
+Puerto Rico,Juana Díaz,PRI,2341,Juana Diaz
+Puerto Rico,Juncos,PRI,2342,Juncos
+Puerto Rico,Lajas,PRI,2343,Lajas
+Puerto Rico,Lares,PRI,2344,Lares
+Puerto Rico,Las Marías,PRI,2345,Las Marias
+Puerto Rico,Las Piedras,PRI,2346,Las Piedras
+Puerto Rico,Loíza,PRI,2347,Loiza
+Puerto Rico,Luquillo,PRI,2348,Luquillo
+Puerto Rico,Manatí,PRI,2349,Manati
+Puerto Rico,Maricao,PRI,2350,Maricao
+Puerto Rico,Maunabo,PRI,2351,Maunabo
+Puerto Rico,Mayaguez,PRI,2352,Mayaguez
+Puerto Rico,Mayagüez,PRI,2353,Mayaguez
+Puerto Rico,Moca,PRI,2354,Moca
+Puerto Rico,Morovis,PRI,2355,Morovis
+Puerto Rico,Naguabo,PRI,2356,Naguabo
+Puerto Rico,Naranjito,PRI,2357,Naranjito
+Puerto Rico,Orocovis,PRI,2358,Orocovis
+Puerto Rico,Patillas,PRI,2359,Patillas
+Puerto Rico,Peñuelas,PRI,2360,Penuelas
+Puerto Rico,Ponce,PRI,2361,Ponce
+Puerto Rico,Quebradillas,PRI,2362,Quebradillas
+Puerto Rico,Rincón,PRI,2363,Rincon
+Puerto Rico,Río Grande,PRI,2364,Rio Grande
+Puerto Rico,Sabana Grande,PRI,2365,Sabana Grande
+Puerto Rico,Salinas,PRI,2366,Salinas
+Puerto Rico,San Germán,PRI,2367,San German
+Puerto Rico,San Juan,PRI,2368,San Juan
+Puerto Rico,San Lorenzo,PRI,2369,San Lorenzo
+Puerto Rico,San Sebastián,PRI,2370,San Sebastian
+Puerto Rico,Santa Isabel,PRI,2371,Santa Isabel
+Puerto Rico,Toa Alta,PRI,2372,Toa Alta
+Puerto Rico,Toa Baja,PRI,2373,Toa Baja
+Puerto Rico,Trujillo Alto,PRI,2374,Trujillo Alto
+Puerto Rico,Utuado,PRI,2375,Utuado
+Puerto Rico,Vega Alta,PRI,2376,Vega Alta
+Puerto Rico,Vega Baja,PRI,2377,Vega Baja
+Puerto Rico,Vieques,PRI,2378,Vieques
+Puerto Rico,Villalba,PRI,2379,Villalba
+Puerto Rico,Yabucoa,PRI,2380,Yabucoa
+Puerto Rico,Yauco,PRI,2381,Yauco
+Qatar,Ad Dawhah,QAT,2382,Ad Dawhah
+Qatar,Al Ghuwayriyah,QAT,2383,Al Ghuwayriyah
+Qatar,Al Jumayliyah,QAT,2384,Al Jumayliyah
+Qatar,Al Khawr,QAT,2385,Al Khawr
+Qatar,Al Wakrah,QAT,2386,Al Wakrah
+Qatar,Ar Rayyan,QAT,2387,Ar Rayyan
+Qatar,Jariyan al Batnah,QAT,2388,Jariyan al Batnah
+Qatar,Madinat ach Shamal,QAT,2389,Madinat ach Shamal
+Qatar,Umm Salal,QAT,2390,Umm Salal
+Republic of Congo,Bouenza,COG,2391,Bouenza
+Republic of Congo,Cuvette,COG,2392,Cuvette
+Republic of Congo,Cuvette-Ouest,COG,2393,Cuvette-Ouest
+Republic of Congo,Kouilou,COG,2394,Kouilou
+Republic of Congo,Lékoumou,COG,2395,Lekoumou
+Republic of Congo,Likouala,COG,2396,Likouala
+Republic of Congo,Niari,COG,2397,Niari
+Republic of Congo,Plateaux,COG,2398,Plateaux
+Republic of Congo,Pool,COG,2399,Pool
+Republic of Congo,Sangha,COG,2400,Sangha
+Reunion,Saint-Benoît,REU,2401,Saint-Benoit
+Reunion,Saint-Denis,REU,2402,Saint-Denis
+Reunion,Saint-Paul,REU,2403,Saint-Paul
+Reunion,Saint-Pierre,REU,2404,Saint-Pierre
+Romania,Alba,ROU,2405,Alba
+Romania,Arad,ROU,2406,Arad
+Romania,Arges,ROU,2407,Arges
+Romania,Bacau,ROU,2408,Bacau
+Romania,Bihor,ROU,2409,Bihor
+Romania,Bistrita-Nasaud,ROU,2410,Bistrita-Nasaud
+Romania,Botosani,ROU,2411,Botosani
+Romania,Braila,ROU,2412,Braila
+Romania,Brasov,ROU,2413,Brasov
+Romania,Bucharest,ROU,2414,Bucharest
+Romania,Buzau,ROU,2415,Buzau
+Romania,Calarasi,ROU,2416,Calarasi
+Romania,Caras-Severin,ROU,2417,Caras-Severin
+Romania,Cluj,ROU,2418,Cluj
+Romania,Constanta,ROU,2419,Constanta
+Romania,Covasna,ROU,2420,Covasna
+Romania,Dâmbovita,ROU,2421,Dambovita
+Romania,Dolj,ROU,2422,Dolj
+Romania,Galati,ROU,2423,Galati
+Romania,Giurgiu,ROU,2424,Giurgiu
+Romania,Gorj,ROU,2425,Gorj
+Romania,Harghita,ROU,2426,Harghita
+Romania,Hunedoara,ROU,2427,Hunedoara
+Romania,Ialomita,ROU,2428,Ialomita
+Romania,Iasi,ROU,2429,Iasi
+Romania,Maramures,ROU,2430,Maramures
+Romania,Mehedinti,ROU,2431,Mehedinti
+Romania,Mures,ROU,2432,Mures
+Romania,Neamt,ROU,2433,Neamt
+Romania,Olt,ROU,2434,Olt
+Romania,Prahova,ROU,2435,Prahova
+Romania,Salaj,ROU,2436,Salaj
+Romania,Satu Mare,ROU,2437,Satu Mare
+Romania,Sibiu,ROU,2438,Sibiu
+Romania,Suceava,ROU,2439,Suceava
+Romania,Teleorman,ROU,2440,Teleorman
+Romania,Timis,ROU,2441,Timis
+Romania,Tulcea,ROU,2442,Tulcea
+Romania,Vâlcea,ROU,2443,Valcea
+Romania,Vaslui,ROU,2444,Vaslui
+Romania,Vrancea,ROU,2445,Vrancea
+Russia,Adygey,RUS,2446,Adygey
+Russia,Aga Buryat,RUS,2447,Aga Buryat
+Russia,Altay,RUS,2448,Altay
+Russia,Amur,RUS,2449,Amur
+Russia,Arkhangel'sk,RUS,2450,Arkhangel'sk
+Russia,Astrakhan',RUS,2451,Astrakhan'
+Russia,Bashkortostan,RUS,2452,Bashkortostan
+Russia,Belgorod,RUS,2453,Belgorod
+Russia,Bryansk,RUS,2454,Bryansk
+Russia,Buryat,RUS,2455,Buryat
+Russia,Chechnya,RUS,2456,Chechnya
+Russia,Chelyabinsk,RUS,2457,Chelyabinsk
+Russia,Chita,RUS,2458,Chita
+Russia,Chukot,RUS,2459,Chukot
+Russia,Chuvash,RUS,2460,Chuvash
+Russia,City of St. Petersburg,RUS,2461,City of St. Petersburg
+Russia,Dagestan,RUS,2462,Dagestan
+Russia,Evenk,RUS,2463,Evenk
+Russia,Gorno-Altay,RUS,2464,Gorno-Altay
+Russia,Ingush,RUS,2465,Ingush
+Russia,Irkutsk,RUS,2466,Irkutsk
+Russia,Ivanovo,RUS,2467,Ivanovo
+Russia,Kabardin-Balkar,RUS,2468,Kabardin-Balkar
+Russia,Kaliningrad,RUS,2469,Kaliningrad
+Russia,Kalmyk,RUS,2470,Kalmyk
+Russia,Kaluga,RUS,2471,Kaluga
+Russia,Kamchatka,RUS,2472,Kamchatka
+Russia,Karachay-Cherkess,RUS,2473,Karachay-Cherkess
+Russia,Karelia,RUS,2474,Karelia
+Russia,Kemerovo,RUS,2475,Kemerovo
+Russia,Khabarovsk,RUS,2476,Khabarovsk
+Russia,Khakass,RUS,2477,Khakass
+Russia,Khanty-Mansiy,RUS,2478,Khanty-Mansiy
+Russia,Kirov,RUS,2479,Kirov
+Russia,Komi-Permyak,RUS,2481,Komi-Permyak
+Russia,Komi,RUS,2480,Komi
+Russia,Koryak,RUS,2482,Koryak
+Russia,Kostroma,RUS,2483,Kostroma
+Russia,Krasnodar,RUS,2484,Krasnodar
+Russia,Krasnoyarsk,RUS,2485,Krasnoyarsk
+Russia,Kurgan,RUS,2486,Kurgan
+Russia,Kursk,RUS,2487,Kursk
+Russia,Leningrad,RUS,2488,Leningrad
+Russia,Lipetsk,RUS,2489,Lipetsk
+Russia,Maga Buryatdan,RUS,2490,Maga Buryatdan
+Russia,Mariy-El,RUS,2491,Mariy-El
+Russia,Mordovia,RUS,2492,Mordovia
+Russia,Moscow City,RUS,2493,Moscow City
+Russia,Moskva,RUS,2494,Moskva
+Russia,Murmansk,RUS,2495,Murmansk
+Russia,Nenets,RUS,2496,Nenets
+Russia,Nizhegorod,RUS,2497,Nizhegorod
+Russia,North Ossetia,RUS,2498,North Ossetia
+Russia,Novgorod,RUS,2499,Novgorod
+Russia,Novosibirsk,RUS,2500,Novosibirsk
+Russia,Omsk,RUS,2501,Omsk
+Russia,Orel,RUS,2502,Orel
+Russia,Orenburg,RUS,2503,Orenburg
+Russia,Penza,RUS,2504,Penza
+Russia,Perm',RUS,2505,Perm'
+Russia,Primor'ye,RUS,2506,Primor'ye
+Russia,Pskov,RUS,2507,Pskov
+Russia,Rostov,RUS,2508,Rostov
+Russia,Ryazan',RUS,2509,Ryazan'
+Russia,Sakhalin,RUS,2511,Sakhalin
+Russia,Sakha,RUS,2510,Sakha
+Russia,Samara,RUS,2512,Samara
+Russia,Saratov,RUS,2513,Saratov
+Russia,Smolensk,RUS,2514,Smolensk
+Russia,Stavropol',RUS,2515,Stavropol'
+Russia,Sverdlovsk,RUS,2516,Sverdlovsk
+Russia,Tambov,RUS,2517,Tambov
+Russia,Tatarstan,RUS,2518,Tatarstan
+Russia,Taymyr,RUS,2519,Taymyr
+Russia,Tomsk,RUS,2520,Tomsk
+Russia,Tula,RUS,2521,Tula
+Russia,Tuva,RUS,2522,Tuva
+Russia,Tver',RUS,2523,Tver'
+Russia,Tyumen',RUS,2524,Tyumen'
+Russia,Udmurt,RUS,2525,Udmurt
+Russia,Ul'yanovsk,RUS,2526,Ul'yanovsk
+Russia,Ust-Orda Buryat,RUS,2527,Ust-Orda Buryat
+Russia,Vladimir,RUS,2528,Vladimir
+Russia,Volgograd,RUS,2529,Volgograd
+Russia,Vologda,RUS,2530,Vologda
+Russia,Voronezh,RUS,2531,Voronezh
+Russia,Yamal-Nenets,RUS,2532,Yamal-Nenets
+Russia,Yaroslavl',RUS,2533,Yaroslavl'
+Russia,Yevrey,RUS,2534,Yevrey
+Rwanda,Butare,RWA,2535,Butare
+Rwanda,Byumba,RWA,2536,Byumba
+Rwanda,Cyangugu,RWA,2537,Cyangugu
+Rwanda,Gikongoro,RWA,2538,Gikongoro
+Rwanda,Gisenyi,RWA,2539,Gisenyi
+Rwanda,Gitarama,RWA,2540,Gitarama
+Rwanda,Kibungu,RWA,2541,Kibungu
+Rwanda,Kibuye,RWA,2542,Kibuye
+Rwanda,Kigali,RWA,2543,Kigali
+Rwanda,Ruhengeri,RWA,2544,Ruhengeri
+Saint-Barthélemy,,BLM,2545,
+Saint Helena,Ascension,SHN,2547,Ascension
+Saint Helena,Saint Helena,SHN,2548,Saint Helena
+Saint Helena,Tristan da Cunha,SHN,2549,Tristan da Cunha
+Saint Kitts and Nevis,Christ Church Nichola Town,KNA,2550,Christ Church Nichola Town
+Saint Kitts and Nevis,Saint Anne Sandy Point,KNA,2551,Saint Anne Sandy Point
+Saint Kitts and Nevis,Saint George Basseterre,KNA,2552,Saint George Basseterre
+Saint Kitts and Nevis,Saint George Gingerland,KNA,2553,Saint George Gingerland
+Saint Kitts and Nevis,Saint James Windward,KNA,2554,Saint James Windward
+Saint Kitts and Nevis,Saint John Capisterre,KNA,2555,Saint John Capisterre
+Saint Kitts and Nevis,Saint John Figtree,KNA,2556,Saint John Figtree
+Saint Kitts and Nevis,Saint Mary Cayon,KNA,2557,Saint Mary Cayon
+Saint Kitts and Nevis,Saint Paul Capisterre,KNA,2558,Saint Paul Capisterre
+Saint Kitts and Nevis,Saint Paul Charlestown,KNA,2559,Saint Paul Charlestown
+Saint Kitts and Nevis,Saint Peter Basseterre,KNA,2560,Saint Peter Basseterre
+Saint Kitts and Nevis,Saint Thomas Lowland,KNA,2561,Saint Thomas Lowland
+Saint Kitts and Nevis,Saint Thomas Middle Island,KNA,2562,Saint Thomas Middle Island
+Saint Kitts and Nevis,Trinity Palmetto Point,KNA,2563,Trinity Palmetto Point
+Saint Lucia,Anse-la-Raye,LCA,2564,Anse-la-Raye
+Saint Lucia,Canaries,LCA,2565,Canaries
+Saint Lucia,Castries,LCA,2566,Castries
+Saint Lucia,Choiseul,LCA,2567,Choiseul
+Saint Lucia,Dennery,LCA,2568,Dennery
+Saint Lucia,Gros Islet,LCA,2569,Gros Islet
+Saint Lucia,Laborie,LCA,2570,Laborie
+Saint Lucia,Micoud,LCA,2571,Micoud
+Saint Lucia,Soufrière,LCA,2572,Soufriere
+Saint Lucia,Vieux Fort,LCA,2573,Vieux Fort
+Saint-Martin,,MAF,2546,
+Saint Pierre and Miquelon,Miquelon-Langlade,SPM,2574,Miquelon-Langlade
+Saint Pierre and Miquelon,Saint-Pierre,SPM,2575,Saint-Pierre
+Saint Vincent and the Grenadines,Charlotte,VCT,2576,Charlotte
+Saint Vincent and the Grenadines,Grenadines,VCT,2577,Grenadines
+Saint Vincent and the Grenadines,Saint Andrew,VCT,2578,Saint Andrew
+Saint Vincent and the Grenadines,Saint David,VCT,2579,Saint David
+Saint Vincent and the Grenadines,Saint George,VCT,2580,Saint George
+Saint Vincent and the Grenadines,Saint Patrick,VCT,2581,Saint Patrick
+Samoa,A'ana,WSM,2582,A'ana
+Samoa,Aiga-i-le-Tai,WSM,2583,Aiga-i-le-Tai
+Samoa,Atua,WSM,2584,Atua
+Samoa,Fa'asaleleaga,WSM,2585,Fa'asaleleaga
+Samoa,Gaga'emauga,WSM,2586,Gaga'emauga
+Samoa,Gagaifomauga,WSM,2587,Gagaifomauga
+Samoa,Palauli,WSM,2588,Palauli
+Samoa,Satupa'itea,WSM,2589,Satupa'itea
+Samoa,Tuamasaga,WSM,2590,Tuamasaga
+Samoa,Va'a-o-Fonoti,WSM,2591,Va'a-o-Fonoti
+Samoa,Vaisigano,WSM,2592,Vaisigano
+San Marino,Acquaviva,SMR,2593,Acquaviva
+San Marino,Borgo Maggiore,SMR,2594,Borgo Maggiore
+San Marino,Chiesanuova,SMR,2595,Chiesanuova
+San Marino,Domagnano,SMR,2596,Domagnano
+San Marino,Faetano,SMR,2597,Faetano
+San Marino,Fiorentino,SMR,2598,Fiorentino
+San Marino,Montegiardino,SMR,2599,Montegiardino
+San Marino,San Marino,SMR,2600,San Marino
+San Marino,Serravalle,SMR,2601,Serravalle
+Sao Tome and Principe,Príncipe,STP,2602,Principe
+Sao Tome and Principe,São Tomé,STP,2603,Sao Tome
+Saudi Arabia,Al Bahah,SAU,2605,Al Bahah
+Saudi Arabia,Al Hudud ash Shamaliyah,SAU,2606,Al Hudud ash Shamaliyah
+Saudi Arabia,Al Jawf,SAU,2607,Al Jawf
+Saudi Arabia,Al Madinah,SAU,2608,Al Madinah
+Saudi Arabia,Al Quassim,SAU,2609,Al Quassim
+Saudi Arabia,Ar Riyad,SAU,2610,Ar Riyad
+Saudi Arabia,Ash Sharqiyah,SAU,2611,Ash Sharqiyah
+Saudi Arabia,`Asir,SAU,2604,`Asir
+Saudi Arabia,Ha'il,SAU,2612,Ha'il
+Saudi Arabia,Jizan,SAU,2613,Jizan
+Saudi Arabia,Makkah,SAU,2614,Makkah
+Saudi Arabia,Najran,SAU,2615,Najran
+Saudi Arabia,Tabuk,SAU,2616,Tabuk
+Senegal,Dakar,SEN,2617,Dakar
+Senegal,Diourbel,SEN,2618,Diourbel
+Senegal,Fatick,SEN,2619,Fatick
+Senegal,Kaolack,SEN,2620,Kaolack
+Senegal,Kolda,SEN,2621,Kolda
+Senegal,Louga,SEN,2622,Louga
+Senegal,Matam,SEN,2623,Matam
+Senegal,Saint-Louis,SEN,2624,Saint-Louis
+Senegal,Tambacounda,SEN,2625,Tambacounda
+Senegal,Thiès,SEN,2626,Thies
+Senegal,Ziguinchor,SEN,2627,Ziguinchor
+Serbia,Borski,SRB,2628,Borski
+Serbia,Branicevski,SRB,2629,Branicevski
+Serbia,Grad Beograd,SRB,2630,Grad Beograd
+Serbia,Jablanicki,SRB,2631,Jablanicki
+Serbia,Juno-Backi,SRB,2632,Juno-Backi
+Serbia,Juno-Banatski,SRB,2633,Juno-Banatski
+Serbia,Kolubarski,SRB,2634,Kolubarski
+Serbia,Macvanski,SRB,2635,Macvanski
+Serbia,Moravicki,SRB,2636,Moravicki
+Serbia,Niavski,SRB,2637,Niavski
+Serbia,Pcinjski,SRB,2638,Pcinjski
+Serbia,Pirotski,SRB,2639,Pirotski
+Serbia,Podunavski,SRB,2640,Podunavski
+Serbia,Pomoravski,SRB,2641,Pomoravski
+Serbia,Raki,SRB,2643,Raki
+Serbia,Rasinski,SRB,2642,Rasinski
+Serbia,Severno-Backi,SRB,2644,Severno-Backi
+Serbia,Severno-Banatski,SRB,2645,Severno-Banatski
+Serbia,Srednje-Banatski,SRB,2646,Srednje-Banatski
+Serbia,Sremski,SRB,2647,Sremski
+Serbia,Toplicki,SRB,2649,Toplicki
+Serbia,umadijski,SRB,2648,umadijski
+Serbia,Zajecarski,SRB,2650,Zajecarski
+Serbia,Zapadno-Backi,SRB,2651,Zapadno-Backi
+Serbia,Zlatiborski,SRB,2652,Zlatiborski
+Seychelles,,SYC,2653,
+Sierra Leone,Eastern,SLE,2654,Eastern
+Sierra Leone,Northern,SLE,2655,Northern
+Sierra Leone,Southern,SLE,2656,Southern
+Sierra Leone,Western,SLE,2657,Western
+Singapore,,SGP,2658,
+Sint Maarten,,SMX,2659,
+Slovakia,Banskobystrický,SVK,2660,Banskobystricky
+Slovakia,Bratislavský,SVK,2661,Bratislavsky
+Slovakia,ilinský,SVK,2667,ilinsky
+Slovakia,Koický,SVK,2662,Koicky
+Slovakia,Nitriansky,SVK,2663,Nitriansky
+Slovakia,Preov,SVK,2664,Preov
+Slovakia,Trenciansky,SVK,2665,Trenciansky
+Slovakia,Trnavský,SVK,2666,Trnavsky
+Slovenia,Gorenjska,SVN,2668,Gorenjska
+Slovenia,Gorika,SVN,2669,Gorika
+Slovenia,Jugovzhodna Slovenija,SVN,2670,Jugovzhodna Slovenija
+Slovenia,Koroka,SVN,2671,Koroka
+Slovenia,Notranjsko-kraka,SVN,2672,Notranjsko-kraka
+Slovenia,Obalno-kraka,SVN,2673,Obalno-kraka
+Slovenia,Osrednjeslovenska,SVN,2674,Osrednjeslovenska
+Slovenia,Podravska,SVN,2675,Podravska
+Slovenia,Pomurska,SVN,2676,Pomurska
+Slovenia,Savinjska,SVN,2677,Savinjska
+Slovenia,Spodnjeposavska,SVN,2678,Spodnjeposavska
+Slovenia,Zasavska,SVN,2679,Zasavska
+Solomon Islands,Choiseul,SLB,2680,Choiseul
+Solomon Islands,Guadalcanal,SLB,2681,Guadalcanal
+Solomon Islands,Isabel,SLB,2682,Isabel
+Solomon Islands,Makira,SLB,2683,Makira
+Solomon Islands,Malaita,SLB,2684,Malaita
+Solomon Islands,Rennell and Bellona,SLB,2685,Rennell and Bellona
+Solomon Islands,Temotu,SLB,2686,Temotu
+Solomon Islands,Western,SLB,2687,Western
+Somalia,Awdal,SOM,2688,Awdal
+Somalia,Bakool,SOM,2689,Bakool
+Somalia,Banaadir,SOM,2690,Banaadir
+Somalia,Bari,SOM,2691,Bari
+Somalia,Bay,SOM,2692,Bay
+Somalia,Galguduud,SOM,2693,Galguduud
+Somalia,Gedo,SOM,2694,Gedo
+Somalia,Hiiraan,SOM,2695,Hiiraan
+Somalia,Jubbada Dhexe,SOM,2696,Jubbada Dhexe
+Somalia,Jubbada Hoose,SOM,2697,Jubbada Hoose
+Somalia,Mudug,SOM,2698,Mudug
+Somalia,Nugaal,SOM,2699,Nugaal
+Somalia,Sanaag,SOM,2700,Sanaag
+Somalia,Shabeellaha Dhexe,SOM,2701,Shabeellaha Dhexe
+Somalia,Shabeellaha Hoose,SOM,2702,Shabeellaha Hoose
+Somalia,Sool,SOM,2703,Sool
+Somalia,Togdheer,SOM,2704,Togdheer
+Somalia,Woqooyi Galbeed,SOM,2705,Woqooyi Galbeed
+South Africa,Eastern Cape,ZAF,2706,Eastern Cape
+South Africa,Gauteng,ZAF,2707,Gauteng
+South Africa,KwaZulu-Natal,ZAF,2708,KwaZulu-Natal
+South Africa,Limpopo,ZAF,2709,Limpopo
+South Africa,Mpumalanga,ZAF,2710,Mpumalanga
+South Africa,Northern Cape,ZAF,2712,Northern Cape
+South Africa,North West,ZAF,2711,North West
+South Africa,Orange Free State,ZAF,2713,Orange Free State
+South Africa,Prince Edward Islands,ZAF,2714,Prince Edward Islands
+South Africa,Western Cape,ZAF,2715,Western Cape
+South Georgia and the South Sandwich Islands,,SGS,2716,
+South Korea,Busan,KOR,2717,Busan
+South Korea,Chungcheongbuk-do,KOR,2718,Chungcheongbuk-do
+South Korea,Chungcheongnam-do,KOR,2719,Chungcheongnam-do
+South Korea,Daegu,KOR,2720,Daegu
+South Korea,Daejeon,KOR,2721,Daejeon
+South Korea,Gangwon-do,KOR,2722,Gangwon-do
+South Korea,Gwangju,KOR,2723,Gwangju
+South Korea,Gyeonggi-do,KOR,2724,Gyeonggi-do
+South Korea,Gyeongsangbuk-do,KOR,2725,Gyeongsangbuk-do
+South Korea,Gyeongsangnam-do,KOR,2726,Gyeongsangnam-do
+South Korea,Incheon,KOR,2727,Incheon
+South Korea,Jeju,KOR,2728,Jeju
+South Korea,Jeollabuk-do,KOR,2729,Jeollabuk-do
+South Korea,Jeollanam-do,KOR,2730,Jeollanam-do
+South Korea,Seoul,KOR,2731,Seoul
+South Korea,Ulsan,KOR,2732,Ulsan
+South Sudan,Bahr el Ghazal,SSD,2733,Bahr el Ghazal
+South Sudan,Equatoria,SSD,2734,Equatoria
+South Sudan,Upper Nile,SSD,2735,Upper Nile
+Spain,Andalucía,ESP,2736,Andalucia
+Spain,Aragón,ESP,2737,Aragon
+Spain,Cantabria,ESP,2738,Cantabria
+Spain,Castilla-La Mancha,ESP,2739,Castilla-La Mancha
+Spain,Castilla y León,ESP,2740,Castilla y Leon
+Spain,Cataluña,ESP,2741,Cataluna
+Spain,Ceuta y Melilla,ESP,2742,Ceuta y Melilla
+Spain,Comunidad de Madrid,ESP,2743,Comunidad de Madrid
+Spain,Comunidad Foral de Navarra,ESP,2744,Comunidad Foral de Navarra
+Spain,Comunidad Valenciana,ESP,2745,Comunidad Valenciana
+Spain,Extremadura,ESP,2746,Extremadura
+Spain,Galicia,ESP,2747,Galicia
+Spain,Islas Baleares,ESP,2748,Islas Baleares
+Spain,Islas Canarias,ESP,2749,Islas Canarias
+Spain,La Rioja,ESP,2750,La Rioja
+Spain,País Vasco,ESP,2751,Pais Vasco
+Spain,Principado de Asturias,ESP,2752,Principado de Asturias
+Spain,Región de Murcia,ESP,2753,Region de Murcia
+Spratly islands,,SP-,2754,
+Sri Lanka,Ampara,LKA,2755,Ampara
+Sri Lanka,Anuradhapura,LKA,2756,Anuradhapura
+Sri Lanka,Badulla,LKA,2757,Badulla
+Sri Lanka,Batticaloa,LKA,2758,Batticaloa
+Sri Lanka,Colombo,LKA,2759,Colombo
+Sri Lanka,Galle,LKA,2760,Galle
+Sri Lanka,Gampaha,LKA,2761,Gampaha
+Sri Lanka,Hambantota,LKA,2762,Hambantota
+Sri Lanka,Jaffna,LKA,2763,Jaffna
+Sri Lanka,Kalutara,LKA,2764,Kalutara
+Sri Lanka,Kandy,LKA,2765,Kandy
+Sri Lanka,Kegalle,LKA,2766,Kegalle
+Sri Lanka,Kilinochchi,LKA,2767,Kilinochchi
+Sri Lanka,Kurunegala,LKA,2768,Kurunegala
+Sri Lanka,Mannar,LKA,2769,Mannar
+Sri Lanka,Matale,LKA,2770,Matale
+Sri Lanka,Matara,LKA,2771,Matara
+Sri Lanka,Moneragala,LKA,2772,Moneragala
+Sri Lanka,Mullaitivu,LKA,2773,Mullaitivu
+Sri Lanka,Nuwara Eliya,LKA,2774,Nuwara Eliya
+Sri Lanka,Polonnaruwa,LKA,2775,Polonnaruwa
+Sri Lanka,Puttalam,LKA,2776,Puttalam
+Sri Lanka,Ratnapura,LKA,2777,Ratnapura
+Sri Lanka,Trincomalee,LKA,2778,Trincomalee
+Sri Lanka,Vavuniya,LKA,2779,Vavuniya
+Sudan,Blue Nile,SDN,2780,Blue Nile
+Sudan,Darfur,SDN,2781,Darfur
+Sudan,Kassala,SDN,2782,Kassala
+Sudan,Khartoum,SDN,2783,Khartoum
+Sudan,Kordofan,SDN,2784,Kordofan
+Sudan,Northern,SDN,2785,Northern
+Suriname,Brokopondo,SUR,2786,Brokopondo
+Suriname,Commewijne,SUR,2787,Commewijne
+Suriname,Coronie,SUR,2788,Coronie
+Suriname,Marowijne,SUR,2789,Marowijne
+Suriname,Nickerie,SUR,2790,Nickerie
+Suriname,Paramaribo,SUR,2792,Paramaribo
+Suriname,Para,SUR,2791,Para
+Suriname,Saramacca,SUR,2793,Saramacca
+Suriname,Sipaliwini,SUR,2794,Sipaliwini
+Suriname,Wanica,SUR,2795,Wanica
+Svalbard and Jan Mayen,Jan Mayen,SJM,2796,Jan Mayen
+Svalbard and Jan Mayen,Svalbard,SJM,2797,Svalbard
+Swaziland,Hhohho,SWZ,2798,Hhohho
+Swaziland,Lubombo,SWZ,2799,Lubombo
+Swaziland,Manzini,SWZ,2800,Manzini
+Swaziland,Shiselweni,SWZ,2801,Shiselweni
+Sweden,Blekinge,SWE,2802,Blekinge
+Sweden,Dalarna,SWE,2803,Dalarna
+Sweden,Gävleborg,SWE,2804,Gavleborg
+Sweden,Gotland,SWE,2805,Gotland
+Sweden,Halland,SWE,2806,Halland
+Sweden,Jämtland,SWE,2807,Jamtland
+Sweden,Jönköping,SWE,2808,Jonkoping
+Sweden,Kalmar,SWE,2809,Kalmar
+Sweden,Kronoberg,SWE,2810,Kronoberg
+Sweden,Norrbotten,SWE,2811,Norrbotten
+Sweden,Orebro,SWE,2812,Orebro
+Sweden,Östergötland,SWE,2813,Ostergotland
+Sweden,Skåne,SWE,2814,Skane
+Sweden,Södermanland,SWE,2815,Sodermanland
+Sweden,Stockholm,SWE,2816,Stockholm
+Sweden,Uppsala,SWE,2817,Uppsala
+Sweden,Värmland,SWE,2818,Varmland
+Sweden,Västerbotten,SWE,2819,Vasterbotten
+Sweden,Västernorrland,SWE,2820,Vasternorrland
+Sweden,Västmanland,SWE,2821,Vastmanland
+Sweden,Västra Götaland,SWE,2822,Vastra Gotaland
+Switzerland,Aargau,CHE,2823,Aargau
+Switzerland,Appenzell Ausserrhoden,CHE,2824,Appenzell Ausserrhoden
+Switzerland,Appenzell Innerrhoden,CHE,2825,Appenzell Innerrhoden
+Switzerland,Basel-Landschaft,CHE,2826,Basel-Landschaft
+Switzerland,Basel-Stadt,CHE,2827,Basel-Stadt
+Switzerland,Bern,CHE,2828,Bern
+Switzerland,Fribourg,CHE,2829,Fribourg
+Switzerland,Genève,CHE,2830,Geneve
+Switzerland,Glarus,CHE,2831,Glarus
+Switzerland,Graubünden,CHE,2832,Graubunden
+Switzerland,Jura,CHE,2833,Jura
+Switzerland,Lucerne,CHE,2834,Lucerne
+Switzerland,Neuchâtel,CHE,2835,Neuchatel
+Switzerland,Nidwalden,CHE,2836,Nidwalden
+Switzerland,Obwalden,CHE,2837,Obwalden
+Switzerland,Sankt Gallen,CHE,2838,Sankt Gallen
+Switzerland,Schaffhausen,CHE,2839,Schaffhausen
+Switzerland,Schwyz,CHE,2840,Schwyz
+Switzerland,Solothurn,CHE,2841,Solothurn
+Switzerland,Thurgau,CHE,2842,Thurgau
+Switzerland,Ticino,CHE,2843,Ticino
+Switzerland,Uri,CHE,2844,Uri
+Switzerland,Valais,CHE,2845,Valais
+Switzerland,Vaud,CHE,2846,Vaud
+Switzerland,Zug,CHE,2847,Zug
+Switzerland,Zürich,CHE,2848,Zurich
+Syria,Al ?asakah,SYR,2849,Al ?asakah
+Syria,Aleppo,SYR,2850,Aleppo
+Syria,Ar Raqqah,SYR,2851,Ar Raqqah
+Syria,As Suwayda',SYR,2852,As Suwayda'
+Syria,Damascus,SYR,2853,Damascus
+Syria,Dar`a,SYR,2854,Dar`a
+Syria,Dayr Az Zawr,SYR,2855,Dayr Az Zawr
+Syria,Hamah,SYR,2856,Hamah
+Syria,Hims,SYR,2857,Hims
+Syria,Idlib,SYR,2858,Idlib
+Syria,Lattakia,SYR,2859,Lattakia
+Syria,Quneitra,SYR,2860,Quneitra
+Syria,Rif Dimashq,SYR,2861,Rif Dimashq
+Syria,Tartus,SYR,2862,Tartus
+Taiwan,Kaohsiung,TWN,2863,Kaohsiung
+Taiwan,Pratas Islands,TWN,2864,Pratas Islands
+Taiwan,Taipei,TWN,2865,Taipei
+Taiwan,Taiwan,TWN,2866,Taiwan
+Tajikistan,Gorno-Badakhshan,TJK,2867,Gorno-Badakhshan
+Tajikistan,Khatlon,TJK,2868,Khatlon
+Tajikistan,Leninabad,TJK,2869,Leninabad
+Tajikistan,Tadzhikistan Territories,TJK,2870,Tadzhikistan Territories
+Tanzania,Arusha,TZA,2871,Arusha
+Tanzania,Dar-Es-Salaam,TZA,2872,Dar-Es-Salaam
+Tanzania,Dodoma,TZA,2873,Dodoma
+Tanzania,Iringa,TZA,2874,Iringa
+Tanzania,Kagera,TZA,2875,Kagera
+Tanzania,Kaskazini-Pemba,TZA,2876,Kaskazini-Pemba
+Tanzania,Kaskazini-Unguja,TZA,2877,Kaskazini-Unguja
+Tanzania,Kigoma,TZA,2878,Kigoma
+Tanzania,Kilimanjaro,TZA,2879,Kilimanjaro
+Tanzania,Kusini-Pemba,TZA,2880,Kusini-Pemba
+Tanzania,Lindi,TZA,2881,Lindi
+Tanzania,Manyara,TZA,2882,Manyara
+Tanzania,Mara,TZA,2883,Mara
+Tanzania,Mbeya,TZA,2884,Mbeya
+Tanzania,Morogoro,TZA,2885,Morogoro
+Tanzania,Mtwara,TZA,2886,Mtwara
+Tanzania,Mwanza,TZA,2887,Mwanza
+Tanzania,Pwani,TZA,2888,Pwani
+Tanzania,Rukwa,TZA,2889,Rukwa
+Tanzania,Ruvuma,TZA,2890,Ruvuma
+Tanzania,Shinyanga,TZA,2891,Shinyanga
+Tanzania,Singida,TZA,2892,Singida
+Tanzania,Tabora,TZA,2893,Tabora
+Tanzania,Tanga,TZA,2894,Tanga
+Tanzania,Zanzibar South and Central,TZA,2895,Zanzibar South and Central
+Tanzania,Zanzibar West,TZA,2896,Zanzibar West
+Thailand,Amnat Charoen,THA,2897,Amnat Charoen
+Thailand,Ang Thong,THA,2898,Ang Thong
+Thailand,Bangkok Metropolis,THA,2899,Bangkok Metropolis
+Thailand,Buri Ram,THA,2900,Buri Ram
+Thailand,Chachoengsao,THA,2901,Chachoengsao
+Thailand,Chai Nat,THA,2902,Chai Nat
+Thailand,Chaiyaphum,THA,2903,Chaiyaphum
+Thailand,Chanthaburi,THA,2904,Chanthaburi
+Thailand,Chiang Mai,THA,2905,Chiang Mai
+Thailand,Chiang Rai,THA,2906,Chiang Rai
+Thailand,Chon Buri,THA,2907,Chon Buri
+Thailand,Chumphon,THA,2908,Chumphon
+Thailand,Kalasin,THA,2909,Kalasin
+Thailand,Kamphaeng Phet,THA,2910,Kamphaeng Phet
+Thailand,Kanchanaburi,THA,2911,Kanchanaburi
+Thailand,Khon Kaen,THA,2912,Khon Kaen
+Thailand,Krabi,THA,2913,Krabi
+Thailand,Lampang,THA,2914,Lampang
+Thailand,Lamphun,THA,2915,Lamphun
+Thailand,Loei,THA,2916,Loei
+Thailand,Lop Buri,THA,2917,Lop Buri
+Thailand,Mae Hong Son,THA,2918,Mae Hong Son
+Thailand,Maha Sarakham,THA,2919,Maha Sarakham
+Thailand,Mukdahan,THA,2920,Mukdahan
+Thailand,Nakhon Nayok,THA,2921,Nakhon Nayok
+Thailand,Nakhon Pathom,THA,2922,Nakhon Pathom
+Thailand,Nakhon Phanom,THA,2923,Nakhon Phanom
+Thailand,Nakhon Ratchasima,THA,2924,Nakhon Ratchasima
+Thailand,Nakhon Sawan,THA,2925,Nakhon Sawan
+Thailand,Nakhon Si Thammarat,THA,2926,Nakhon Si Thammarat
+Thailand,Nan,THA,2927,Nan
+Thailand,Narathiwat,THA,2928,Narathiwat
+Thailand,Nong Bua Lam Phu,THA,2929,Nong Bua Lam Phu
+Thailand,Nong Khai,THA,2930,Nong Khai
+Thailand,Nonthaburi,THA,2931,Nonthaburi
+Thailand,Pathum Thani,THA,2932,Pathum Thani
+Thailand,Pattani,THA,2933,Pattani
+Thailand,Phangnga,THA,2934,Phangnga
+Thailand,Phatthalung (Songkhla Lake),THA,2936,Phatthalung (Songkhla Lake)
+Thailand,Phatthalung,THA,2935,Phatthalung
+Thailand,Phayao,THA,2937,Phayao
+Thailand,Phetchabun,THA,2938,Phetchabun
+Thailand,Phetchaburi,THA,2939,Phetchaburi
+Thailand,Phichit,THA,2940,Phichit
+Thailand,Phitsanulok,THA,2941,Phitsanulok
+Thailand,Phrae,THA,2943,Phrae
+Thailand,Phra Nakhon Si Ayutthaya,THA,2942,Phra Nakhon Si Ayutthaya
+Thailand,Phuket,THA,2944,Phuket
+Thailand,Prachin Buri,THA,2945,Prachin Buri
+Thailand,Prachuap Khiri Khan,THA,2946,Prachuap Khiri Khan
+Thailand,Ranong,THA,2947,Ranong
+Thailand,Ratchaburi,THA,2948,Ratchaburi
+Thailand,Rayong,THA,2949,Rayong
+Thailand,Roi Et,THA,2950,Roi Et
+Thailand,Sa Kaeo,THA,2951,Sa Kaeo
+Thailand,Sakon Nakhon,THA,2952,Sakon Nakhon
+Thailand,Samut Prakan,THA,2953,Samut Prakan
+Thailand,Samut Sakhon,THA,2954,Samut Sakhon
+Thailand,Samut Songkhram,THA,2955,Samut Songkhram
+Thailand,Saraburi,THA,2956,Saraburi
+Thailand,Satun,THA,2957,Satun
+Thailand,Sing Buri,THA,2959,Sing Buri
+Thailand,Si Sa Ket,THA,2958,Si Sa Ket
+Thailand,Songkhla (Songkhla Lake),THA,2961,Songkhla (Songkhla Lake)
+Thailand,Songkhla,THA,2960,Songkhla
+Thailand,Sukhothai,THA,2962,Sukhothai
+Thailand,Suphan Buri,THA,2963,Suphan Buri
+Thailand,Surat Thani,THA,2964,Surat Thani
+Thailand,Surin,THA,2965,Surin
+Thailand,Tak,THA,2966,Tak
+Thailand,Trang,THA,2967,Trang
+Thailand,Trat,THA,2968,Trat
+Thailand,Ubon Ratchathani,THA,2969,Ubon Ratchathani
+Thailand,Udon Thani,THA,2970,Udon Thani
+Thailand,Uthai Thani,THA,2971,Uthai Thani
+Thailand,Uttaradit,THA,2972,Uttaradit
+Thailand,Yala,THA,2973,Yala
+Thailand,Yasothon,THA,2974,Yasothon
+Togo,Centre,TGO,2975,Centre
+Togo,Kara,TGO,2976,Kara
+Togo,Maritime,TGO,2977,Maritime
+Togo,Plateaux,TGO,2978,Plateaux
+Togo,Savanes,TGO,2979,Savanes
+Tokelau,Anafu,TKL,2980,Anafu
+Tokelau,Fakaofo,TKL,2981,Fakaofo
+Tokelau,Nukunonu,TKL,2982,Nukunonu
+Tonga,'Eua,TON,2983,'Eua
+Tonga,Ha'apai,TON,2984,Ha'apai
+Tonga,Niuas,TON,2985,Niuas
+Tonga,Tongatapu,TON,2986,Tongatapu
+Tonga,Vava'u,TON,2987,Vava'u
+Trinidad and Tobago,Chaguanas,TTO,2988,Chaguanas
+Trinidad and Tobago,Couva/Tabaquite/Talparo,TTO,2989,Couva/Tabaquite/Talparo
+Trinidad and Tobago,Diego Martin,TTO,2990,Diego Martin
+Trinidad and Tobago,Mayaro/Rio Claro,TTO,2991,Mayaro/Rio Claro
+Trinidad and Tobago,Penal/Debe,TTO,2992,Penal/Debe
+Trinidad and Tobago,Point Fortin,TTO,2993,Point Fortin
+Trinidad and Tobago,Port of Spain,TTO,2994,Port of Spain
+Trinidad and Tobago,Princes Town,TTO,2995,Princes Town
+Trinidad and Tobago,San Fernando,TTO,2996,San Fernando
+Trinidad and Tobago,Sangre Grande,TTO,2998,Sangre Grande
+Trinidad and Tobago,San Juan/Laventille,TTO,2997,San Juan/Laventille
+Trinidad and Tobago,Siparia,TTO,2999,Siparia
+Trinidad and Tobago,Tobago,TTO,3000,Tobago
+Trinidad and Tobago,Tunapuna/Piarco,TTO,3001,Tunapuna/Piarco
+Tunisia,Ariana,TUN,3002,Ariana
+Tunisia,Béja,TUN,3003,Beja
+Tunisia,Ben Arous (Tunis Sud),TUN,3004,Ben Arous (Tunis Sud)
+Tunisia,Bizerte,TUN,3005,Bizerte
+Tunisia,Gabès,TUN,3006,Gabes
+Tunisia,Gafsa,TUN,3007,Gafsa
+Tunisia,Jendouba,TUN,3008,Jendouba
+Tunisia,Kairouan,TUN,3009,Kairouan
+Tunisia,Kassérine,TUN,3010,Kasserine
+Tunisia,Kebili,TUN,3011,Kebili
+Tunisia,Le Kef,TUN,3012,Le Kef
+Tunisia,Mahdia,TUN,3013,Mahdia
+Tunisia,Manubah,TUN,3014,Manubah
+Tunisia,Médenine,TUN,3015,Medenine
+Tunisia,Monastir,TUN,3016,Monastir
+Tunisia,Nabeul,TUN,3017,Nabeul
+Tunisia,Sfax,TUN,3018,Sfax
+Tunisia,Sidi Bou Zid,TUN,3019,Sidi Bou Zid
+Tunisia,Siliana,TUN,3020,Siliana
+Tunisia,Sousse,TUN,3021,Sousse
+Tunisia,Tataouine,TUN,3022,Tataouine
+Tunisia,Tozeur,TUN,3023,Tozeur
+Tunisia,Tunis,TUN,3024,Tunis
+Tunisia,Zaghouan,TUN,3025,Zaghouan
+Turkey,Adana,TUR,3026,Adana
+Turkey,Adiyaman,TUR,3027,Adiyaman
+Turkey,Afyon,TUR,3028,Afyon
+Turkey,Agri,TUR,3029,Agri
+Turkey,Aksaray,TUR,3030,Aksaray
+Turkey,Amasya,TUR,3031,Amasya
+Turkey,Ankara,TUR,3032,Ankara
+Turkey,Antalya,TUR,3033,Antalya
+Turkey,Ardahan,TUR,3034,Ardahan
+Turkey,Artvin,TUR,3035,Artvin
+Turkey,Aydin,TUR,3036,Aydin
+Turkey,Balikesir,TUR,3037,Balikesir
+Turkey,Bartin,TUR,3038,Bartin
+Turkey,Batman,TUR,3039,Batman
+Turkey,Bayburt,TUR,3040,Bayburt
+Turkey,Bilecik,TUR,3041,Bilecik
+Turkey,Bingöl,TUR,3042,Bingol
+Turkey,Bitlis,TUR,3043,Bitlis
+Turkey,Bolu,TUR,3044,Bolu
+Turkey,Burdur,TUR,3045,Burdur
+Turkey,Bursa,TUR,3046,Bursa
+Turkey,Çanakkale,TUR,3047,Canakkale
+Turkey,Çankiri,TUR,3048,Cankiri
+Turkey,Çorum,TUR,3049,Corum
+Turkey,Denizli,TUR,3050,Denizli
+Turkey,Diyarbakir,TUR,3051,Diyarbakir
+Turkey,Düzce,TUR,3052,Duzce
+Turkey,Edirne,TUR,3053,Edirne
+Turkey,Elazig,TUR,3054,Elazig
+Turkey,Erzincan,TUR,3055,Erzincan
+Turkey,Erzurum,TUR,3056,Erzurum
+Turkey,Eskisehir,TUR,3057,Eskisehir
+Turkey,Gaziantep,TUR,3058,Gaziantep
+Turkey,Giresun,TUR,3059,Giresun
+Turkey,Gümüshane,TUR,3060,Gumushane
+Turkey,Hakkari,TUR,3061,Hakkari
+Turkey,Hatay,TUR,3062,Hatay
+Turkey,Igdir,TUR,3063,Igdir
+Turkey,Isparta,TUR,3064,Isparta
+Turkey,Istanbul,TUR,3065,Istanbul
+Turkey,Izmir,TUR,3066,Izmir
+Turkey,Karabük,TUR,3068,Karabuk
+Turkey,Karaman,TUR,3069,Karaman
+Turkey,Kars,TUR,3070,Kars
+Turkey,Kastamonu,TUR,3071,Kastamonu
+Turkey,Kayseri,TUR,3072,Kayseri
+Turkey,Kilis,TUR,3073,Kilis
+Turkey,Kinkkale,TUR,3074,Kinkkale
+Turkey,Kirklareli,TUR,3075,Kirklareli
+Turkey,Kirsehir,TUR,3076,Kirsehir
+Turkey,K. Maras,TUR,3067,K. Maras
+Turkey,Kocaeli,TUR,3077,Kocaeli
+Turkey,Konya,TUR,3078,Konya
+Turkey,Kütahya,TUR,3079,Kutahya
+Turkey,Malatya,TUR,3080,Malatya
+Turkey,Manisa,TUR,3081,Manisa
+Turkey,Mardin,TUR,3082,Mardin
+Turkey,Mersin,TUR,3083,Mersin
+Turkey,Mugla,TUR,3084,Mugla
+Turkey,Mus,TUR,3085,Mus
+Turkey,Nevsehir,TUR,3086,Nevsehir
+Turkey,Nigde,TUR,3087,Nigde
+Turkey,Ordu,TUR,3088,Ordu
+Turkey,Osmaniye,TUR,3089,Osmaniye
+Turkey,Rize,TUR,3090,Rize
+Turkey,Sakarya,TUR,3091,Sakarya
+Turkey,Samsun,TUR,3092,Samsun
+Turkey,Sanliurfa,TUR,3093,Sanliurfa
+Turkey,Siirt,TUR,3094,Siirt
+Turkey,Sinop,TUR,3095,Sinop
+Turkey,Sirnak,TUR,3096,Sirnak
+Turkey,Sivas,TUR,3097,Sivas
+Turkey,Tekirdag,TUR,3098,Tekirdag
+Turkey,Tokat,TUR,3099,Tokat
+Turkey,Trabzon,TUR,3100,Trabzon
+Turkey,Tunceli,TUR,3101,Tunceli
+Turkey,Usak,TUR,3102,Usak
+Turkey,Van,TUR,3103,Van
+Turkey,Yalova,TUR,3104,Yalova
+Turkey,Yozgat,TUR,3105,Yozgat
+Turkey,Zinguldak,TUR,3106,Zinguldak
+Turkmenistan,Ahal,TKM,3107,Ahal
+Turkmenistan,Balkan,TKM,3108,Balkan
+Turkmenistan,Chardzhou,TKM,3109,Chardzhou
+Turkmenistan,Mary,TKM,3110,Mary
+Turkmenistan,Tashauz,TKM,3111,Tashauz
+Turks and Caicos Islands,Grand Turk,TCA,3112,Grand Turk
+Turks and Caicos Islands,Middle Caicos,TCA,3113,Middle Caicos
+Turks and Caicos Islands,North Caicos,TCA,3114,North Caicos
+Turks and Caicos Islands,Providenciales and West Caicos,TCA,3115,Providenciales and West Caicos
+Turks and Caicos Islands,Salt Cay,TCA,3116,Salt Cay
+Turks and Caicos Islands,South Caicos and East Caicos,TCA,3117,South Caicos and East Caicos
+Tuvalu,Funafuti,TUV,3118,Funafuti
+Tuvalu,Nanumanga,TUV,3119,Nanumanga
+Tuvalu,Nanumea,TUV,3120,Nanumea
+Tuvalu,Niutao,TUV,3121,Niutao
+Tuvalu,Nui,TUV,3122,Nui
+Tuvalu,Nukufetau,TUV,3123,Nukufetau
+Tuvalu,Nukulaelae,TUV,3124,Nukulaelae
+Tuvalu,Vaitupu,TUV,3125,Vaitupu
+Uganda,Adjumani,UGA,3126,Adjumani
+Uganda,Apac,UGA,3127,Apac
+Uganda,Arua,UGA,3128,Arua
+Uganda,Bugiri,UGA,3129,Bugiri
+Uganda,Bundibugyo,UGA,3130,Bundibugyo
+Uganda,Bushenyi,UGA,3131,Bushenyi
+Uganda,Busia,UGA,3132,Busia
+Uganda,Gulu,UGA,3133,Gulu
+Uganda,Hoima,UGA,3134,Hoima
+Uganda,Iganga,UGA,3135,Iganga
+Uganda,Jinja,UGA,3136,Jinja
+Uganda,Kabale,UGA,3137,Kabale
+Uganda,Kabarole,UGA,3138,Kabarole
+Uganda,Kaberamaido,UGA,3139,Kaberamaido
+Uganda,Kalangala,UGA,3140,Kalangala
+Uganda,Kampala,UGA,3141,Kampala
+Uganda,Kamuli,UGA,3142,Kamuli
+Uganda,Kamwenge,UGA,3143,Kamwenge
+Uganda,Kanungu,UGA,3144,Kanungu
+Uganda,Kapchorwa,UGA,3145,Kapchorwa
+Uganda,Kasese,UGA,3146,Kasese
+Uganda,Katakwi,UGA,3147,Katakwi
+Uganda,Kayunga,UGA,3148,Kayunga
+Uganda,Kibale,UGA,3149,Kibale
+Uganda,Kiboga,UGA,3150,Kiboga
+Uganda,Kisoro,UGA,3151,Kisoro
+Uganda,Kitgum,UGA,3152,Kitgum
+Uganda,Kotido,UGA,3153,Kotido
+Uganda,Kumi,UGA,3154,Kumi
+Uganda,Kyenjojo,UGA,3155,Kyenjojo
+Uganda,Lake Albert,UGA,3156,Lake Albert
+Uganda,Lake Victoria,UGA,3157,Lake Victoria
+Uganda,Lira,UGA,3158,Lira
+Uganda,Luwero,UGA,3159,Luwero
+Uganda,Masaka,UGA,3160,Masaka
+Uganda,Masindi,UGA,3161,Masindi
+Uganda,Mayuge,UGA,3162,Mayuge
+Uganda,Mbale,UGA,3163,Mbale
+Uganda,Mbarara,UGA,3164,Mbarara
+Uganda,Moroto,UGA,3165,Moroto
+Uganda,Moyo,UGA,3166,Moyo
+Uganda,Mpigi,UGA,3167,Mpigi
+Uganda,Mubende,UGA,3168,Mubende
+Uganda,Mukono,UGA,3169,Mukono
+Uganda,Nakapiripirit,UGA,3170,Nakapiripirit
+Uganda,Nakasongola,UGA,3171,Nakasongola
+Uganda,Nebbi,UGA,3172,Nebbi
+Uganda,Ntungamo,UGA,3173,Ntungamo
+Uganda,Pader,UGA,3174,Pader
+Uganda,Pallisa,UGA,3175,Pallisa
+Uganda,Rakai,UGA,3176,Rakai
+Uganda,Rukungiri,UGA,3177,Rukungiri
+Uganda,Sembabule,UGA,3178,Sembabule
+Uganda,Sironko,UGA,3179,Sironko
+Uganda,Soroti,UGA,3180,Soroti
+Uganda,Tororo,UGA,3181,Tororo
+Uganda,Wakiso,UGA,3182,Wakiso
+Uganda,Yumbe,UGA,3183,Yumbe
+Ukraine,Cherkasy,UKR,3184,Cherkasy
+Ukraine,Chernihiv,UKR,3185,Chernihiv
+Ukraine,Chernivtsi,UKR,3186,Chernivtsi
+Ukraine,Crimea,UKR,3187,Crimea
+Ukraine,Dnipropetrovs'k,UKR,3188,Dnipropetrovs'k
+Ukraine,Donets'k,UKR,3189,Donets'k
+Ukraine,Ivano-Frankivs'k,UKR,3190,Ivano-Frankivs'k
+Ukraine,Kharkiv,UKR,3191,Kharkiv
+Ukraine,Kherson,UKR,3192,Kherson
+Ukraine,Khmel'nyts'kyy,UKR,3193,Khmel'nyts'kyy
+Ukraine,Kiev City,UKR,3195,Kiev City
+Ukraine,Kiev,UKR,3194,Kiev
+Ukraine,Kirovohrad,UKR,3196,Kirovohrad
+Ukraine,Luhans'k,UKR,3198,Luhans'k
+Ukraine,L'viv,UKR,3197,L'viv
+Ukraine,Mykolayiv,UKR,3199,Mykolayiv
+Ukraine,Odessa,UKR,3200,Odessa
+Ukraine,Poltava,UKR,3201,Poltava
+Ukraine,Rivne,UKR,3202,Rivne
+Ukraine,Sevastopol',UKR,3203,Sevastopol'
+Ukraine,Sumy,UKR,3204,Sumy
+Ukraine,Ternopil',UKR,3205,Ternopil'
+Ukraine,Transcarpathia,UKR,3206,Transcarpathia
+Ukraine,Vinnytsya,UKR,3207,Vinnytsya
+Ukraine,Volyn,UKR,3208,Volyn
+Ukraine,Zaporizhzhya,UKR,3209,Zaporizhzhya
+Ukraine,Zhytomyr,UKR,3210,Zhytomyr
+United Arab Emirates,Abu Dhabi,ARE,3211,Abu Dhabi
+United Arab Emirates,Ajman,ARE,3212,Ajman
+United Arab Emirates,Dubay,ARE,3213,Dubay
+United Arab Emirates,Fujayrah,ARE,3214,Fujayrah
+United Arab Emirates,Neutral Zone,ARE,3215,Neutral Zone
+United Arab Emirates,Ras Al Khaymah,ARE,3216,Ras Al Khaymah
+United Arab Emirates,Sharjah,ARE,3217,Sharjah
+United Arab Emirates,Umm Al Qaywayn,ARE,3218,Umm Al Qaywayn
+United Kingdom,England,GBR,3219,England
+United Kingdom,Northern Ireland,GBR,3220,Northern Ireland
+United Kingdom,Scotland,GBR,3221,Scotland
+United Kingdom,Wales,GBR,3222,Wales
+United States,Alabama,USA,3232,Alabama
+United States,Alaska,USA,3233,Alaska
+United States,Arizona,USA,3234,Arizona
+United States,Arkansas,USA,3235,Arkansas
+United States,California,USA,3236,California
+United States,Colorado,USA,3237,Colorado
+United States,Connecticut,USA,3238,Connecticut
+United States,Delaware,USA,3239,Delaware
+United States,District of Columbia,USA,3240,District of Columbia
+United States,Florida,USA,3241,Florida
+United States,Georgia,USA,3242,Georgia
+United States,Hawaii,USA,3243,Hawaii
+United States,Idaho,USA,3244,Idaho
+United States,Illinois,USA,3245,Illinois
+United States,Indiana,USA,3246,Indiana
+United States,Iowa,USA,3247,Iowa
+United States,Kansas,USA,3248,Kansas
+United States,Kentucky,USA,3249,Kentucky
+United States,Louisiana,USA,3250,Louisiana
+United States,Maine,USA,3251,Maine
+United States,Maryland,USA,3252,Maryland
+United States,Massachusetts,USA,3253,Massachusetts
+United States,Michigan,USA,3254,Michigan
+United States,Minnesota,USA,3255,Minnesota
+United States Minor Outlying Islands,Baker,UMI,3223,Baker
+United States Minor Outlying Islands,Howland,UMI,3224,Howland
+United States Minor Outlying Islands,Jarvis island,UMI,3225,Jarvis island
+United States Minor Outlying Islands,Johnston,UMI,3226,Johnston
+United States Minor Outlying Islands,Kingman Reef,UMI,3227,Kingman Reef
+United States Minor Outlying Islands,Midway,UMI,3228,Midway
+United States Minor Outlying Islands,Navassa,UMI,3229,Navassa
+United States Minor Outlying Islands,Palmyra,UMI,3230,Palmyra
+United States Minor Outlying Islands,Wake,UMI,3231,Wake
+United States,Mississippi,USA,3256,Mississippi
+United States,Missouri,USA,3257,Missouri
+United States,Montana,USA,3258,Montana
+United States,Nebraska,USA,3259,Nebraska
+United States,Nevada,USA,3260,Nevada
+United States,New Hampshire,USA,3261,New Hampshire
+United States,New Jersey,USA,3262,New Jersey
+United States,New Mexico,USA,3263,New Mexico
+United States,New York,USA,3264,New York
+United States,North Carolina,USA,3265,North Carolina
+United States,North Dakota,USA,3266,North Dakota
+United States,Ohio,USA,3267,Ohio
+United States,Oklahoma,USA,3268,Oklahoma
+United States,Oregon,USA,3269,Oregon
+United States,Pennsylvania,USA,3270,Pennsylvania
+United States,Rhode Island,USA,3271,Rhode Island
+United States,South Carolina,USA,3272,South Carolina
+United States,South Dakota,USA,3273,South Dakota
+United States,Tennessee,USA,3274,Tennessee
+United States,Texas,USA,3275,Texas
+United States,Utah,USA,3276,Utah
+United States,Vermont,USA,3277,Vermont
+United States,Virginia,USA,3278,Virginia
+United States,Washington,USA,3279,Washington
+United States,West Virginia,USA,3280,West Virginia
+United States,Wisconsin,USA,3281,Wisconsin
+United States,Wyoming,USA,3282,Wyoming
+Uruguay,Artigas,URY,3283,Artigas
+Uruguay,Canelones,URY,3284,Canelones
+Uruguay,Cerro Largo,URY,3285,Cerro Largo
+Uruguay,Colonia,URY,3286,Colonia
+Uruguay,Durazno,URY,3287,Durazno
+Uruguay,Flores,URY,3288,Flores
+Uruguay,Florida,URY,3289,Florida
+Uruguay,Lavalleja,URY,3290,Lavalleja
+Uruguay,Maldonado,URY,3291,Maldonado
+Uruguay,Montevideo,URY,3292,Montevideo
+Uruguay,Paysandú,URY,3293,Paysandu
+Uruguay,Río Negro,URY,3294,Rio Negro
+Uruguay,Rivera,URY,3295,Rivera
+Uruguay,Rocha,URY,3296,Rocha
+Uruguay,Salto,URY,3297,Salto
+Uruguay,San José,URY,3298,San Jose
+Uruguay,Soriano,URY,3299,Soriano
+Uruguay,Tacuarembó,URY,3300,Tacuarembo
+Uruguay,Treinta y Tres,URY,3301,Treinta y Tres
+Uzbekistan,Andijon,UZB,3302,Andijon
+Uzbekistan,Bukhoro,UZB,3303,Bukhoro
+Uzbekistan,Ferghana,UZB,3304,Ferghana
+Uzbekistan,Jizzakh,UZB,3305,Jizzakh
+Uzbekistan,Karakalpakstan,UZB,3306,Karakalpakstan
+Uzbekistan,Kashkadarya,UZB,3307,Kashkadarya
+Uzbekistan,Khorezm,UZB,3308,Khorezm
+Uzbekistan,Namangan,UZB,3309,Namangan
+Uzbekistan,Navoi,UZB,3310,Navoi
+Uzbekistan,Samarkand,UZB,3311,Samarkand
+Uzbekistan,Sirdaryo,UZB,3312,Sirdaryo
+Uzbekistan,Surkhandarya,UZB,3313,Surkhandarya
+Uzbekistan,Tashkent City,UZB,3315,Tashkent City
+Uzbekistan,Tashkent,UZB,3314,Tashkent
+Vanuatu,Malampa,VUT,3316,Malampa
+Vanuatu,Penama,VUT,3317,Penama
+Vanuatu,Sanma,VUT,3318,Sanma
+Vanuatu,Shefa,VUT,3319,Shefa
+Vanuatu,Tafea,VUT,3320,Tafea
+Vanuatu,Torba,VUT,3321,Torba
+Vatican City,,VAT,3322,
+Venezuela,Amazonas,VEN,3323,Amazonas
+Venezuela,Anzoátegui,VEN,3324,Anzoategui
+Venezuela,Apure,VEN,3325,Apure
+Venezuela,Aragua,VEN,3326,Aragua
+Venezuela,Barinas,VEN,3327,Barinas
+Venezuela,Bolívar,VEN,3328,Bolivar
+Venezuela,Carabobo,VEN,3329,Carabobo
+Venezuela,Cojedes,VEN,3330,Cojedes
+Venezuela,Delta Amacuro,VEN,3331,Delta Amacuro
+Venezuela,Distrito Capital,VEN,3332,Distrito Capital
+Venezuela,Falcón,VEN,3333,Falcon
+Venezuela,Guárico,VEN,3334,Guarico
+Venezuela,Lara,VEN,3335,Lara
+Venezuela,Mérida,VEN,3336,Merida
+Venezuela,Miranda,VEN,3337,Miranda
+Venezuela,Monagas,VEN,3338,Monagas
+Venezuela,Nueva Esparta,VEN,3339,Nueva Esparta
+Venezuela,Portuguesa,VEN,3340,Portuguesa
+Venezuela,Sucre,VEN,3341,Sucre
+Venezuela,Táchira,VEN,3342,Tachira
+Venezuela,Trujillo,VEN,3343,Trujillo
+Venezuela,Vargas,VEN,3344,Vargas
+Venezuela,Yaracuy,VEN,3345,Yaracuy
+Venezuela,Zulia,VEN,3346,Zulia
+Vietnam,B?c Trung B?,VNM,3347,B?c Trung B?
+Vietnam,d?ng b?ng sông C?u Long,VNM,3348,d?ng b?ng song C?u Long
+Vietnam,Ð?ng B?ng Sông H?ng,VNM,3349,D?ng B?ng Song H?ng
+Vietnam,Ðông B?c,VNM,3350,Dong B?c
+Vietnam,Ðông Nam B?,VNM,3351,Dong Nam B?
+Vietnam,Nam Trung B?,VNM,3352,Nam Trung B?
+Vietnam,Tây B?c,VNM,3353,Tay B?c
+Vietnam,Tây Nguyên,VNM,3354,Tay Nguyen
+"Virgin Islands, U.S.",Saint Croix,VIR,3355,Saint Croix
+"Virgin Islands, U.S.",Saint John,VIR,3356,Saint John
+"Virgin Islands, U.S.",Saint Thomas,VIR,3357,Saint Thomas
+Wallis and Futuna,Alo,WLF,3358,Alo
+Wallis and Futuna,Singave,WLF,3359,Singave
+Wallis and Futuna,Uvéa,WLF,3360,Uvea
+Western Sahara,Boujdour,ESH,3361,Boujdour
+Western Sahara,Es Semara,ESH,3362,Es Semara
+Western Sahara,Laayoune,ESH,3363,Laayoune
+Western Sahara,Oued el Dahab,ESH,3364,Oued el Dahab
+Yemen,Abyan,YEM,3366,Abyan
+Yemen,`Adan,YEM,3365,`Adan
+Yemen,Al Bayda',YEM,3367,Al Bayda'
+Yemen,Al Dali',YEM,3368,Al Dali'
+Yemen,Al Hudaydah,YEM,3369,Al Hudaydah
+Yemen,Al Jawf,YEM,3370,Al Jawf
+Yemen,Al Mahrah,YEM,3371,Al Mahrah
+Yemen,Al Mahwit,YEM,3372,Al Mahwit
+Yemen,Amanat Al Asimah,YEM,3373,Amanat Al Asimah
+Yemen,Amran,YEM,3374,Amran
+Yemen,Dhamar,YEM,3375,Dhamar
+Yemen,Hadramawt,YEM,3376,Hadramawt
+Yemen,Hajjah,YEM,3377,Hajjah
+Yemen,Ibb,YEM,3378,Ibb
+Yemen,Lahij,YEM,3379,Lahij
+Yemen,Ma'rib,YEM,3380,Ma'rib
+Yemen,Raymah,YEM,3381,Raymah
+Yemen,Sa`dah,YEM,3382,Sa`dah
+Yemen,San`a',YEM,3383,San`a'
+Yemen,Shabwah,YEM,3384,Shabwah
+Yemen,Ta`izz,YEM,3385,Ta`izz
+Zambia,Central,ZMB,3386,Central
+Zambia,Copperbelt,ZMB,3387,Copperbelt
+Zambia,Eastern,ZMB,3388,Eastern
+Zambia,Luapula,ZMB,3389,Luapula
+Zambia,Lusaka,ZMB,3390,Lusaka
+Zambia,Northern,ZMB,3392,Northern
+Zambia,North-Western,ZMB,3391,North-Western
+Zambia,Southern,ZMB,3393,Southern
+Zambia,Western,ZMB,3394,Western
+Zimbabwe,Bulawayo,ZWE,3395,Bulawayo
+Zimbabwe,Harare,ZWE,3396,Harare
+Zimbabwe,Manicaland,ZWE,3397,Manicaland
+Zimbabwe,Mashonaland Central,ZWE,3398,Mashonaland Central
+Zimbabwe,Mashonaland East,ZWE,3399,Mashonaland East
+Zimbabwe,Mashonaland West,ZWE,3400,Mashonaland West
+Zimbabwe,Masvingo,ZWE,3401,Masvingo
+Zimbabwe,Matabeleland North,ZWE,3402,Matabeleland North
+Zimbabwe,Matabeleland South,ZWE,3403,Matabeleland South
+Zimbabwe,Midlands,ZWE,3404,Midlands
